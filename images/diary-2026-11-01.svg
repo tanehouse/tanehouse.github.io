@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560">
+  <!-- 空と地面 -->
+  <rect x="0" y="0" width="800" height="450" fill="#dceef7"/>
+  <rect x="0" y="450" width="800" height="110" fill="#b9d99a"/>
+  <!-- 太陽 -->
+  <circle cx="700" cy="80" r="42" fill="#ffd76a"/>
+  <g stroke="#ffd76a" stroke-width="6" stroke-linecap="round">
+    <line x1="700" y1="22" x2="700" y2="34"/>
+    <line x1="642" y1="80" x2="654" y2="80"/>
+    <line x1="659" y1="39" x2="668" y2="48"/>
+    <line x1="741" y1="39" x2="732" y2="48"/>
+    <line x1="758" y1="80" x2="746" y2="80"/>
+  </g>
+  <!-- 遠くの山（家の後ろに頂が来ないよう左右に寄せる） -->
+  <polygon points="0,450 120,340 240,450" fill="#9dbf8e"/>
+  <polygon points="560,450 700,350 800,450" fill="#9dbf8e"/>
+  <!-- 家キャラクター -->
+  <!-- 脚（地面 y=450 に接地） -->
+  <g stroke="#5b4636" stroke-width="10" stroke-linecap="round">
+    <line x1="190" y1="420" x2="180" y2="448"/>
+    <line x1="250" y1="420" x2="262" y2="448"/>
+  </g>
+  <!-- 腕（肩から生え、先端は体の外側に少しだけ） -->
+  <g stroke="#5b4636" stroke-width="9" stroke-linecap="round">
+    <line x1="140" y1="325" x2="108" y2="360"/>
+    <line x1="300" y1="325" x2="332" y2="352"/>
+  </g>
+  <!-- 体（水色の壁） -->
+  <rect x="140" y="270" width="160" height="150" fill="#a8d0e6" stroke="#5b4636" stroke-width="4"/>
+  <!-- 屋根 -->
+  <polygon points="120,272 220,178 320,272" fill="#8a7a6b" stroke="#5b4636" stroke-width="4" stroke-linejoin="round"/>
+  <!-- 煙突：右の屋根勾配（頂点220,178→320,272）に根元を重ねて接地 -->
+  <rect x="268" y="182" width="30" height="48" fill="#b08968" stroke="#5b4636" stroke-width="3"/>
+  <circle cx="283" cy="168" r="10" fill="#e8e8e8"/>
+  <circle cx="293" cy="152" r="13" fill="#e8e8e8"/>
+  <!-- 窓とドア -->
+  <rect x="165" y="305" width="34" height="34" fill="#fff7d6" stroke="#5b4636" stroke-width="3"/>
+  <rect x="245" y="305" width="34" height="34" fill="#fff7d6" stroke="#5b4636" stroke-width="3"/>
+  <rect x="208" y="350" width="26" height="70" fill="#7a5c43" stroke="#5b4636" stroke-width="3"/>
+  <circle cx="228" cy="385" r="3" fill="#ffd76a"/>
+  <!-- 顔 -->
+  <circle cx="198" cy="295" r="4" fill="#333"/>
+  <circle cx="242" cy="295" r="4" fill="#333"/>
+  <path d="M 205 315 Q 220 326 235 315" fill="none" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+  <!-- 畑の断面（右側）：表土と硬い下層 -->
+  <rect x="430" y="450" width="280" height="48" fill="#6b4a2f"/>
+  <rect x="430" y="498" width="280" height="46" fill="#9a9a94"/>
+  <g fill="#7d7d77">
+    <ellipse cx="470" cy="516" rx="16" ry="9"/>
+    <ellipse cx="550" cy="524" rx="20" ry="10"/>
+    <ellipse cx="640" cy="514" rx="14" ry="8"/>
+  </g>
+  <!-- 掘り出された細いサツマイモ（表土の上縁に座らせる） -->
+  <g fill="#b06a8a" stroke="#7a4360" stroke-width="2">
+    <ellipse cx="480" cy="448" rx="26" ry="10" transform="rotate(-18 480 448)"/>
+    <ellipse cx="560" cy="446" rx="20" ry="9" transform="rotate(12 560 446)"/>
+    <ellipse cx="630" cy="449" rx="24" ry="9" transform="rotate(-8 630 449)"/>
+  </g>
+  <!-- スコップ（刃を土に差し込んで接地） -->
+  <line x1="668" y1="340" x2="688" y2="452" stroke="#8a6b45" stroke-width="7" stroke-linecap="round"/>
+  <polygon points="680,448 700,448 690,478" fill="#888" stroke="#555" stroke-width="2"/>
+  <!-- 草の房（地面の上に生やす） -->
+  <g stroke="#5e8f4e" stroke-width="3" stroke-linecap="round">
+    <line x1="450" y1="450" x2="446" y2="436"/>
+    <line x1="458" y1="450" x2="460" y2="434"/>
+    <line x1="700" y1="450" x2="696" y2="436"/>
+    <line x1="708" y1="450" x2="712" y2="434"/>
+  </g>
+</svg>
