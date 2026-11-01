@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="釜石の駅で三陸鉄道の列車に手を振るたねハウス">
+  <!-- sky -->
+  <rect x="0" y="0" width="800" height="500" fill="#fdf6ec"/>
+  <rect x="0" y="0" width="800" height="300" fill="#ffe9c9"/>
+  <circle cx="672" cy="74" r="34" fill="#ffb85c"/>
+  <g fill="#ffffff" opacity="0.9">
+    <ellipse cx="140" cy="70" rx="58" ry="18"/>
+    <ellipse cx="182" cy="58" rx="42" ry="15"/>
+    <ellipse cx="470" cy="46" rx="48" ry="14"/>
+    <ellipse cx="505" cy="38" rx="32" ry="11"/>
+  </g>
+  <!-- mountains -->
+  <path d="M0 268 L120 168 L238 268 Z" fill="#9db98a"/>
+  <path d="M150 268 L300 138 L452 268 Z" fill="#7ba05b"/>
+  <path d="M560 268 L680 178 L800 268 L800 300 L560 300 Z" fill="#9db98a"/>
+  <!-- blast furnace silhouette on the hill -->
+  <g fill="#6b5a4e">
+    <rect x="612" y="150" width="10" height="66"/>
+    <path d="M588 216 L646 216 L634 168 L600 168 Z"/>
+    <rect x="582" y="212" width="72" height="8"/>
+    <rect x="660" y="176" width="8" height="40"/>
+  </g>
+  <!-- sea -->
+  <path d="M0 268 L800 268 L800 330 L0 330 Z" fill="#7fc4d8"/>
+  <g stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.85">
+    <path d="M60 292 q14 -10 28 0 q14 10 28 0" fill="none"/>
+    <path d="M560 306 q14 -10 28 0 q14 10 28 0" fill="none"/>
+    <path d="M330 282 q12 -9 24 0 q12 9 24 0" fill="none"/>
+  </g>
+  <!-- boat -->
+  <g>
+    <path d="M636 316 l44 0 l-8 14 l-28 0 Z" fill="#e8e3d8"/>
+    <rect x="652" y="302" width="12" height="14" fill="#c8552e"/>
+  </g>
+  <!-- ground / platform -->
+  <rect x="0" y="330" width="800" height="170" fill="#e9dfca"/>
+  <rect x="0" y="330" width="800" height="14" fill="#d8c9a8"/>
+  <!-- rails -->
+  <g stroke="#8a7a63" stroke-width="5">
+    <line x1="430" y1="356" x2="800" y2="356"/>
+    <line x1="430" y1="392" x2="800" y2="392"/>
+  </g>
+  <g stroke="#b39b72" stroke-width="6">
+    <line x1="470" y1="346" x2="470" y2="402"/>
+    <line x1="540" y1="346" x2="540" y2="402"/>
+    <line x1="610" y1="346" x2="610" y2="402"/>
+    <line x1="680" y1="346" x2="680" y2="402"/>
+    <line x1="750" y1="346" x2="750" y2="402"/>
+  </g>
+  <!-- train (Sanriku Railway colors) -->
+  <g>
+    <rect x="452" y="238" width="330" height="118" rx="16" fill="#f4f1ea"/>
+    <path d="M452 300 L782 300 L782 330 Q782 356 756 356 L478 356 Q452 356 452 330 Z" fill="#d23c2a"/>
+    <rect x="452" y="282" width="330" height="10" fill="#2a6db0"/>
+    <g fill="#bfe0ee">
+      <rect x="472" y="256" width="40" height="34" rx="4"/>
+      <rect x="524" y="256" width="40" height="34" rx="4"/>
+      <rect x="576" y="256" width="40" height="34" rx="4"/>
+      <rect x="640" y="256" width="52" height="40" rx="4"/>
+      <rect x="706" y="256" width="52" height="40" rx="4"/>
+    </g>
+    <circle cx="492" cy="368" r="13" fill="#4a4a4a"/>
+    <circle cx="560" cy="368" r="13" fill="#4a4a4a"/>
+    <circle cx="700" cy="368" r="13" fill="#4a4a4a"/>
+    <circle cx="756" cy="330" r="6" fill="#ffd94d"/>
+  </g>
+  <!-- house character -->
+  <g>
+    <!-- legs and arms -->
+    <line x1="212" y1="408" x2="206" y2="452" stroke="#333" stroke-width="9" stroke-linecap="round"/>
+    <line x1="262" y1="408" x2="270" y2="452" stroke="#333" stroke-width="9" stroke-linecap="round"/>
+    <path d="M160 320 Q118 306 108 268" stroke="#333" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <line x1="150" y1="330" x2="118" y2="368" stroke="#333" stroke-width="9" stroke-linecap="round"/>
+    <!-- body -->
+    <rect x="148" y="196" width="180" height="216" rx="14" fill="#a8cdea"/>
+    <!-- roof -->
+    <path d="M128 208 L238 116 L348 208 Z" fill="#b8ab9c"/>
+    <rect x="298" y="96" width="26" height="36" rx="3" fill="#cbbfa9"/>
+    <!-- windows and door -->
+    <rect x="172" y="262" width="40" height="48" rx="4" fill="#f5eeda" stroke="#c9a86a" stroke-width="4"/>
+    <rect x="264" y="262" width="40" height="48" rx="4" fill="#f5eeda" stroke="#c9a86a" stroke-width="4"/>
+    <rect x="218" y="330" width="40" height="82" rx="4" fill="#ffffff" stroke="#c9a86a" stroke-width="4"/>
+    <!-- face -->
+    <circle cx="212" cy="238" r="6" fill="#333"/>
+    <circle cx="266" cy="238" r="6" fill="#333"/>
+    <path d="M224 252 Q239 264 254 252" stroke="#333" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- grass tufts -->
+  <g stroke="#7ba05b" stroke-width="4" stroke-linecap="round">
+    <path d="M52 470 q4 -16 10 -22 M66 472 q0 -16 6 -24 M40 472 q-2 -14 -8 -20" fill="none"/>
+    <path d="M352 478 q4 -16 10 -22 M366 480 q0 -16 6 -24" fill="none"/>
+  </g>
+</svg>
