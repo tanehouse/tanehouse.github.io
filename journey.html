@@ -45,7 +45,8 @@
   .jmapcap { font-weight: bold; font-size: 0.92rem; margin-bottom: 6px; }
   .jmap { width: 100%; height: auto; display: block; }
   .jmapbox { position: relative; }
-  .jmap { touch-action: none; cursor: grab; }
+  .jmap { touch-action: none; cursor: grab; background: #f7faf7; }
+  .jpt { cursor: pointer; }
   .jmap:active { cursor: grabbing; }
   .jmapctl { position: absolute; top: 30px; right: 8px; display: flex; flex-direction: column; gap: 4px; z-index: 2; }
   .jmapctl button { width: 30px; height: 30px; border-radius: 8px; border: 1px solid #cfd8d3; background: rgba(255,255,255,.94); color: #33536e; font-size: 15px; line-height: 1; cursor: pointer; box-shadow: 0 1px 3px rgba(0,0,0,.12); padding: 0; }
@@ -172,9 +173,11 @@
       zoomAt(pt[0], pt[1], 0.6);
     });
     var pointers = new Map(), downAt = null, dragged = false, pinchD = 0;
+    function captureAll() {
+      pointers.forEach(function (_, id) { try { svg.setPointerCapture(id); } catch (err) {} });
+    }
     svg.addEventListener("pointerdown", function (e) {
       pointers.set(e.pointerId, [e.clientX, e.clientY]);
-      try { svg.setPointerCapture(e.pointerId); } catch (err) {}
       if (pointers.size === 1) { downAt = [e.clientX, e.clientY]; dragged = false; }
       if (pointers.size === 2) {
         var a = Array.from(pointers.values());
@@ -186,7 +189,7 @@
       var prev = pointers.get(e.pointerId);
       pointers.set(e.pointerId, [e.clientX, e.clientY]);
       var r = svg.getBoundingClientRect();
-      if (downAt && Math.hypot(e.clientX - downAt[0], e.clientY - downAt[1]) > 5) dragged = true;
+      if (downAt && !dragged && Math.hypot(e.clientX - downAt[0], e.clientY - downAt[1]) > 5) { dragged = true; captureAll(); }
       if (pointers.size === 1) {
         vb[0] -= (e.clientX - prev[0]) / r.width * vb[2];
         vb[1] -= (e.clientY - prev[1]) / r.height * vb[3];
@@ -197,7 +200,7 @@
         if (pinchD > 0 && d > 0) {
           var pt = toSvg((a[0][0] + a[1][0]) / 2, (a[0][1] + a[1][1]) / 2);
           zoomAt(pt[0], pt[1], pinchD / d);
-          dragged = true;
+          if (!dragged) { dragged = true; captureAll(); }
         }
         pinchD = d;
       }
