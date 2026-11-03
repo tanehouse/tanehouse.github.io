@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 午後の室内めいた明るい空と地面 -->
+  <rect x="0" y="0" width="800" height="380" fill="#dbeef5"/>
+  <rect x="0" y="380" width="800" height="120" fill="#e8ddc4"/>
+  <!-- 壁のライン（部屋の床） -->
+  <line x1="0" y1="380" x2="800" y2="380" stroke="#b8a888" stroke-width="3"/>
+  <!-- 家キャラクター（水色の壁）: 左側 -->
+  <!-- 脚：地面380に接地 -->
+  <line x1="260" y1="380" x2="260" y2="410" stroke="#4a7ba6" stroke-width="10" stroke-linecap="round"/>
+  <line x1="340" y1="380" x2="340" y2="410" stroke="#4a7ba6" stroke-width="10" stroke-linecap="round"/>
+  <!-- 腕：右手を箱側（右）へ伸ばす -->
+  <line x1="360" y1="290" x2="420" y2="320" stroke="#4a7ba6" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="424" cy="322" r="12" fill="#4a7ba6"/>
+  <line x1="220" y1="290" x2="180" y2="330" stroke="#4a7ba6" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="176" cy="334" r="12" fill="#4a7ba6"/>
+  <!-- 本体 -->
+  <rect x="200" y="180" width="160" height="200" fill="#a8d8ea" stroke="#4a7ba6" stroke-width="4"/>
+  <!-- 屋根 -->
+  <path d="M180 185 L280 105 L380 185 Z" fill="#e26d5a" stroke="#b84a3a" stroke-width="4" stroke-linejoin="round"/>
+  <!-- 煙突：屋根の右勾配に接地 -->
+  <rect x="322" y="118" width="26" height="52" fill="#e8dcc8" stroke="#b8a888" stroke-width="3"/>
+  <!-- 窓（目）とドア -->
+  <rect x="222" y="225" width="38" height="48" fill="#ffffff" stroke="#4a7ba6" stroke-width="3"/>
+  <rect x="300" y="225" width="38" height="48" fill="#ffffff" stroke="#4a7ba6" stroke-width="3"/>
+  <circle cx="241" cy="249" r="7" fill="#222222"/>
+  <circle cx="319" cy="249" r="7" fill="#222222"/>
+  <path d="M258 300 Q280 312 302 300" fill="none" stroke="#222222" stroke-width="4" stroke-linecap="round"/>
+  <rect x="262" y="312" width="36" height="68" fill="#7a5230" stroke="#5a3a20" stroke-width="3"/>
+  <circle cx="290" cy="346" r="4" fill="#ffd966"/>
+  <!-- 段ボール箱：地面380に接地 -->
+  <rect x="470" y="310" width="180" height="70" fill="#d9b98a" stroke="#a8885a" stroke-width="3"/>
+  <path d="M470 310 L450 285 L530 310 Z" fill="#e8cda0" stroke="#a8885a" stroke-width="3"/>
+  <path d="M650 310 L670 285 L590 310 Z" fill="#e8cda0" stroke="#a8885a" stroke-width="3"/>
+  <!-- 割れた液晶パネル：箱から斜めに出て、底辺は箱の上縁に載る -->
+  <rect x="500" y="205" width="130" height="110" fill="#3a4a5a" stroke="#222222" stroke-width="3" transform="rotate(-8 565 260)"/>
+  <path d="M520 230 L565 260 L545 300 M565 260 L610 235 M565 260 L600 305" fill="none" stroke="#cfe3f2" stroke-width="3" stroke-linecap="round"/>
+  <!-- 金属板：箱の手前、地面に置く -->
+  <rect x="445" y="395" width="110" height="18" fill="#b8c0c8" stroke="#7a848c" stroke-width="3"/>
+  <rect x="455" y="420" width="90" height="16" fill="#9aa4ac" stroke="#7a848c" stroke-width="3"/>
+  <!-- ミケ：離れた場所で座る。体は地面に接地 -->
+  <ellipse cx="720" cy="400" rx="34" ry="26" fill="#f2e6d8" stroke="#8a7a68" stroke-width="3"/>
+  <circle cx="720" cy="362" r="24" fill="#f2e6d8" stroke="#8a7a68" stroke-width="3"/>
+  <path d="M704 344 L700 322 L716 334 Z" fill="#e26d5a" stroke="#8a7a68" stroke-width="2"/>
+  <path d="M736 344 L740 322 L724 334 Z" fill="#222222" stroke="#8a7a68" stroke-width="2"/>
+  <circle cx="712" cy="360" r="3" fill="#222222"/>
+  <circle cx="728" cy="360" r="3" fill="#222222"/>
+  <path d="M688 418 Q660 430 668 448" fill="none" stroke="#e26d5a" stroke-width="7" stroke-linecap="round"/>
+  <!-- 距離を示す点線：箱とミケの間 -->
+  <line x1="665" y1="440" x2="685" y2="440" stroke="#b84a3a" stroke-width="3" stroke-dasharray="8 8"/>
+</svg>
