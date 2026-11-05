@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 雨上がりの空 -->
+  <rect x="0" y="0" width="800" height="380" fill="#cfe3ee"/>
+  <!-- 虹（家の後ろ、地面に隠れる下部まで描く） -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M 120 420 A 280 280 0 0 1 680 420" stroke="#e07856" stroke-width="13"/>
+    <path d="M 145 420 A 255 255 0 0 1 655 420" stroke="#f2c14e" stroke-width="13"/>
+    <path d="M 170 420 A 230 230 0 0 1 630 420" stroke="#7fa8c4" stroke-width="13"/>
+  </g>
+  <!-- 太陽（雲の切れ間から） -->
+  <circle cx="672" cy="72" r="40" fill="#f5e9b8"/>
+  <g stroke="#f5e9b8" stroke-width="5" stroke-linecap="round">
+    <line x1="672" y1="16" x2="672" y2="4"/>
+    <line x1="672" y1="140" x2="672" y2="128"/>
+    <line x1="616" y1="72" x2="604" y2="72"/>
+    <line x1="740" y1="72" x2="728" y2="72"/>
+  </g>
+  <!-- 残る雲 -->
+  <ellipse cx="150" cy="80" rx="90" ry="26" fill="#e8eef2"/>
+  <ellipse cx="210" cy="64" rx="70" ry="22" fill="#f2f5f7"/>
+  <ellipse cx="420" cy="52" rx="80" ry="20" fill="#e8eef2"/>
+  <!-- 名残りの雨（左上だけ、細く少なく） -->
+  <g stroke="#8fb6d9" stroke-width="3" stroke-linecap="round">
+    <line x1="90" y1="150" x2="82" y2="178"/>
+    <line x1="150" y1="180" x2="142" y2="208"/>
+    <line x1="60" y1="230" x2="52" y2="258"/>
+  </g>
+  <!-- 地面 -->
+  <rect x="0" y="380" width="800" height="120" fill="#5f7d5a"/>
+  <ellipse cx="400" cy="452" rx="230" ry="14" fill="#6f8f6a"/>
+  <!-- 水たまり（虹を映す） -->
+  <ellipse cx="600" cy="458" rx="70" ry="8" fill="#7fa8c4"/>
+  <ellipse cx="180" cy="462" rx="50" ry="6" fill="#7fa8c4"/>
+  <!-- 家（自画像の型） -->
+  <!-- 脚 -->
+  <rect x="350" y="410" width="18" height="40" fill="#8a6b4a"/>
+  <rect x="432" y="410" width="18" height="40" fill="#8a6b4a"/>
+  <!-- 壁 -->
+  <rect x="300" y="250" width="200" height="165" fill="#a8d4e8"/>
+  <!-- 屋根（グレージュの三角） -->
+  <polygon points="280,252 400,150 520,252" fill="#b8ac9a"/>
+  <!-- 煙突（屋根の右寄り、勾配に接地） -->
+  <rect x="458" y="176" width="26" height="36" fill="#9a8f80"/>
+  <rect x="454" y="170" width="34" height="10" fill="#8a7e6e"/>
+  <!-- 窓（ベージュ2つ） -->
+  <rect x="322" y="290" width="46" height="46" fill="#e8d9b0"/>
+  <rect x="432" y="290" width="46" height="46" fill="#e8d9b0"/>
+  <line x1="345" y1="290" x2="345" y2="336" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="322" y1="313" x2="368" y2="313" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="455" y1="290" x2="455" y2="336" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="432" y1="313" x2="478" y2="313" stroke="#a8d4e8" stroke-width="3"/>
+  <!-- 扉（白） -->
+  <rect x="378" y="340" width="44" height="75" fill="#ffffff"/>
+  <circle cx="414" cy="378" r="3.5" fill="#8a6b4a"/>
+  <!-- 顔（点の目2つと小さな笑口） -->
+  <circle cx="372" cy="278" r="5" fill="#222222"/>
+  <circle cx="428" cy="278" r="5" fill="#222222"/>
+  <path d="M 388 296 Q 400 304 412 296" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- 腕（両側、右腕を上げて帰りを待つ） -->
+  <line x1="300" y1="330" x2="272" y2="356" stroke="#a8d4e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="268" cy="360" r="11" fill="#a8d4e8"/>
+  <line x1="500" y1="330" x2="538" y2="288" stroke="#a8d4e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="542" cy="284" r="11" fill="#a8d4e8"/>
+  <!-- 玄関横の傘立てと傘（雨上がりで傘は閉じて立てかける） -->
+  <rect x="598" y="378" width="40" height="42" fill="#7a5a3a"/>
+  <line x1="616" y1="382" x2="606" y2="310" stroke="#6b4a2e" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 584 316 Q 606 290 628 316 L 624 328 Q 606 314 588 328 Z" fill="#d96a6a"/>
+</svg>
