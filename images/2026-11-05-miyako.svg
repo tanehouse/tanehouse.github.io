@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect x="0" y="0" width="800" height="500" fill="#cfe8f5"/>
+  <circle cx="680" cy="70" r="42" fill="#fff3b0"/>
+  <!-- sea -->
+  <rect x="0" y="300" width="800" height="200" fill="#4aa3c7"/>
+  <path d="M0 330 Q100 320 200 332 T400 330 T600 332 T800 328 L800 500 L0 500 Z" fill="#6bb8d8"/>
+  <path d="M120 360 Q170 352 220 360" stroke="#ffffff" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M520 390 Q570 382 620 390" stroke="#ffffff" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- white rocks -->
+  <polygon points="430,300 470,190 510,300" fill="#f4f1e6" stroke="#d8d2bd" stroke-width="3"/>
+  <polygon points="500,300 545,160 590,300" fill="#ffffff" stroke="#d8d2bd" stroke-width="3"/>
+  <polygon points="580,300 630,200 680,300" fill="#f4f1e6" stroke="#d8d2bd" stroke-width="3"/>
+  <polygon points="660,300 700,230 740,300" fill="#ffffff" stroke="#d8d2bd" stroke-width="3"/>
+  <!-- pines on rocks -->
+  <g fill="#2e7d4f">
+    <ellipse cx="470" cy="196" rx="34" ry="16"/>
+    <ellipse cx="545" cy="166" rx="38" ry="17"/>
+    <ellipse cx="630" cy="206" rx="32" ry="15"/>
+    <ellipse cx="700" cy="236" rx="26" ry="13"/>
+  </g>
+  <!-- sand foreground -->
+  <ellipse cx="200" cy="440" rx="260" ry="55" fill="#f2e7c9"/>
+  <!-- house character -->
+  <g>
+    <!-- legs -->
+    <line x1="150" y1="420" x2="150" y2="450" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <line x1="215" y1="420" x2="215" y2="450" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <!-- left arm -->
+    <line x1="105" y1="350" x2="75" y2="380" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="72" cy="383" r="9" fill="#5a4632"/>
+    <!-- body -->
+    <rect x="105" y="280" width="160" height="145" fill="#a8d4ea" stroke="#7fb3d0" stroke-width="3"/>
+    <!-- roof -->
+    <polygon points="85,285 185,200 285,285" fill="#c9b8a3" stroke="#a89880" stroke-width="3"/>
+    <!-- chimney on right side of roof, seated on slope -->
+    <rect x="225" y="215" width="26" height="42" fill="#b0a090" stroke="#8f7f6d" stroke-width="2"/>
+    <!-- windows -->
+    <rect x="125" y="315" width="34" height="34" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <rect x="205" y="315" width="34" height="34" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <!-- door -->
+    <rect x="165" y="360" width="38" height="65" fill="#ffffff" stroke="#7fb3d0" stroke-width="2"/>
+    <circle cx="196" cy="393" r="3" fill="#7fb3d0"/>
+    <!-- face: dot eyes and smile above windows -->
+    <circle cx="145" cy="300" r="5" fill="#222222"/>
+    <circle cx="225" cy="300" r="5" fill="#222222"/>
+    <path d="M172 308 Q185 316 198 308" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- right arm raised toward rocks -->
+    <line x1="265" y1="350" x2="305" y2="310" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="310" cy="305" r="10" fill="#5a4632"/>
+  </g>
+</svg>
