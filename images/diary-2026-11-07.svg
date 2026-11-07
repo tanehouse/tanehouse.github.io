@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 雨の日の空 -->
+  <rect x="0" y="0" width="800" height="470" fill="#c3d2dc"/>
+  <!-- 雲 -->
+  <ellipse cx="120" cy="60" rx="85" ry="22" fill="#dde6ec"/>
+  <ellipse cx="480" cy="45" rx="75" ry="18" fill="#dde6ec"/>
+  <ellipse cx="700" cy="80" rx="65" ry="16" fill="#dde6ec"/>
+  <!-- 雨（斜めの短い線、家の屋根にかからない位置に） -->
+  <g stroke="#8fa8b8" stroke-width="3" stroke-linecap="round">
+    <line x1="60" y1="110" x2="48" y2="148"/>
+    <line x1="95" y1="140" x2="83" y2="178"/>
+    <line x1="40" y1="200" x2="28" y2="238"/>
+    <line x1="360" y1="90" x2="348" y2="128"/>
+    <line x1="400" y1="140" x2="388" y2="178"/>
+    <line x1="440" y1="100" x2="428" y2="138"/>
+    <line x1="660" y1="130" x2="648" y2="168"/>
+    <line x1="700" y1="180" x2="688" y2="218"/>
+    <line x1="760" y1="120" x2="748" y2="158"/>
+    <line x1="540" y1="150" x2="528" y2="188"/>
+  </g>
+  <!-- 地面（家の下から道路へ下る斜面、y = 410 + 0.075x） -->
+  <polygon points="0,410 800,470 800,500 0,500" fill="#5f7d5a"/>
+  <polygon points="0,410 800,470 800,486 0,426" fill="#6f8f6a"/>
+  <!-- 栗の苗木1（斜面の中腹、x=460、地面y=444） -->
+  <rect x="457" y="414" width="7" height="32" fill="#6b4a2e"/>
+  <ellipse cx="460" cy="402" rx="30" ry="18" fill="#7d9b78"/>
+  <ellipse cx="440" cy="413" rx="20" ry="13" fill="#6f8f6a"/>
+  <ellipse cx="480" cy="413" rx="20" ry="13" fill="#8aa885"/>
+  <!-- 栗の苗木2（x=600、地面y=455） -->
+  <rect x="597" y="425" width="7" height="32" fill="#6b4a2e"/>
+  <ellipse cx="600" cy="413" rx="30" ry="18" fill="#7d9b78"/>
+  <ellipse cx="580" cy="424" rx="20" ry="13" fill="#6f8f6a"/>
+  <ellipse cx="620" cy="424" rx="20" ry="13" fill="#8aa885"/>
+  <!-- 梅の木（駐車場脇、x=710、地面y=463） -->
+  <rect x="706" y="420" width="9" height="45" fill="#6b4a2e"/>
+  <ellipse cx="710" cy="400" rx="42" ry="26" fill="#5f7d5a"/>
+  <ellipse cx="682" cy="416" rx="26" ry="18" fill="#6f8f6a"/>
+  <ellipse cx="738" cy="416" rx="26" ry="18" fill="#55744f"/>
+  <!-- 米ぬか回収用のペール缶（家のそば、地面y=435） -->
+  <rect x="322" y="406" width="28" height="29" fill="#9aa5ad"/>
+  <rect x="318" y="400" width="36" height="8" rx="3" fill="#7d8891"/>
+  <!-- 家（自画像の型、左） -->
+  <!-- 脚（地面y=424〜429に接地） -->
+  <rect x="180" y="415" width="16" height="21" fill="#8a6b4a"/>
+  <rect x="250" y="415" width="16" height="21" fill="#8a6b4a"/>
+  <!-- 壁 -->
+  <rect x="140" y="270" width="160" height="150" fill="#a8d4e8"/>
+  <!-- 屋根（グレージュの三角） -->
+  <polygon points="125,272 220,185 315,272" fill="#b8ac9a"/>
+  <!-- 煙突（屋根の右寄り、勾配に接地。勾配：x=258でy=214） -->
+  <rect x="256" y="190" width="24" height="26" fill="#9a8f80"/>
+  <rect x="252" y="184" width="32" height="10" fill="#8a7e6e"/>
+  <!-- 窓（ベージュ2つ） -->
+  <rect x="160" y="300" width="40" height="40" fill="#e8d9b0"/>
+  <rect x="230" y="300" width="40" height="40" fill="#e8d9b0"/>
+  <line x1="180" y1="300" x2="180" y2="340" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="160" y1="320" x2="200" y2="320" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="250" y1="300" x2="250" y2="340" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="230" y1="320" x2="270" y2="320" stroke="#a8d4e8" stroke-width="3"/>
+  <!-- 扉（白） -->
+  <rect x="205" y="345" width="38" height="75" fill="#ffffff"/>
+  <circle cx="236" cy="382" r="3" fill="#8a6b4a"/>
+  <!-- 顔（点の目2つと小さな笑口） -->
+  <circle cx="190" cy="290" r="4.5" fill="#222222"/>
+  <circle cx="250" cy="290" r="4.5" fill="#222222"/>
+  <path d="M 208 306 Q 220 313 232 306" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- 腕（左腕は下ろし、右腕を斜面の苗木の方へ上げる） -->
+  <line x1="140" y1="330" x2="118" y2="356" stroke="#a8d4e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="114" cy="360" r="10" fill="#a8d4e8"/>
+  <line x1="300" y1="330" x2="338" y2="300" stroke="#a8d4e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="342" cy="296" r="10" fill="#a8d4e8"/>
+</svg>
