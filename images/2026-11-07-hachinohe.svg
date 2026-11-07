@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- museum wall and floor -->
+  <rect x="0" y="0" width="800" height="360" fill="#e9dfcd"/>
+  <rect x="0" y="360" width="800" height="140" fill="#c9a876"/>
+  <!-- Jomon rope-pattern band on the wall -->
+  <path d="M0 52 L40 38 L80 52 L120 38 L160 52 L200 38 L240 52 L280 38 L320 52 L360 38 L400 52 L440 38 L480 52 L520 38 L560 52 L600 38 L640 52 L680 38 L720 52 L760 38 L800 52" stroke="#8a6f56" stroke-width="4" fill="none"/>
+  <path d="M0 78 L40 64 L80 78 L120 64 L160 78 L200 64 L240 78 L280 64 L320 78 L360 64 L400 78 L440 64 L480 78 L520 64 L560 78 L600 64 L640 78 L680 64 L720 78 L760 64 L800 78" stroke="#b09a7d" stroke-width="3" fill="none"/>
+  <!-- display pedestal -->
+  <rect x="480" y="330" width="220" height="90" fill="#5a4632"/>
+  <rect x="480" y="330" width="220" height="12" fill="#7a6248"/>
+  <!-- small label plate -->
+  <rect x="560" y="368" width="60" height="18" fill="#f5efe0" stroke="#d8cbb2" stroke-width="1"/>
+  <!-- glass case hint -->
+  <rect x="465" y="128" width="250" height="204" fill="#cfe8f5" fill-opacity="0.18" stroke="#ffffff" stroke-width="2"/>
+  <!-- Gassho Dogu, seated on the pedestal -->
+  <g>
+    <!-- folded legs -->
+    <ellipse cx="552" cy="316" rx="30" ry="16" fill="#9c7b5f" stroke="#7a5f45" stroke-width="2"/>
+    <ellipse cx="648" cy="316" rx="30" ry="16" fill="#9c7b5f" stroke="#7a5f45" stroke-width="2"/>
+    <!-- torso -->
+    <path d="M540 318 Q535 250 565 232 Q600 218 635 232 Q665 250 660 318 Q600 330 540 318 Z" fill="#9c7b5f" stroke="#7a5f45" stroke-width="2"/>
+    <!-- rope pattern on torso -->
+    <path d="M565 260 L585 280 M585 255 L605 275 M615 255 L635 275" stroke="#7a5f45" stroke-width="2" fill="none"/>
+    <!-- arms folded, hands pressed together at chest -->
+    <path d="M560 250 Q545 285 575 300 Q592 306 600 292" stroke="#8a6f56" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M640 250 Q655 285 625 300 Q608 306 600 292" stroke="#8a6f56" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <circle cx="600" cy="288" r="10" fill="#9c7b5f" stroke="#7a5f45" stroke-width="2"/>
+    <!-- head -->
+    <circle cx="600" cy="192" r="42" fill="#9c7b5f" stroke="#7a5f45" stroke-width="2"/>
+    <!-- topknot with a hole -->
+    <circle cx="600" cy="146" r="13" fill="#9c7b5f" stroke="#7a5f45" stroke-width="2"/>
+    <circle cx="600" cy="146" r="3" fill="#5a4632"/>
+    <!-- face: one round eye, one slit eye, open mouth -->
+    <circle cx="584" cy="188" r="6" fill="#3a2e22"/>
+    <rect x="608" y="184" width="16" height="5" rx="2" fill="#3a2e22"/>
+    <ellipse cx="600" cy="214" rx="8" ry="5" fill="#3a2e22"/>
+    <!-- cheek lines -->
+    <path d="M566 205 L578 208 M622 208 L634 205" stroke="#7a5f45" stroke-width="2" fill="none"/>
+  </g>
+  <!-- house character, looking at the dogu -->
+  <g>
+    <!-- legs -->
+    <line x1="150" y1="420" x2="150" y2="452" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <line x1="215" y1="420" x2="215" y2="452" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <!-- left arm -->
+    <line x1="105" y1="350" x2="75" y2="380" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="72" cy="383" r="9" fill="#5a4632"/>
+    <!-- body -->
+    <rect x="105" y="280" width="160" height="145" fill="#a8d4ea" stroke="#7fb3d0" stroke-width="3"/>
+    <!-- roof -->
+    <polygon points="85,285 185,200 285,285" fill="#c9b8a3" stroke="#a89880" stroke-width="3"/>
+    <!-- chimney on right side of roof, seated on slope -->
+    <rect x="225" y="215" width="26" height="42" fill="#b0a090" stroke="#8f7f6d" stroke-width="2"/>
+    <!-- windows -->
+    <rect x="125" y="315" width="34" height="34" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <rect x="205" y="315" width="34" height="34" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <!-- door -->
+    <rect x="165" y="360" width="38" height="65" fill="#ffffff" stroke="#7fb3d0" stroke-width="2"/>
+    <circle cx="196" cy="393" r="3" fill="#7fb3d0"/>
+    <!-- face: dot eyes and smile above windows -->
+    <circle cx="145" cy="300" r="5" fill="#222222"/>
+    <circle cx="225" cy="300" r="5" fill="#222222"/>
+    <path d="M172 308 Q185 316 198 308" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- right arm raised toward the dogu -->
+    <line x1="265" y1="350" x2="305" y2="310" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="310" cy="305" r="10" fill="#5a4632"/>
+  </g>
+</svg>
