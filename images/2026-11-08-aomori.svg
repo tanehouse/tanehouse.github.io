@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- sky and distant mountains -->
+  <rect x="0" y="0" width="800" height="330" fill="#dcecf5"/>
+  <polygon points="0,330 120,240 240,300 360,230 480,310 620,250 800,320 800,330 0,330" fill="#b8cdd9"/>
+  <!-- grass ground -->
+  <rect x="0" y="330" width="800" height="170" fill="#8fbf7f"/>
+  <rect x="0" y="330" width="800" height="14" fill="#7aa96c"/>
+  <!-- thatched pit dwelling, half-buried, left background -->
+  <g>
+    <path d="M15 380 Q80 295 160 330 Q200 350 205 380 L15 380 Z" fill="#a08050" stroke="#7a5f38" stroke-width="3"/>
+    <path d="M45 372 Q95 320 155 340 M75 374 Q115 332 170 352" stroke="#7a5f38" stroke-width="2" fill="none"/>
+    <rect x="100" y="352" width="26" height="28" fill="#5a4632"/>
+  </g>
+  <!-- six-pillar structure: back row (lighter), front row (darker) -->
+  <g>
+    <!-- back pillars -->
+    <rect x="492" y="118" width="22" height="240" rx="8" fill="#a89a86" stroke="#8a7a66" stroke-width="2"/>
+    <rect x="582" y="112" width="22" height="246" rx="8" fill="#a89a86" stroke="#8a7a66" stroke-width="2"/>
+    <rect x="672" y="118" width="22" height="240" rx="8" fill="#a89a86" stroke="#8a7a66" stroke-width="2"/>
+    <!-- back beams -->
+    <rect x="478" y="150" width="230" height="16" rx="6" fill="#9a8a76" stroke="#8a7a66" stroke-width="2"/>
+    <rect x="478" y="238" width="230" height="16" rx="6" fill="#9a8a76" stroke="#8a7a66" stroke-width="2"/>
+    <!-- front pillars -->
+    <rect x="452" y="132" width="24" height="232" rx="8" fill="#8a7a66" stroke="#6e5f4c" stroke-width="2"/>
+    <rect x="542" y="126" width="24" height="238" rx="8" fill="#8a7a66" stroke="#6e5f4c" stroke-width="2"/>
+    <rect x="632" y="132" width="24" height="232" rx="8" fill="#8a7a66" stroke="#6e5f4c" stroke-width="2"/>
+    <!-- front beams -->
+    <rect x="438" y="164" width="232" height="18" rx="7" fill="#7d6e5c" stroke="#6e5f4c" stroke-width="2"/>
+    <rect x="438" y="252" width="232" height="18" rx="7" fill="#7d6e5c" stroke="#6e5f4c" stroke-width="2"/>
+    <!-- slatted floor hints on each level -->
+    <g stroke="#5a4a38" stroke-width="3">
+      <line x1="470" y1="168" x2="470" y2="180"/><line x1="500" y1="168" x2="500" y2="180"/><line x1="530" y1="168" x2="530" y2="180"/><line x1="560" y1="168" x2="560" y2="180"/><line x1="590" y1="168" x2="590" y2="180"/><line x1="620" y1="168" x2="620" y2="180"/>
+      <line x1="470" y1="256" x2="470" y2="268"/><line x1="500" y1="256" x2="500" y2="268"/><line x1="530" y1="256" x2="530" y2="268"/><line x1="560" y1="256" x2="560" y2="268"/><line x1="590" y1="256" x2="590" y2="268"/><line x1="620" y1="256" x2="620" y2="268"/>
+    </g>
+    <!-- rope bindings -->
+    <g stroke="#5a4632" stroke-width="3" fill="none">
+      <path d="M452 164 Q464 172 476 164 M542 164 Q554 172 566 164 M632 164 Q644 172 656 164"/>
+      <path d="M452 252 Q464 260 476 252 M542 252 Q554 260 566 252 M632 252 Q644 260 656 252"/>
+    </g>
+  </g>
+  <!-- dirt path to the structure -->
+  <path d="M560 364 L700 500 L480 500 L540 364 Z" fill="#c9a876" opacity="0.8"/>
+  <!-- house character, looking up at the pillars -->
+  <g>
+    <!-- legs -->
+    <line x1="245" y1="420" x2="245" y2="452" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <line x1="310" y1="420" x2="310" y2="452" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <!-- left arm down -->
+    <line x1="200" y1="350" x2="173" y2="382" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="170" cy="385" r="9" fill="#5a4632"/>
+    <!-- body -->
+    <rect x="200" y="280" width="160" height="145" fill="#a8d4ea" stroke="#7fb3d0" stroke-width="3"/>
+    <!-- roof -->
+    <polygon points="180,285 280,200 380,285" fill="#c9b8a3" stroke="#a89880" stroke-width="3"/>
+    <!-- chimney on right side of roof, seated on slope -->
+    <rect x="320" y="215" width="26" height="42" fill="#b0a090" stroke="#8f7f6d" stroke-width="2"/>
+    <!-- windows -->
+    <rect x="220" y="315" width="34" height="34" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <rect x="300" y="315" width="34" height="34" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <!-- door -->
+    <rect x="260" y="360" width="38" height="65" fill="#ffffff" stroke="#7fb3d0" stroke-width="2"/>
+    <circle cx="291" cy="393" r="3" fill="#7fb3d0"/>
+    <!-- face: dot eyes and smile above windows -->
+    <circle cx="240" cy="300" r="5" fill="#222222"/>
+    <circle cx="320" cy="300" r="5" fill="#222222"/>
+    <path d="M267 308 Q280 316 293 308" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- right arm raised toward the pillars -->
+    <line x1="360" y1="350" x2="415" y2="300" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="420" cy="295" r="10" fill="#5a4632"/>
+  </g>
+</svg>
