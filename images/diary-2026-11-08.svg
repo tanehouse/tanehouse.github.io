@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 晴れた日の空 -->
+  <rect x="0" y="0" width="800" height="430" fill="#cfe3ee"/>
+  <!-- 太陽 -->
+  <circle cx="700" cy="70" r="34" fill="#f6d96b"/>
+  <g stroke="#f6d96b" stroke-width="5" stroke-linecap="round">
+    <line x1="700" y1="20" x2="700" y2="8"/>
+    <line x1="700" y1="120" x2="700" y2="132"/>
+    <line x1="650" y1="70" x2="638" y2="70"/>
+    <line x1="750" y1="70" x2="762" y2="70"/>
+    <line x1="665" y1="35" x2="657" y2="27"/>
+    <line x1="735" y1="35" x2="743" y2="27"/>
+    <line x1="665" y1="105" x2="657" y2="113"/>
+    <line x1="735" y1="105" x2="743" y2="113"/>
+  </g>
+  <!-- 雲 -->
+  <ellipse cx="120" cy="60" rx="80" ry="20" fill="#eef4f8"/>
+  <ellipse cx="430" cy="45" rx="70" ry="16" fill="#eef4f8"/>
+  <!-- 風（白い曲線） -->
+  <g stroke="#ffffff" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.85">
+    <path d="M 60 150 Q 110 128 160 150"/>
+    <path d="M 90 190 Q 140 168 190 190"/>
+    <path d="M 350 120 Q 400 98 450 120"/>
+    <path d="M 380 210 Q 430 188 480 210"/>
+    <path d="M 560 150 Q 610 128 660 150"/>
+  </g>
+  <!-- 地面 -->
+  <rect x="0" y="430" width="800" height="70" fill="#6f8f6a"/>
+  <rect x="0" y="430" width="800" height="10" fill="#7d9b78"/>
+  <!-- 離れ（右） -->
+  <!-- 壁 -->
+  <rect x="520" y="320" width="170" height="110" fill="#d8c9a8"/>
+  <!-- 屋根 -->
+  <polygon points="505,322 605,255 705,322" fill="#8a7e6e"/>
+  <!-- 窓 -->
+  <rect x="545" y="345" width="34" height="34" fill="#e8d9b0"/>
+  <line x1="562" y1="345" x2="562" y2="379" stroke="#d8c9a8" stroke-width="3"/>
+  <line x1="545" y1="362" x2="579" y2="362" stroke="#d8c9a8" stroke-width="3"/>
+  <!-- 床下の穴（地面際の横長半楕円） -->
+  <ellipse cx="640" cy="430" rx="30" ry="11" fill="#3a2f28"/>
+  <!-- 白い人感センサー（穴の真上） -->
+  <rect x="626" y="392" width="28" height="15" rx="4" fill="#ffffff" stroke="#b9c2c8" stroke-width="2"/>
+  <circle cx="640" cy="399" r="3.5" fill="#4a7ba6"/>
+  <!-- 家（自画像の型、左） -->
+  <!-- 脚 -->
+  <rect x="180" y="416" width="16" height="16" fill="#8a6b4a"/>
+  <rect x="250" y="416" width="16" height="16" fill="#8a6b4a"/>
+  <!-- 壁 -->
+  <rect x="140" y="270" width="160" height="150" fill="#a8d4e8"/>
+  <!-- 屋根（グレージュの三角） -->
+  <polygon points="125,272 220,185 315,272" fill="#b8ac9a"/>
+  <!-- 煙突（屋根の右寄り、勾配に接地。勾配：x=258でy=214） -->
+  <rect x="256" y="190" width="24" height="26" fill="#9a8f80"/>
+  <rect x="252" y="184" width="32" height="10" fill="#8a7e6e"/>
+  <!-- 窓（ベージュ2つ） -->
+  <rect x="160" y="300" width="40" height="40" fill="#e8d9b0"/>
+  <rect x="230" y="300" width="40" height="40" fill="#e8d9b0"/>
+  <line x1="180" y1="300" x2="180" y2="340" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="160" y1="320" x2="200" y2="320" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="250" y1="300" x2="250" y2="340" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="230" y1="320" x2="270" y2="320" stroke="#a8d4e8" stroke-width="3"/>
+  <!-- 扉（白） -->
+  <rect x="205" y="345" width="38" height="75" fill="#ffffff"/>
+  <circle cx="236" cy="382" r="3" fill="#8a6b4a"/>
+  <!-- 顔（点の目2つと小さな笑口） -->
+  <circle cx="190" cy="290" r="4.5" fill="#222222"/>
+  <circle cx="250" cy="290" r="4.5" fill="#222222"/>
+  <path d="M 208 306 Q 220 313 232 306" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- 腕（左腕は下ろし、右腕を離れのセンサーの方へ上げる） -->
+  <line x1="140" y1="330" x2="118" y2="356" stroke="#a8d4e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="114" cy="360" r="10" fill="#a8d4e8"/>
+  <line x1="300" y1="330" x2="345" y2="300" stroke="#a8d4e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="349" cy="296" r="10" fill="#a8d4e8"/>
+  <!-- トイレ裏の配管（家の右端、灰色のパイプに黒テープの巻き直し） -->
+  <rect x="306" y="372" width="16" height="58" fill="#9aa5ad"/>
+  <rect x="306" y="384" width="16" height="6" fill="#3a3a3a"/>
+  <rect x="306" y="400" width="16" height="6" fill="#3a3a3a"/>
+  <rect x="306" y="416" width="16" height="6" fill="#3a3a3a"/>
+</svg>
