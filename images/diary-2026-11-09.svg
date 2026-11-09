@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 曇り空 -->
+  <rect x="0" y="0" width="800" height="430" fill="#b9cbd8"/>
+  <!-- 雲 -->
+  <ellipse cx="140" cy="58" rx="95" ry="22" fill="#e8eef2"/>
+  <ellipse cx="430" cy="48" rx="80" ry="18" fill="#e8eef2"/>
+  <ellipse cx="650" cy="68" rx="72" ry="16" fill="#e8eef2"/>
+  <!-- 雨（斜めの細線） -->
+  <g stroke="#7fa8c9" stroke-width="4" stroke-linecap="round" opacity="0.8">
+    <line x1="100" y1="95" x2="92" y2="125"/>
+    <line x1="170" y1="110" x2="162" y2="140"/>
+    <line x1="250" y1="90" x2="242" y2="120"/>
+    <line x1="340" y1="105" x2="332" y2="135"/>
+    <line x1="480" y1="95" x2="472" y2="125"/>
+    <line x1="570" y1="110" x2="562" y2="140"/>
+    <line x1="680" y1="100" x2="672" y2="130"/>
+    <line x1="740" y1="120" x2="732" y2="150"/>
+  </g>
+  <!-- 地面 -->
+  <rect x="0" y="430" width="800" height="70" fill="#6f8f6a"/>
+  <rect x="0" y="430" width="800" height="10" fill="#7d9b78"/>
+  <!-- 水たまり -->
+  <ellipse cx="250" cy="448" rx="70" ry="7" fill="#9db8c9" opacity="0.7"/>
+  <!-- 家（自画像の型、左） -->
+  <!-- 脚 -->
+  <rect x="180" y="416" width="16" height="16" fill="#8a6b4a"/>
+  <rect x="250" y="416" width="16" height="16" fill="#8a6b4a"/>
+  <!-- 壁 -->
+  <rect x="140" y="270" width="160" height="150" fill="#a8d4e8"/>
+  <!-- 屋根（グレージュの三角） -->
+  <polygon points="125,272 220,185 315,272" fill="#b8ac9a"/>
+  <!-- 煙突 -->
+  <rect x="256" y="190" width="24" height="26" fill="#9a8f80"/>
+  <rect x="252" y="184" width="32" height="10" fill="#8a7e6e"/>
+  <!-- 窓（ベージュ2つ） -->
+  <rect x="160" y="300" width="40" height="40" fill="#e8d9b0"/>
+  <rect x="230" y="300" width="40" height="40" fill="#e8d9b0"/>
+  <line x1="180" y1="300" x2="180" y2="340" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="160" y1="320" x2="200" y2="320" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="250" y1="300" x2="250" y2="340" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="230" y1="320" x2="270" y2="320" stroke="#a8d4e8" stroke-width="3"/>
+  <!-- 扉（白） -->
+  <rect x="205" y="345" width="38" height="75" fill="#ffffff"/>
+  <circle cx="236" cy="382" r="3" fill="#8a6b4a"/>
+  <!-- 顔（点の目2つと小さな笑口） -->
+  <circle cx="190" cy="290" r="4.5" fill="#222222"/>
+  <circle cx="250" cy="290" r="4.5" fill="#222222"/>
+  <path d="M 208 306 Q 220 313 232 306" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- 腕（左腕は下ろし、右腕を湿度計の方へ上げる） -->
+  <line x1="140" y1="330" x2="118" y2="356" stroke="#a8d4e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="114" cy="360" r="10" fill="#a8d4e8"/>
+  <line x1="300" y1="330" x2="348" y2="318" stroke="#a8d4e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="352" cy="316" r="10" fill="#a8d4e8"/>
+  <!-- 湿度計（柱に付けた丸い計器） -->
+  <rect x="368" y="368" width="10" height="62" fill="#8a6b4a"/>
+  <circle cx="373" cy="340" r="34" fill="#ffffff" stroke="#b9c2c8" stroke-width="3"/>
+  <line x1="373" y1="340" x2="392" y2="318" stroke="#c65b4e" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="373" cy="340" r="4" fill="#4a7ba6"/>
+  <text x="373" y="366" font-family="Noto Sans CJK JP, sans-serif" font-size="15" fill="#4a7ba6" text-anchor="middle">70%</text>
+  <!-- 給餌機（白い箱） -->
+  <rect x="455" y="378" width="44" height="52" rx="6" fill="#ffffff" stroke="#b9c2c8" stroke-width="2"/>
+  <circle cx="477" cy="392" r="4" fill="#4a7ba6"/>
+  <rect x="468" y="404" width="18" height="8" rx="3" fill="#d8dee2"/>
+  <!-- ボウル -->
+  <ellipse cx="535" cy="430" rx="26" ry="8" fill="#7d9bb0"/>
+  <circle cx="528" cy="426" r="3" fill="#8a6b4a"/>
+  <circle cx="538" cy="428" r="3" fill="#8a6b4a"/>
+  <!-- ミケ（三毛猫） -->
+  <!-- しっぽ -->
+  <path d="M 560 412 Q 536 404 530 384" stroke="#4a4a4a" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- 体 -->
+  <ellipse cx="602" cy="408" rx="44" ry="22" fill="#f5f0e8"/>
+  <ellipse cx="584" cy="398" rx="14" ry="10" fill="#d98a4a"/>
+  <ellipse cx="620" cy="400" rx="12" ry="9" fill="#4a4a4a"/>
+  <!-- 頭 -->
+  <circle cx="648" cy="386" r="19" fill="#f5f0e8"/>
+  <polygon points="634,372 638,354 646,370" fill="#f5f0e8"/>
+  <polygon points="652,370 660,354 664,372" fill="#d98a4a"/>
+  <circle cx="641" cy="382" r="2.5" fill="#222222"/>
+  <circle cx="655" cy="382" r="2.5" fill="#222222"/>
+  <polygon points="644,390 652,390 648,395" fill="#d98a8a"/>
+</svg>
