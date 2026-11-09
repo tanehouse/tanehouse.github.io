@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- sky -->
+  <rect x="0" y="0" width="800" height="300" fill="#dcecf5"/>
+  <!-- distant mountains -->
+  <polygon points="0,300 110,225 230,285 350,215 470,290 600,235 800,295 800,300 0,300" fill="#b8cdd9"/>
+  <!-- clouds -->
+  <ellipse cx="150" cy="80" rx="55" ry="18" fill="#ffffff" opacity="0.85"/>
+  <ellipse cx="560" cy="48" rx="60" ry="18" fill="#ffffff" opacity="0.85"/>
+  <!-- birds -->
+  <path d="M330 90 q10 -8 20 0 q10 -8 20 0" stroke="#5a6a72" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M420 70 q8 -6 16 0 q8 -6 16 0" stroke="#5a6a72" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- grass ground -->
+  <rect x="0" y="300" width="800" height="200" fill="#8fbf7f"/>
+  <rect x="0" y="300" width="800" height="12" fill="#7aa96c"/>
+  <!-- Goryokaku tower (right): tall body + pentagonal observatory -->
+  <g>
+    <rect x="668" y="150" width="26" height="310" fill="#e8eef2" stroke="#9fb2bd" stroke-width="2"/>
+    <rect x="660" y="150" width="42" height="10" fill="#c8d6de" stroke="#9fb2bd" stroke-width="2"/>
+    <!-- pentagonal observatory deck -->
+    <polygon points="681,58 716,84 703,128 659,128 646,84" fill="#7fb3d0" stroke="#4a7ba6" stroke-width="3"/>
+    <line x1="646" y1="84" x2="716" y2="84" stroke="#4a7ba6" stroke-width="2"/>
+    <line x1="659" y1="128" x2="703" y2="128" stroke="#4a7ba6" stroke-width="2"/>
+    <rect x="676" y="128" width="10" height="22" fill="#9fb2bd" stroke="#8a9ba6" stroke-width="1"/>
+    <!-- antenna -->
+    <line x1="681" y1="58" x2="681" y2="38" stroke="#5a6a72" stroke-width="3"/>
+    <circle cx="681" cy="36" r="4" fill="#e2574c"/>
+  </g>
+  <!-- star fort: moat as blue stroke, grass fill -->
+  <polygon points="500.0,300.0 522.3,364.3 590.4,365.6 536.1,406.7 555.8,471.9 500.0,433.0 444.2,471.9 463.9,406.7 409.6,365.6 477.7,364.3" fill="#7fae6e" stroke="#4a90b8" stroke-width="16" stroke-linejoin="round"/>
+  <polygon points="500.0,325.0 516.5,372.3 566.6,373.4 526.6,403.7 541.1,451.6 500.0,423.0 458.9,451.6 473.4,403.7 433.4,373.4 483.5,372.3" fill="#a9cf8f"/>
+  <!-- Hakodate magistrate's office (restored) at the centre -->
+  <g>
+    <rect x="478" y="388" width="44" height="22" fill="#f5f0e6" stroke="#8a7a5a" stroke-width="2"/>
+    <polygon points="472,390 500,372 528,390" fill="#5a4a3a" stroke="#463a2c" stroke-width="2"/>
+    <rect x="496" y="398" width="8" height="12" fill="#7a5f38"/>
+  </g>
+  <!-- bridge over the moat at the bottom point -->
+  <rect x="493" y="452" width="14" height="36" fill="#c9a876" stroke="#8a7a5a" stroke-width="2"/>
+  <!-- trees around the fort -->
+  <g>
+    <rect x="330" y="420" width="8" height="26" fill="#7a5f38"/>
+    <circle cx="334" cy="408" r="22" fill="#5e8f4e"/>
+    <circle cx="318" cy="420" r="14" fill="#6fa055"/>
+    <rect x="636" y="428" width="8" height="26" fill="#7a5f38"/>
+    <circle cx="640" cy="416" r="20" fill="#5e8f4e"/>
+    <rect x="742" y="400" width="8" height="26" fill="#7a5f38"/>
+    <circle cx="746" cy="388" r="22" fill="#6fa055"/>
+  </g>
+  <!-- fallen leaves on the grass -->
+  <g fill="#c98a3a">
+    <ellipse cx="380" cy="470" rx="7" ry="3" transform="rotate(-20 380 470)"/>
+    <ellipse cx="600" cy="462" rx="7" ry="3" transform="rotate(15 600 462)"/>
+    <ellipse cx="240" cy="480" rx="7" ry="3" transform="rotate(-35 240 480)"/>
+  </g>
+  <!-- house character, bottom left, looking up at the tower -->
+  <g>
+    <!-- legs -->
+    <line x1="150" y1="420" x2="150" y2="452" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <line x1="215" y1="420" x2="215" y2="452" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <!-- left arm down -->
+    <line x1="105" y1="350" x2="80" y2="382" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="77" cy="385" r="9" fill="#5a4632"/>
+    <!-- body -->
+    <rect x="105" y="280" width="160" height="145" fill="#a8d4ea" stroke="#7fb3d0" stroke-width="3"/>
+    <!-- roof -->
+    <polygon points="85,285 185,200 285,285" fill="#c9b8a3" stroke="#a89880" stroke-width="3"/>
+    <!-- chimney on right side of roof, seated on slope -->
+    <rect x="225" y="215" width="26" height="42" fill="#b0a090" stroke="#8f7f6d" stroke-width="2"/>
+    <!-- windows -->
+    <rect x="125" y="315" width="34" height="34" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <rect x="205" y="315" width="34" height="34" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <!-- door -->
+    <rect x="165" y="360" width="38" height="65" fill="#ffffff" stroke="#7fb3d0" stroke-width="2"/>
+    <circle cx="196" cy="393" r="3" fill="#7fb3d0"/>
+    <!-- face: dot eyes and smile above windows -->
+    <circle cx="145" cy="300" r="5" fill="#222222"/>
+    <circle cx="225" cy="300" r="5" fill="#222222"/>
+    <path d="M172 308 Q185 316 198 308" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- right arm raised toward the tower -->
+    <line x1="265" y1="350" x2="320" y2="300" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="325" cy="295" r="10" fill="#5a4632"/>
+  </g>
+</svg>
