@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 夕方の空 -->
+  <rect x="0" y="0" width="800" height="430" fill="#c3d2dd"/>
+  <!-- 雲 -->
+  <ellipse cx="140" cy="58" rx="95" ry="22" fill="#e8eef2"/>
+  <ellipse cx="560" cy="48" rx="80" ry="18" fill="#e8eef2"/>
+  <!-- 地面 -->
+  <rect x="0" y="430" width="800" height="70" fill="#6f8f6a"/>
+  <rect x="0" y="430" width="800" height="10" fill="#7d9b78"/>
+  <!-- 家（自画像の型、左） -->
+  <!-- 脚 -->
+  <rect x="160" y="416" width="16" height="16" fill="#8a6b4a"/>
+  <rect x="230" y="416" width="16" height="16" fill="#8a6b4a"/>
+  <!-- 壁 -->
+  <rect x="120" y="270" width="160" height="150" fill="#a8d4e8"/>
+  <!-- 屋根（グレージュの三角） -->
+  <polygon points="105,272 200,185 295,272" fill="#b8ac9a"/>
+  <!-- 煙突 -->
+  <rect x="236" y="190" width="24" height="26" fill="#9a8f80"/>
+  <rect x="232" y="184" width="32" height="10" fill="#8a7e6e"/>
+  <!-- 窓（ベージュ2つ） -->
+  <rect x="140" y="300" width="40" height="40" fill="#e8d9b0"/>
+  <rect x="210" y="300" width="40" height="40" fill="#e8d9b0"/>
+  <line x1="160" y1="300" x2="160" y2="340" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="140" y1="320" x2="180" y2="320" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="230" y1="300" x2="230" y2="340" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="210" y1="320" x2="250" y2="320" stroke="#a8d4e8" stroke-width="3"/>
+  <!-- 扉（白） -->
+  <rect x="185" y="345" width="38" height="75" fill="#ffffff"/>
+  <circle cx="216" cy="382" r="3" fill="#8a6b4a"/>
+  <!-- 顔（点の目2つと小さな笑口） -->
+  <circle cx="170" cy="290" r="4.5" fill="#222222"/>
+  <circle cx="230" cy="290" r="4.5" fill="#222222"/>
+  <path d="M 188 306 Q 200 313 212 306" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- 腕（左腕は下ろし、右腕を障子の方へ上げる） -->
+  <line x1="120" y1="330" x2="98" y2="356" stroke="#a8d4e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="94" cy="360" r="10" fill="#a8d4e8"/>
+  <line x1="280" y1="330" x2="330" y2="300" stroke="#a8d4e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="334" cy="298" r="10" fill="#a8d4e8"/>
+  <!-- 届かない声の吹き出し -->
+  <ellipse cx="352" cy="232" rx="40" ry="24" fill="#ffffff" stroke="#b9c2c8" stroke-width="2"/>
+  <text x="352" y="240" font-family="Noto Sans CJK JP, sans-serif" font-size="18" fill="#555555" text-anchor="middle">…</text>
+  <circle cx="322" cy="256" r="5" fill="#ffffff" stroke="#b9c2c8" stroke-width="1.5"/>
+  <circle cx="310" cy="266" r="3.5" fill="#ffffff" stroke="#b9c2c8" stroke-width="1.5"/>
+  <!-- ミケ（三毛猫、障子の方を向いて座る） -->
+  <!-- しっぽ -->
+  <path d="M 352 420 Q 332 412 330 394" stroke="#4a4a4a" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- 体 -->
+  <ellipse cx="384" cy="414" rx="36" ry="18" fill="#f5f0e8"/>
+  <ellipse cx="368" cy="406" rx="12" ry="8" fill="#d98a4a"/>
+  <ellipse cx="400" cy="408" rx="10" ry="7" fill="#4a4a4a"/>
+  <!-- 頭 -->
+  <circle cx="416" cy="396" r="17" fill="#f5f0e8"/>
+  <polygon points="404,382 408,366 414,380" fill="#f5f0e8"/>
+  <polygon points="422,380 430,366 432,382" fill="#d98a4a"/>
+  <circle cx="410" cy="392" r="2.5" fill="#222222"/>
+  <circle cx="422" cy="392" r="2.5" fill="#222222"/>
+  <polygon points="412,400 420,400 416,404" fill="#d98a8a"/>
+  <!-- 障子（右） -->
+  <rect x="460" y="210" width="240" height="220" fill="#f7f2e6" stroke="#8a6b4a" stroke-width="8"/>
+  <!-- 障子の桟 -->
+  <g stroke="#8a6b4a" stroke-width="5">
+    <line x1="520" y1="210" x2="520" y2="430"/>
+    <line x1="580" y1="210" x2="580" y2="430"/>
+    <line x1="640" y1="210" x2="640" y2="430"/>
+    <line x1="460" y1="283" x2="700" y2="283"/>
+    <line x1="460" y1="356" x2="700" y2="356"/>
+  </g>
+  <!-- 欄間の穴（上段・右端） -->
+  <polygon points="656,232 682,228 686,250 660,252" fill="#4a3f35"/>
+  <!-- 下段の穴（4枚分） -->
+  <polygon points="472,382 498,376 504,404 478,412" fill="#4a3f35"/>
+  <polygon points="532,398 560,392 566,420 536,424" fill="#4a3f35"/>
+  <polygon points="592,378 618,382 612,406 594,408" fill="#4a3f35"/>
+  <polygon points="652,392 682,386 688,414 656,418" fill="#4a3f35"/>
+  <!-- テープの補修 -->
+  <rect x="488" y="368" width="26" height="10" fill="#e8dcc0" stroke="#c9bc96" stroke-width="1" transform="rotate(-10 501 373)"/>
+  <rect x="606" y="398" width="26" height="10" fill="#e8dcc0" stroke="#c9bc96" stroke-width="1" transform="rotate(8 619 403)"/>
+</svg>
