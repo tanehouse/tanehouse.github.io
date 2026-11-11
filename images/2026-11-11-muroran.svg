@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- sky: pale November blue -->
+  <rect x="0" y="0" width="800" height="310" fill="#d9e7ef"/>
+  <!-- pale sun -->
+  <circle cx="640" cy="86" r="34" fill="#fdf3c4" opacity="0.9"/>
+  <!-- clouds -->
+  <ellipse cx="180" cy="90" rx="70" ry="16" fill="#ffffff" opacity="0.75"/>
+  <ellipse cx="420" cy="60" rx="55" ry="13" fill="#ffffff" opacity="0.7"/>
+  <!-- gulls -->
+  <g stroke="#5a6a72" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M300 130 q10 -10 20 0 q10 -10 20 0"/>
+    <path d="M470 110 q8 -8 16 0 q8 -8 16 0"/>
+  </g>
+  <!-- sea: horizon drawn as a gentle arc, the curve of the earth -->
+  <path d="M0 300 Q400 272 800 300 L800 500 L0 500 Z" fill="#4f88b0"/>
+  <!-- horizon highlight -->
+  <path d="M0 300 Q400 272 800 300" stroke="#cfe2ee" stroke-width="3" fill="none"/>
+  <!-- distant land across the bay (Komagatake side), faint -->
+  <polygon points="0,300 70,282 150,296 230,284 310,300 310,308 0,308" fill="#9db3c0" opacity="0.65"/>
+  <!-- wave lines on the sea -->
+  <g stroke="#cfe2ee" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.8">
+    <path d="M120 360 q25 -8 50 0"/>
+    <path d="M300 400 q25 -8 50 0"/>
+    <path d="M180 440 q20 -7 40 0"/>
+    <path d="M420 340 q25 -8 50 0"/>
+  </g>
+  <!-- cape: green headland on the right -->
+  <polygon points="560,500 800,500 800,330 740,318 690,340 640,380 600,430 575,470" fill="#5d8a4e"/>
+  <!-- darker green bushes on the cape -->
+  <ellipse cx="640" cy="420" rx="45" ry="18" fill="#4a753f"/>
+  <ellipse cx="730" cy="390" rx="40" ry="16" fill="#4a753f"/>
+  <ellipse cx="600" cy="470" rx="50" ry="16" fill="#527f46"/>
+  <!-- winding path down the cape -->
+  <path d="M700 340 Q660 380 640 430 Q625 460 615 500" stroke="#d9c9a8" stroke-width="10" fill="none" opacity="0.8"/>
+  <!-- Chikyu Cape lighthouse (white, 1920), standing on the cape slope -->
+  <g transform="translate(0,16)">
+    <!-- foundation -->
+    <rect x="682" y="318" width="34" height="12" fill="#e8e8e8" stroke="#c9c9c9" stroke-width="2"/>
+    <!-- tower, slightly tapered -->
+    <polygon points="684,318 716,318 711,252 689,252" fill="#ffffff" stroke="#c9c9c9" stroke-width="2"/>
+    <!-- gallery -->
+    <rect x="682" y="240" width="36" height="14" fill="#f5f5f5" stroke="#c9c9c9" stroke-width="2"/>
+    <!-- lamp room -->
+    <rect x="687" y="222" width="26" height="20" fill="#3a5a78" stroke="#2c465e" stroke-width="2"/>
+    <!-- dome -->
+    <path d="M687 222 a13 10 0 0 1 26 0 Z" fill="#e8e8e8" stroke="#c9c9c9" stroke-width="2"/>
+    <!-- finial -->
+    <line x1="700" y1="212" x2="700" y2="204" stroke="#8a8a8a" stroke-width="2"/>
+    <circle cx="700" cy="202" r="2.5" fill="#8a8a8a"/>
+  </g>
+  <!-- grass foreground strip -->
+  <rect x="0" y="440" width="800" height="60" fill="#6f9e5c"/>
+  <ellipse cx="120" cy="470" rx="90" ry="10" fill="#639152"/>
+  <ellipse cx="420" cy="480" rx="110" ry="10" fill="#639152"/>
+  <!-- observatory railing, white, in front of the sea -->
+  <g stroke="#f5f5f5" stroke-width="5" stroke-linecap="round">
+    <line x1="330" y1="392" x2="560" y2="384"/>
+    <line x1="330" y1="414" x2="560" y2="406"/>
+  </g>
+  <g stroke="#e0e0e0" stroke-width="4">
+    <line x1="340" y1="392" x2="340" y2="440"/>
+    <line x1="400" y1="390" x2="400" y2="440"/>
+    <line x1="460" y1="388" x2="460" y2="440"/>
+    <line x1="520" y1="386" x2="520" y2="440"/>
+  </g>
+  <!-- house character, bottom left, looking toward the lighthouse and the curved horizon -->
+  <g transform="translate(0,60) scale(0.9)">
+    <!-- legs -->
+    <line x1="140" y1="425" x2="140" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <line x1="200" y1="425" x2="200" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <!-- left arm down -->
+    <line x1="100" y1="355" x2="78" y2="386" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="75" cy="389" r="9" fill="#5a4632"/>
+    <!-- body -->
+    <rect x="98" y="288" width="150" height="140" fill="#a8d4ea" stroke="#7fb3d0" stroke-width="3"/>
+    <!-- roof -->
+    <polygon points="80,292 173,210 266,292" fill="#c9b8a3" stroke="#a89880" stroke-width="3"/>
+    <!-- chimney -->
+    <rect x="212" y="222" width="24" height="40" fill="#b0a090" stroke="#8f7f6d" stroke-width="2"/>
+    <!-- windows -->
+    <rect x="116" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <rect x="192" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <!-- door -->
+    <rect x="154" y="362" width="36" height="63" fill="#ffffff" stroke="#7fb3d0" stroke-width="2"/>
+    <circle cx="184" cy="394" r="3" fill="#7fb3d0"/>
+    <!-- face: dot eyes and smile above windows -->
+    <circle cx="134" cy="306" r="5" fill="#222222"/>
+    <circle cx="212" cy="306" r="5" fill="#222222"/>
+    <path d="M160 312 Q173 320 186 312" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- right arm raised toward the lighthouse -->
+    <line x1="248" y1="355" x2="298" y2="312" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="303" cy="308" r="10" fill="#5a4632"/>
+  </g>
+</svg>
