@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- sky: pale November blue -->
+  <rect x="0" y="0" width="800" height="300" fill="#d9e7ef"/>
+  <!-- pale sun -->
+  <circle cx="660" cy="70" r="30" fill="#fdf3c4" opacity="0.9"/>
+  <!-- clouds -->
+  <ellipse cx="170" cy="80" rx="65" ry="14" fill="#ffffff" opacity="0.75"/>
+  <ellipse cx="430" cy="55" rx="50" ry="12" fill="#ffffff" opacity="0.7"/>
+  <!-- distant forest on the far shore of Poroto lake -->
+  <g fill="#4a6b3f">
+    <polygon points="0,300 30,252 60,300"/>
+    <polygon points="50,300 85,240 120,300"/>
+    <polygon points="110,300 150,250 190,300"/>
+    <polygon points="180,300 215,238 250,300"/>
+    <polygon points="240,300 280,252 320,300"/>
+    <polygon points="310,300 345,242 380,300"/>
+    <polygon points="370,300 410,250 450,300"/>
+    <polygon points="440,300 475,240 510,300"/>
+    <polygon points="500,300 540,252 580,300"/>
+    <polygon points="570,300 605,242 640,300"/>
+    <polygon points="630,300 670,250 710,300"/>
+    <polygon points="700,300 735,240 770,300"/>
+    <polygon points="760,300 785,255 800,300"/>
+  </g>
+  <rect x="0" y="292" width="800" height="10" fill="#3d5c34"/>
+  <!-- Poroto lake -->
+  <rect x="0" y="300" width="800" height="46" fill="#7fa8c4"/>
+  <g stroke="#cfe2ee" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.8">
+    <path d="M90 318 q30 -6 60 0"/>
+    <path d="M300 330 q30 -6 60 0"/>
+    <path d="M520 316 q30 -6 60 0"/>
+    <path d="M640 334 q25 -6 50 0"/>
+  </g>
+  <!-- ground: dry November grass -->
+  <rect x="0" y="346" width="800" height="154" fill="#c9b078"/>
+  <ellipse cx="330" cy="480" rx="150" ry="10" fill="#b89a5e"/>
+  <ellipse cx="640" cy="470" rx="120" ry="9" fill="#b89a5e"/>
+  <!-- grass tufts -->
+  <g stroke="#8a7a45" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M300 470 q-4 -14 -8 -20 M306 470 q0 -16 2 -24 M312 470 q4 -14 10 -20"/>
+    <path d="M740 450 q-4 -14 -8 -20 M746 450 q0 -16 2 -24 M752 450 q4 -14 10 -20"/>
+    <path d="M60 460 q-4 -12 -8 -18 M66 460 q0 -14 2 -22 M72 460 q4 -12 10 -18"/>
+  </g>
+  <!-- cise: thatched Ainu house, centre-right -->
+  <g>
+    <!-- walls -->
+    <rect x="400" y="330" width="280" height="118" fill="#d9bd72" stroke="#a8894e" stroke-width="2"/>
+    <!-- horizontal rope bindings on the walls -->
+    <g stroke="#a8894e" stroke-width="2" opacity="0.8">
+      <line x1="400" y1="356" x2="680" y2="356"/>
+      <line x1="400" y1="382" x2="680" y2="382"/>
+      <line x1="400" y1="408" x2="680" y2="408"/>
+      <line x1="400" y1="432" x2="680" y2="432"/>
+    </g>
+    <!-- thatched roof: layered bands -->
+    <polygon points="380,332 700,332 656,216 424,216" fill="#c9a24e"/>
+    <g fill="none" stroke="#a8813a" stroke-width="3" stroke-linecap="round">
+      <path d="M392 306 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0"/>
+      <path d="M400 282 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0"/>
+      <path d="M408 258 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0"/>
+      <path d="M418 236 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0 q12 8 24 0"/>
+    </g>
+    <!-- ridge vent -->
+    <polygon points="520,216 560,216 540,196" fill="#b98f3e" stroke="#a8813a" stroke-width="2"/>
+    <!-- roof edge shadow -->
+    <line x1="380" y1="332" x2="700" y2="332" stroke="#a8813a" stroke-width="4"/>
+    <!-- door, low -->
+    <rect x="452" y="388" width="38" height="60" fill="#5a4632" stroke="#3d2f22" stroke-width="2"/>
+    <!-- windows -->
+    <rect x="540" y="372" width="28" height="24" fill="#3d2f22" stroke="#a8894e" stroke-width="2"/>
+    <rect x="600" y="372" width="28" height="24" fill="#3d2f22" stroke="#a8894e" stroke-width="2"/>
+    <!-- thin smoke from the hearth, rising through the roof -->
+    <path d="M540 196 q-6 -18 2 -30 q8 -12 0 -26" stroke="#ffffff" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.7"/>
+    <path d="M540 196 q-6 -18 2 -30 q8 -12 0 -26" stroke="#e8e8e8" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+  </g>
+  <!-- pu: elevated storehouse on the right -->
+  <g>
+    <!-- stilts -->
+    <line x1="716" y1="420" x2="716" y2="448" stroke="#6b5232" stroke-width="5" stroke-linecap="round"/>
+    <line x1="764" y1="420" x2="764" y2="448" stroke="#6b5232" stroke-width="5" stroke-linecap="round"/>
+    <!-- platform -->
+    <rect x="706" y="412" width="68" height="10" fill="#8a6f45" stroke="#6b5232" stroke-width="2"/>
+    <!-- hut -->
+    <rect x="710" y="372" width="60" height="42" fill="#d9bd72" stroke="#a8894e" stroke-width="2"/>
+    <polygon points="702,374 778,374 758,346 722,346" fill="#c9a24e" stroke="#a8813a" stroke-width="2"/>
+    <rect x="732" y="392" width="16" height="22" fill="#5a4632"/>
+    <!-- ladder leaning on the platform -->
+    <line x1="772" y1="448" x2="786" y2="414" stroke="#6b5232" stroke-width="4" stroke-linecap="round"/>
+    <line x1="768" y1="440" x2="780" y2="438" stroke="#6b5232" stroke-width="3"/>
+    <line x1="771" y1="430" x2="783" y2="428" stroke="#6b5232" stroke-width="3"/>
+  </g>
+  <!-- house character, bottom left, looking toward the cise -->
+  <g transform="translate(-30,40) scale(0.85)">
+    <!-- legs -->
+    <line x1="140" y1="425" x2="140" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <line x1="200" y1="425" x2="200" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <!-- left arm down -->
+    <line x1="100" y1="355" x2="78" y2="386" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="75" cy="389" r="9" fill="#5a4632"/>
+    <!-- body -->
+    <rect x="98" y="288" width="150" height="140" fill="#a8d4ea" stroke="#7fb3d0" stroke-width="3"/>
+    <!-- roof -->
+    <polygon points="80,292 173,210 266,292" fill="#c9b8a3" stroke="#a89880" stroke-width="3"/>
+    <!-- chimney -->
+    <rect x="212" y="222" width="24" height="40" fill="#b0a090" stroke="#8f7f6d" stroke-width="2"/>
+    <!-- windows -->
+    <rect x="116" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <rect x="192" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <!-- door -->
+    <rect x="154" y="362" width="36" height="63" fill="#ffffff" stroke="#7fb3d0" stroke-width="2"/>
+    <circle cx="184" cy="394" r="3" fill="#7fb3d0"/>
+    <!-- face: dot eyes and smile above windows -->
+    <circle cx="134" cy="306" r="5" fill="#222222"/>
+    <circle cx="212" cy="306" r="5" fill="#222222"/>
+    <path d="M160 312 Q173 320 186 312" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- right arm raised toward the cise -->
+    <line x1="248" y1="355" x2="298" y2="312" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="303" cy="308" r="10" fill="#5a4632"/>
+  </g>
+</svg>
