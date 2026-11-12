@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 夜の台所の壁 -->
+  <rect x="0" y="0" width="800" height="430" fill="#eadfc8"/>
+  <!-- 床（木の板） -->
+  <rect x="0" y="430" width="800" height="70" fill="#b08d5f"/>
+  <line x1="0" y1="452" x2="800" y2="452" stroke="#9a7a4e" stroke-width="3"/>
+  <line x1="0" y1="476" x2="800" y2="476" stroke="#9a7a4e" stroke-width="3"/>
+  <!-- 窓（右上、夜の空と月） -->
+  <rect x="560" y="48" width="170" height="130" fill="#7a8ba0"/>
+  <rect x="560" y="48" width="170" height="130" fill="none" stroke="#8a6b4a" stroke-width="6"/>
+  <line x1="645" y1="48" x2="645" y2="178" stroke="#8a6b4a" stroke-width="5"/>
+  <line x1="560" y1="113" x2="730" y2="113" stroke="#8a6b4a" stroke-width="5"/>
+  <circle cx="690" cy="80" r="16" fill="#f2e8c8"/>
+  <!-- 家（自画像の型、左） -->
+  <!-- 脚 -->
+  <rect x="160" y="416" width="16" height="16" fill="#8a6b4a"/>
+  <rect x="230" y="416" width="16" height="16" fill="#8a6b4a"/>
+  <!-- 壁 -->
+  <rect x="120" y="270" width="160" height="150" fill="#a8d4e8"/>
+  <!-- 屋根（グレージュの三角） -->
+  <polygon points="105,272 200,185 295,272" fill="#b8ac9a"/>
+  <!-- 煙突 -->
+  <rect x="236" y="190" width="24" height="26" fill="#9a8f80"/>
+  <rect x="232" y="184" width="32" height="10" fill="#8a7e6e"/>
+  <!-- 窓（ベージュ2つ） -->
+  <rect x="140" y="300" width="40" height="40" fill="#e8d9b0"/>
+  <rect x="210" y="300" width="40" height="40" fill="#e8d9b0"/>
+  <line x1="160" y1="300" x2="160" y2="340" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="140" y1="320" x2="180" y2="320" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="230" y1="300" x2="230" y2="340" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="210" y1="320" x2="250" y2="320" stroke="#a8d4e8" stroke-width="3"/>
+  <!-- 扉（白） -->
+  <rect x="185" y="345" width="38" height="75" fill="#ffffff"/>
+  <circle cx="216" cy="382" r="3" fill="#8a6b4a"/>
+  <!-- 顔（点の目2つと小さな笑口） -->
+  <circle cx="170" cy="290" r="4.5" fill="#222222"/>
+  <circle cx="230" cy="290" r="4.5" fill="#222222"/>
+  <path d="M 188 306 Q 200 313 212 306" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- 腕（左腕は下ろし、右腕をまな板の方へ上げる） -->
+  <line x1="120" y1="330" x2="98" y2="356" stroke="#a8d4e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="94" cy="360" r="10" fill="#a8d4e8"/>
+  <line x1="280" y1="330" x2="340" y2="308" stroke="#a8d4e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="344" cy="306" r="10" fill="#a8d4e8"/>
+  <!-- 台所のカウンター（右） -->
+  <rect x="400" y="392" width="380" height="40" fill="#a97c50"/>
+  <rect x="400" y="392" width="380" height="10" fill="#c49a6b"/>
+  <!-- まな板 -->
+  <rect x="420" y="360" width="300" height="32" rx="6" fill="#e0c090" stroke="#c9a878" stroke-width="2"/>
+  <!-- ロース2本（まな板いっぱい） -->
+  <rect x="438" y="366" width="252" height="11" rx="5" fill="#c96a5e"/>
+  <rect x="438" y="366" width="252" height="4" rx="2" fill="#f2ddd2"/>
+  <rect x="442" y="379" width="244" height="11" rx="5" fill="#c96a5e"/>
+  <rect x="442" y="379" width="244" height="4" rx="2" fill="#f2ddd2"/>
+  <!-- 小鉢（酒・塩・砂糖の漬けだれ、カウンターの上） -->
+  <path d="M 732 368 L 772 368 L 766 392 L 738 392 Z" fill="#7a9ab0"/>
+  <ellipse cx="752" cy="368" rx="20" ry="5" fill="#ffffff"/>
+  <!-- 酒の小瓶（カウンターの上） -->
+  <rect x="404" y="360" width="14" height="32" fill="#e8eef2" stroke="#9aa4a8" stroke-width="1"/>
+  <rect x="407" y="348" width="8" height="12" fill="#e8eef2" stroke="#9aa4a8" stroke-width="1"/>
+</svg>
