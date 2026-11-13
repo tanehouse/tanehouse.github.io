@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- sky: pale November blue -->
+  <rect x="0" y="0" width="800" height="290" fill="#d9e7ef"/>
+  <!-- low pale sun -->
+  <circle cx="120" cy="72" r="28" fill="#fdf3c4" opacity="0.9"/>
+  <!-- thin clouds -->
+  <ellipse cx="330" cy="66" rx="70" ry="12" fill="#ffffff" opacity="0.75"/>
+  <ellipse cx="580" cy="48" rx="55" ry="10" fill="#ffffff" opacity="0.7"/>
+  <!-- a swan flying in from the north, small silhouette -->
+  <g fill="none" stroke="#5a6b78" stroke-width="4" stroke-linecap="round">
+    <path d="M470 96 q18 -14 36 0 q18 -14 36 0"/>
+  </g>
+  <ellipse cx="506" cy="98" rx="12" ry="5" fill="#5a6b78"/>
+  <!-- distant reed beds and forest on the far shore -->
+  <g fill="#4a6b3f">
+    <polygon points="0,290 30,246 60,290"/>
+    <polygon points="50,290 85,236 120,290"/>
+    <polygon points="110,290 150,246 190,290"/>
+    <polygon points="180,290 215,234 250,290"/>
+    <polygon points="240,290 280,248 320,290"/>
+    <polygon points="310,290 345,238 380,290"/>
+    <polygon points="370,290 410,246 450,290"/>
+    <polygon points="440,290 475,236 510,290"/>
+    <polygon points="500,290 540,248 580,290"/>
+    <polygon points="570,290 605,238 640,290"/>
+    <polygon points="630,290 670,246 710,290"/>
+    <polygon points="700,290 735,238 770,290"/>
+    <polygon points="760,290 785,250 800,290"/>
+  </g>
+  <rect x="0" y="282" width="800" height="10" fill="#3d5c34"/>
+  <!-- Utonai lake: wide, shallow, grey-blue -->
+  <rect x="0" y="290" width="800" height="76" fill="#8fb2c8"/>
+  <g stroke="#cfe2ee" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.8">
+    <path d="M60 308 q30 -6 60 0"/>
+    <path d="M250 318 q30 -6 60 0"/>
+    <path d="M470 306 q30 -6 60 0"/>
+    <path d="M640 322 q25 -6 50 0"/>
+  </g>
+  <!-- swan 1: big, centre, facing right -->
+  <g>
+    <ellipse cx="430" cy="330" rx="40" ry="17" fill="#ffffff" stroke="#d5dde2" stroke-width="2"/>
+    <path d="M462 326 q14 -6 10 -22 q-3 -12 -14 -14" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="456" cy="288" r="9" fill="#ffffff"/>
+    <polygon points="465,286 478,290 465,293" fill="#f2b705"/>
+    <polygon points="472,288 478,290 472,292" fill="#222222"/>
+    <circle cx="454" cy="286" r="1.8" fill="#222222"/>
+    <path d="M404 322 q20 -10 40 -2" fill="none" stroke="#c9d4da" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="430" cy="348" rx="30" ry="4" fill="#ffffff" opacity="0.45"/>
+  </g>
+  <!-- swan 2: smaller, mid-left, facing left -->
+  <g>
+    <ellipse cx="300" cy="338" rx="30" ry="13" fill="#ffffff" stroke="#d5dde2" stroke-width="2"/>
+    <path d="M276 334 q-10 -5 -8 -17 q2 -10 11 -11" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="278" cy="306" r="7" fill="#ffffff"/>
+    <polygon points="271,304 260,307 271,310" fill="#f2b705"/>
+    <polygon points="265,306 260,307 265,308" fill="#222222"/>
+    <circle cx="280" cy="304" r="1.5" fill="#222222"/>
+    <path d="M282 332 q14 -8 28 -2" fill="none" stroke="#c9d4da" stroke-width="2.5" stroke-linecap="round"/>
+    <ellipse cx="300" cy="353" rx="22" ry="3" fill="#ffffff" opacity="0.45"/>
+  </g>
+  <!-- swan 3: small, far right, head down feeding -->
+  <g>
+    <ellipse cx="640" cy="328" rx="26" ry="12" fill="#ffffff" stroke="#d5dde2" stroke-width="2"/>
+    <path d="M660 326 q8 6 4 12 q-3 6 -10 7" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="660" cy="346" r="6" fill="#ffffff"/>
+    <polygon points="666,344 676,347 666,350" fill="#f2b705"/>
+    <ellipse cx="640" cy="342" rx="19" ry="3" fill="#ffffff" opacity="0.45"/>
+  </g>
+  <!-- shore: dry November grass -->
+  <rect x="0" y="366" width="800" height="134" fill="#c9b078"/>
+  <ellipse cx="560" cy="482" rx="150" ry="9" fill="#b89a5e"/>
+  <ellipse cx="180" cy="470" rx="120" ry="8" fill="#b89a5e"/>
+  <!-- reed clumps at the water's edge -->
+  <g stroke="#7d8a4a" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M520 366 q-3 -18 -6 -26 M526 366 q0 -20 2 -28 M532 366 q3 -18 8 -26"/>
+    <path d="M700 366 q-3 -16 -6 -24 M706 366 q0 -18 2 -26 M712 366 q3 -16 8 -24"/>
+    <path d="M330 366 q-3 -14 -6 -22 M336 366 q0 -16 2 -24 M342 366 q3 -14 8 -22"/>
+  </g>
+  <g fill="#8a6f45">
+    <ellipse cx="514" cy="338" rx="3" ry="7"/>
+    <ellipse cx="528" cy="336" rx="3" ry="7"/>
+    <ellipse cx="700" cy="340" rx="3" ry="7"/>
+    <ellipse cx="334" cy="342" rx="3" ry="6"/>
+  </g>
+  <!-- wooden boardwalk hint on the right -->
+  <g>
+    <rect x="640" y="438" width="160" height="10" fill="#a8894e" stroke="#8a6f45" stroke-width="2"/>
+    <line x1="660" y1="448" x2="660" y2="470" stroke="#8a6f45" stroke-width="4" stroke-linecap="round"/>
+    <line x1="780" y1="448" x2="780" y2="470" stroke="#8a6f45" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <!-- house character, bottom left, looking toward the swans -->
+  <g transform="translate(-30,40) scale(0.85)">
+    <!-- legs -->
+    <line x1="140" y1="425" x2="140" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <line x1="200" y1="425" x2="200" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <!-- left arm down -->
+    <line x1="100" y1="355" x2="78" y2="386" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="75" cy="389" r="9" fill="#5a4632"/>
+    <!-- body -->
+    <rect x="98" y="288" width="150" height="140" fill="#a8d4ea" stroke="#7fb3d0" stroke-width="3"/>
+    <!-- roof -->
+    <polygon points="80,292 173,210 266,292" fill="#c9b8a3" stroke="#a89880" stroke-width="3"/>
+    <!-- chimney -->
+    <rect x="212" y="222" width="24" height="40" fill="#b0a090" stroke="#8f7f6d" stroke-width="2"/>
+    <!-- windows -->
+    <rect x="116" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <rect x="192" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <!-- door -->
+    <rect x="154" y="362" width="36" height="63" fill="#ffffff" stroke="#7fb3d0" stroke-width="2"/>
+    <circle cx="184" cy="394" r="3" fill="#7fb3d0"/>
+    <!-- face: dot eyes and smile above windows -->
+    <circle cx="134" cy="306" r="5" fill="#222222"/>
+    <circle cx="212" cy="306" r="5" fill="#222222"/>
+    <path d="M160 312 Q173 320 186 312" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- right arm raised toward the swans -->
+    <line x1="248" y1="355" x2="298" y2="312" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="303" cy="308" r="10" fill="#5a4632"/>
+  </g>
+</svg>
