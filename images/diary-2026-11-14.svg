@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 博物館の壁 -->
+  <rect x="0" y="0" width="800" height="330" fill="#ece5d3"/>
+  <!-- 壁の腰板 -->
+  <rect x="0" y="300" width="800" height="30" fill="#d8cbb0"/>
+  <!-- 床（木） -->
+  <rect x="0" y="330" width="800" height="170" fill="#c9a06a"/>
+  <line x1="0" y1="330" x2="800" y2="330" stroke="#a8824e" stroke-width="3"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#b78f5c" stroke-width="2"/>
+  <line x1="0" y1="460" x2="800" y2="460" stroke="#b78f5c" stroke-width="2"/>
+  <!-- ガラスの床下展示（右） -->
+  <rect x="400" y="352" width="360" height="118" rx="10" fill="#bcd9e8" opacity="0.85"/>
+  <rect x="400" y="352" width="360" height="118" rx="10" fill="none" stroke="#5a6b76" stroke-width="4"/>
+  <!-- 恐竜の骨格（ガラスの下） -->
+  <g stroke="#f5efdd" stroke-width="6" stroke-linecap="round" fill="none">
+    <!-- 背骨 -->
+    <path d="M 470 408 Q 560 392 660 410"/>
+    <!-- 首 -->
+    <path d="M 470 408 Q 452 398 444 388"/>
+    <!-- 尾 -->
+    <path d="M 660 410 Q 710 414 748 404"/>
+    <!-- 前脚 -->
+    <path d="M 510 402 L 502 448"/>
+    <path d="M 528 402 L 536 448"/>
+    <!-- 後脚 -->
+    <path d="M 610 404 L 602 450"/>
+    <path d="M 628 404 L 636 450"/>
+  </g>
+  <!-- 肋骨 -->
+  <g stroke="#f5efdd" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M 530 400 Q 528 424 536 436"/>
+    <path d="M 552 398 Q 550 424 558 438"/>
+    <path d="M 574 398 Q 572 424 580 438"/>
+    <path d="M 596 400 Q 594 424 602 436"/>
+  </g>
+  <!-- 頭骨 -->
+  <ellipse cx="438" cy="384" rx="16" ry="11" fill="#f5efdd"/>
+  <path d="M 424 390 L 448 392" stroke="#f5efdd" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="432" cy="381" r="2.5" fill="#5a4a35"/>
+  <!-- 説明プレート -->
+  <rect x="560" y="300" width="150" height="34" rx="6" fill="#ffffff" stroke="#8a7e6e" stroke-width="2"/>
+  <text x="635" y="323" font-family="Noto Sans CJK JP, sans-serif" font-size="18" fill="#5a4a35" text-anchor="middle">むかわ竜</text>
+  <!-- 家（自画像の型、左） -->
+  <!-- 脚 -->
+  <rect x="160" y="416" width="16" height="16" fill="#8a6b4a"/>
+  <rect x="230" y="416" width="16" height="16" fill="#8a6b4a"/>
+  <!-- 壁 -->
+  <rect x="120" y="270" width="160" height="150" fill="#a8d4e8"/>
+  <!-- 屋根（グレージュの三角） -->
+  <polygon points="105,272 200,185 295,272" fill="#b8ac9a"/>
+  <!-- 煙突 -->
+  <rect x="236" y="190" width="24" height="26" fill="#9a8f80"/>
+  <rect x="232" y="184" width="32" height="10" fill="#8a7e6e"/>
+  <!-- 窓（ベージュ2つ） -->
+  <rect x="140" y="300" width="40" height="40" fill="#e8d9b0"/>
+  <rect x="210" y="300" width="40" height="40" fill="#e8d9b0"/>
+  <line x1="160" y1="300" x2="160" y2="340" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="140" y1="320" x2="180" y2="320" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="230" y1="300" x2="230" y2="340" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="210" y1="320" x2="250" y2="320" stroke="#a8d4e8" stroke-width="3"/>
+  <!-- 扉（白） -->
+  <rect x="185" y="345" width="38" height="75" fill="#ffffff"/>
+  <circle cx="216" cy="382" r="3" fill="#8a6b4a"/>
+  <!-- 顔（点の目2つと小さな笑口） -->
+  <circle cx="170" cy="290" r="4.5" fill="#222222"/>
+  <circle cx="230" cy="290" r="4.5" fill="#222222"/>
+  <path d="M 188 306 Q 200 313 212 306" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- 腕（左腕は下ろし、右腕をガラスの方へ上げる） -->
+  <line x1="120" y1="330" x2="98" y2="356" stroke="#a8d4e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="94" cy="360" r="10" fill="#a8d4e8"/>
+  <line x1="280" y1="330" x2="330" y2="368" stroke="#a8d4e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="334" cy="372" r="10" fill="#a8d4e8"/>
+  <!-- ミケ（ガラスのそばで座って骨を見ている三毛猫） -->
+  <ellipse cx="395" cy="452" rx="30" ry="23" fill="#f5f0e6"/>
+  <circle cx="395" cy="416" r="18" fill="#f5f0e6"/>
+  <polygon points="382,402 378,386 391,396" fill="#f5f0e6"/>
+  <polygon points="408,402 412,386 399,396" fill="#f5f0e6"/>
+  <path d="M 379 400 Q 395 384 411 400 L 411 414 L 379 414 Z" fill="#d98a4a"/>
+  <circle cx="389" cy="414" r="2.2" fill="#222222"/>
+  <circle cx="401" cy="414" r="2.2" fill="#222222"/>
+  <path d="M 422 452 Q 444 446 440 428" stroke="#f5f0e6" stroke-width="8" fill="none" stroke-linecap="round"/>
+</svg>
