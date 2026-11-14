@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- museum wall: pale warm cream -->
+  <rect x="0" y="0" width="800" height="400" fill="#efe9dc"/>
+  <!-- wall panel seams -->
+  <g stroke="#ddd5c2" stroke-width="2">
+    <line x1="300" y1="0" x2="300" y2="400"/>
+    <line x1="640" y1="0" x2="640" y2="400"/>
+  </g>
+  <!-- ceiling spotlights -->
+  <g>
+    <rect x="330" y="18" width="46" height="10" rx="3" fill="#8a8f96"/>
+    <circle cx="353" cy="34" r="7" fill="#fdf3c4"/>
+    <path d="M340 40 L320 130 M366 40 L386 130" stroke="#fdf3c4" stroke-width="14" opacity="0.18" stroke-linecap="round"/>
+    <rect x="620" y="18" width="46" height="10" rx="3" fill="#8a8f96"/>
+    <circle cx="643" cy="34" r="7" fill="#fdf3c4"/>
+    <path d="M630 40 L610 130 M656 40 L676 130" stroke="#fdf3c4" stroke-width="14" opacity="0.18" stroke-linecap="round"/>
+  </g>
+  <!-- museum floor -->
+  <rect x="0" y="400" width="800" height="100" fill="#9aa0a6"/>
+  <rect x="0" y="400" width="800" height="4" fill="#7d838a"/>
+  <!-- display platform -->
+  <rect x="30" y="352" width="740" height="16" fill="#3f444a"/>
+  <rect x="30" y="352" width="740" height="4" fill="#565b62"/>
+  <!-- dinosaur skeleton: Kamuysaurus, facing left -->
+  <g>
+    <!-- tail: long tapering, with darker edge -->
+    <polygon points="575,250 758,286 758,298 575,280" fill="#f2ecdd" stroke="#a89a78" stroke-width="2"/>
+    <!-- tail vertebra dots -->
+    <g fill="#a89a78">
+      <circle cx="610" cy="267" r="3"/><circle cx="650" cy="272" r="3"/><circle cx="690" cy="278" r="3"/><circle cx="725" cy="284" r="3"/>
+    </g>
+    <!-- neck: dark edge under, bone over -->
+    <path d="M352 246 Q302 224 264 276" fill="none" stroke="#a89a78" stroke-width="21" stroke-linecap="round"/>
+    <path d="M352 246 Q302 224 264 276" fill="none" stroke="#f2ecdd" stroke-width="15" stroke-linecap="round"/>
+    <!-- torso -->
+    <ellipse cx="460" cy="265" rx="125" ry="52" fill="#f2ecdd" stroke="#a89a78" stroke-width="2"/>
+    <!-- head -->
+    <ellipse cx="240" cy="282" rx="23" ry="12" fill="#f2ecdd" stroke="#a89a78" stroke-width="2"/>
+    <polygon points="217,276 194,284 217,290" fill="#f2ecdd" stroke="#a89a78" stroke-width="2"/>
+    <circle cx="234" cy="277" r="3" fill="#222222"/>
+    <!-- far legs, slightly darker -->
+    <g fill="none" stroke-linecap="round">
+      <path d="M532 306 L528 352" stroke="#c9bd9f" stroke-width="15"/>
+      <path d="M408 308 L404 352" stroke="#c9bd9f" stroke-width="11"/>
+    </g>
+    <!-- near legs: dark edge under, bone over -->
+    <g fill="none" stroke-linecap="round">
+      <path d="M500 308 L496 352" stroke="#a89a78" stroke-width="19"/>
+      <path d="M500 308 L496 352" stroke="#f2ecdd" stroke-width="13"/>
+      <path d="M378 310 L374 352" stroke="#a89a78" stroke-width="15"/>
+      <path d="M378 310 L374 352" stroke="#f2ecdd" stroke-width="10"/>
+    </g>
+    <!-- feet -->
+    <g stroke="#a89a78" stroke-width="6" stroke-linecap="round">
+      <line x1="486" y1="352" x2="506" y2="352"/>
+      <line x1="364" y1="352" x2="384" y2="352"/>
+      <line x1="518" y1="352" x2="538" y2="352"/>
+      <line x1="394" y1="352" x2="414" y2="352"/>
+    </g>
+  </g>
+  <!-- spine ridge ticks -->
+  <g stroke="#a89a78" stroke-width="3" stroke-linecap="round">
+    <line x1="352" y1="214" x2="352" y2="226"/>
+    <line x1="382" y1="210" x2="382" y2="222"/>
+    <line x1="412" y1="208" x2="412" y2="220"/>
+    <line x1="442" y1="208" x2="442" y2="220"/>
+    <line x1="472" y1="210" x2="472" y2="222"/>
+    <line x1="502" y1="213" x2="502" y2="225"/>
+    <line x1="530" y1="218" x2="530" y2="230"/>
+    <line x1="556" y1="225" x2="556" y2="237"/>
+  </g>
+  <!-- ribs -->
+  <g stroke="#c9bfa5" stroke-width="2.5" fill="none" opacity="0.85">
+    <path d="M402 226 q-6 38 4 74"/>
+    <path d="M432 222 q-6 42 4 82"/>
+    <path d="M462 220 q-6 44 4 86"/>
+    <path d="M492 222 q-6 42 4 82"/>
+    <path d="M522 226 q-6 38 4 76"/>
+  </g>
+  <!-- house character, bottom left on the floor, looking up at the skeleton -->
+  <g transform="translate(30,130) scale(0.72)">
+    <!-- legs -->
+    <line x1="140" y1="425" x2="140" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <line x1="200" y1="425" x2="200" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <!-- left arm down -->
+    <line x1="100" y1="355" x2="78" y2="386" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="75" cy="389" r="9" fill="#5a4632"/>
+    <!-- body -->
+    <rect x="98" y="288" width="150" height="140" fill="#a8d4ea" stroke="#7fb3d0" stroke-width="3"/>
+    <!-- roof -->
+    <polygon points="80,292 173,210 266,292" fill="#c9b8a3" stroke="#a89880" stroke-width="3"/>
+    <!-- chimney -->
+    <rect x="212" y="222" width="24" height="40" fill="#b0a090" stroke="#8f7f6d" stroke-width="2"/>
+    <!-- windows -->
+    <rect x="116" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <rect x="192" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <!-- door -->
+    <rect x="154" y="362" width="36" height="63" fill="#ffffff" stroke="#7fb3d0" stroke-width="2"/>
+    <circle cx="184" cy="394" r="3" fill="#7fb3d0"/>
+    <!-- face: dot eyes and smile above windows -->
+    <circle cx="134" cy="306" r="5" fill="#222222"/>
+    <circle cx="212" cy="306" r="5" fill="#222222"/>
+    <path d="M160 312 Q173 320 186 312" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- right arm raised toward the skeleton -->
+    <line x1="248" y1="355" x2="298" y2="312" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="303" cy="308" r="10" fill="#5a4632"/>
+  </g>
+</svg>
