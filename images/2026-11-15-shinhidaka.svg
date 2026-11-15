@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- cold November sky -->
+  <rect x="0" y="0" width="800" height="272" fill="#d7e3ea"/>
+  <!-- distant Hidaka mountains -->
+  <polygon points="0,272 0,196 90,150 190,205 300,158 430,212 540,168 650,210 740,176 800,206 800,272" fill="#a9bcc9"/>
+  <polygon points="0,272 0,232 140,196 280,238 420,200 560,240 700,206 800,238 800,272" fill="#8fa9b8"/>
+  <!-- late-autumn ground -->
+  <rect x="0" y="270" width="800" height="230" fill="#9aa578"/>
+  <rect x="0" y="270" width="800" height="230" fill="#8f9a6e" opacity="0.35"/>
+  <!-- the straight road, narrowing to the vanishing point -->
+  <polygon points="150,500 650,500 468,258 332,258" fill="#b7bcc0"/>
+  <polygon points="150,500 650,500 468,258 332,258" fill="none" stroke="#9aa0a4" stroke-width="2"/>
+  <!-- centre line, dashed, converging -->
+  <line x1="400" y1="500" x2="400" y2="262" stroke="#f2f2ee" stroke-width="4" stroke-dasharray="26 20"/>
+  <!-- bare cherry trees, defined once and reused -->
+  <defs>
+    <g id="tree" stroke="#5b4636" stroke-linecap="round" fill="none">
+      <path d="M0,0 L0,-58" stroke-width="8"/>
+      <path d="M0,-42 L-26,-74" stroke-width="4"/>
+      <path d="M0,-48 L24,-80" stroke-width="4"/>
+      <path d="M0,-30 L-16,-56" stroke-width="3"/>
+      <path d="M0,-58 L10,-88" stroke-width="4"/>
+      <path d="M0,-58 L-10,-86" stroke-width="4"/>
+      <path d="M-26,-74 L-38,-88" stroke-width="2.5"/>
+      <path d="M24,-80 L36,-94" stroke-width="2.5"/>
+    </g>
+  </defs>
+  <!-- left row, shrinking toward the vanishing point -->
+  <use href="#tree" transform="translate(150,472) scale(1.05)"/>
+  <use href="#tree" transform="translate(212,428) scale(0.82)"/>
+  <use href="#tree" transform="translate(268,388) scale(0.64)"/>
+  <use href="#tree" transform="translate(312,352) scale(0.5)"/>
+  <!-- right row -->
+  <use href="#tree" transform="translate(650,472) scale(1.05)"/>
+  <use href="#tree" transform="translate(588,428) scale(0.82)"/>
+  <use href="#tree" transform="translate(532,388) scale(0.64)"/>
+  <use href="#tree" transform="translate(488,352) scale(0.5)"/>
+  <!-- fallen leaves drifting in the wind -->
+  <g fill="#a08050">
+    <ellipse cx="210" cy="330" rx="7" ry="4" transform="rotate(-30 210 330)"/>
+    <ellipse cx="560" cy="300" rx="7" ry="4" transform="rotate(20 560 300)"/>
+    <ellipse cx="470" cy="420" rx="6" ry="3.5" transform="rotate(-15 470 420)"/>
+  </g>
+  <g fill="#c2a878">
+    <ellipse cx="330" cy="300" rx="6" ry="3.5" transform="rotate(25 330 300)"/>
+    <ellipse cx="620" cy="380" rx="6" ry="3.5" transform="rotate(-20 620 380)"/>
+  </g>
+  <!-- wind lines -->
+  <g stroke="#e8eef2" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.8">
+    <path d="M180 290 q30 -12 60 -4"/>
+    <path d="M540 260 q30 -12 60 -4"/>
+    <path d="M600 330 q26 -10 52 -2"/>
+  </g>
+  <!-- roadside sign: Nijukken Road -->
+  <g>
+    <rect x="596" y="330" width="8" height="90" fill="#6b543a"/>
+    <rect x="560" y="300" width="96" height="40" rx="4" fill="#f5efdc" stroke="#6b543a" stroke-width="2"/>
+    <text x="608" y="327" font-family="Noto Sans CJK JP" font-size="19" fill="#4a3a28" text-anchor="middle">二十間道路</text>
+  </g>
+  <!-- house character, standing in the middle of the road, looking down its length -->
+  <g transform="translate(256,216) scale(0.6)">
+    <!-- legs -->
+    <line x1="140" y1="425" x2="140" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <line x1="200" y1="425" x2="200" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <!-- left arm down -->
+    <line x1="100" y1="355" x2="78" y2="386" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="75" cy="389" r="9" fill="#5a4632"/>
+    <!-- body -->
+    <rect x="98" y="288" width="150" height="140" fill="#a8d4ea" stroke="#7fb3d0" stroke-width="3"/>
+    <!-- roof -->
+    <polygon points="80,292 173,210 266,292" fill="#c9b8a3" stroke="#a89880" stroke-width="3"/>
+    <!-- chimney -->
+    <rect x="212" y="222" width="24" height="40" fill="#b0a090" stroke="#8f7f6d" stroke-width="2"/>
+    <!-- windows -->
+    <rect x="116" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <rect x="192" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <!-- door -->
+    <rect x="154" y="362" width="36" height="63" fill="#ffffff" stroke="#7fb3d0" stroke-width="2"/>
+    <circle cx="184" cy="394" r="3" fill="#7fb3d0"/>
+    <!-- face: dot eyes and smile above windows -->
+    <circle cx="134" cy="306" r="5" fill="#222222"/>
+    <circle cx="212" cy="306" r="5" fill="#222222"/>
+    <path d="M160 312 Q173 320 186 312" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- right arm raised down the road -->
+    <line x1="248" y1="355" x2="298" y2="312" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="303" cy="308" r="10" fill="#5a4632"/>
+  </g>
+</svg>
