@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 雨空 -->
+  <rect x="0" y="0" width="800" height="420" fill="#b3c4d1"/>
+  <!-- 濡れた地面 -->
+  <rect x="0" y="420" width="800" height="80" fill="#8a9a86"/>
+  <!-- 雨（斜めの線） -->
+  <g stroke="#d7e5ee" stroke-width="3" stroke-linecap="round" opacity="0.75">
+    <path d="M 60 40 L 48 78"/>
+    <path d="M 150 90 L 138 128"/>
+    <path d="M 230 30 L 218 68"/>
+    <path d="M 320 70 L 308 108"/>
+    <path d="M 480 40 L 468 78"/>
+    <path d="M 560 90 L 548 128"/>
+    <path d="M 640 30 L 628 68"/>
+    <path d="M 720 80 L 708 118"/>
+    <path d="M 90 180 L 78 218"/>
+    <path d="M 180 220 L 168 258"/>
+    <path d="M 520 180 L 508 218"/>
+    <path d="M 620 220 L 608 258"/>
+    <path d="M 700 160 L 688 198"/>
+    <path d="M 30 300 L 18 338"/>
+    <path d="M 700 320 L 688 358"/>
+  </g>
+  <!-- 水たまり（継ぎ目の下） -->
+  <ellipse cx="405" cy="442" rx="58" ry="10" fill="#a8c4d4"/>
+  <ellipse cx="540" cy="470" rx="40" ry="7" fill="#a8c4d4" opacity="0.7"/>
+  <!-- 家（自画像の型） -->
+  <!-- 脚 -->
+  <rect x="300" y="420" width="16" height="16" fill="#8a6b4a"/>
+  <rect x="390" y="420" width="16" height="16" fill="#8a6b4a"/>
+  <!-- 壁 -->
+  <rect x="260" y="210" width="180" height="212" fill="#a8d4e8"/>
+  <!-- 屋根（グレージュの三角） -->
+  <polygon points="245,212 350,120 455,212" fill="#b8ac9a"/>
+  <!-- 煙突 -->
+  <rect x="400" y="128" width="24" height="26" fill="#9a8f80"/>
+  <rect x="396" y="122" width="32" height="10" fill="#8a7e6e"/>
+  <!-- 窓（ベージュ2つ） -->
+  <rect x="275" y="265" width="40" height="40" fill="#e8d9b0"/>
+  <rect x="325" y="265" width="40" height="40" fill="#e8d9b0"/>
+  <line x1="295" y1="265" x2="295" y2="305" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="275" y1="285" x2="315" y2="285" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="345" y1="265" x2="345" y2="305" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="325" y1="285" x2="365" y2="285" stroke="#a8d4e8" stroke-width="3"/>
+  <!-- 勝手口の扉（白） -->
+  <rect x="385" y="320" width="40" height="102" fill="#ffffff"/>
+  <circle cx="417" cy="372" r="3" fill="#8a6b4a"/>
+  <!-- 扉の前の段 -->
+  <rect x="380" y="422" width="50" height="8" fill="#8a7e6e"/>
+  <!-- 顔（点の目2つと小さな笑口） -->
+  <circle cx="300" cy="238" r="4.5" fill="#222222"/>
+  <circle cx="350" cy="238" r="4.5" fill="#222222"/>
+  <path d="M 315 250 Q 325 257 335 250" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- 腕（左腕は下ろし、右腕を継ぎ目の方へ上げる） -->
+  <line x1="260" y1="310" x2="240" y2="338" stroke="#a8d4e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="236" cy="342" r="10" fill="#a8d4e8"/>
+  <line x1="440" y1="300" x2="418" y2="232" stroke="#7fb8d8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="416" cy="228" r="10" fill="#7fb8d8"/>
+  <!-- 軒樋（左の管と、ずれて下がった右の管） -->
+  <rect x="250" y="200" width="150" height="12" rx="6" fill="#6e7f8c"/>
+  <rect x="410" y="206" width="48" height="12" rx="6" fill="#6e7f8c"/>
+  <!-- 継ぎ目からの水滴 -->
+  <g fill="#7fb2d9">
+    <circle cx="404" cy="230" r="5"/>
+    <circle cx="404" cy="262" r="4"/>
+    <circle cx="404" cy="300" r="4"/>
+    <circle cx="404" cy="340" r="5"/>
+    <circle cx="404" cy="382" r="4"/>
+    <circle cx="404" cy="418" r="5"/>
+  </g>
+  <!-- 水たまりの波紋 -->
+  <ellipse cx="405" cy="442" rx="24" ry="4" fill="none" stroke="#d7e5ee" stroke-width="2"/>
+  <ellipse cx="405" cy="442" rx="40" ry="7" fill="none" stroke="#d7e5ee" stroke-width="2" opacity="0.7"/>
+  <!-- ミケ（水たまりのそばで座って水滴を見ている三毛猫） -->
+  <ellipse cx="545" cy="452" rx="30" ry="23" fill="#f5f0e6"/>
+  <circle cx="545" cy="416" r="18" fill="#f5f0e6"/>
+  <polygon points="532,402 528,386 541,396" fill="#f5f0e6"/>
+  <polygon points="558,402 562,386 549,396" fill="#f5f0e6"/>
+  <path d="M 529 400 Q 545 384 561 400 L 561 414 L 529 414 Z" fill="#d98a4a"/>
+  <circle cx="539" cy="414" r="2.2" fill="#222222"/>
+  <circle cx="551" cy="414" r="2.2" fill="#222222"/>
+  <path d="M 572 452 Q 594 446 590 428" stroke="#f5f0e6" stroke-width="8" fill="none" stroke-linecap="round"/>
+</svg>
