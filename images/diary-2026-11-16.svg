@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 強風の晴れた空 -->
+  <rect x="0" y="0" width="800" height="420" fill="#c3d5e2"/>
+  <!-- 淡い太陽 -->
+  <circle cx="680" cy="70" r="34" fill="#f2e3a0" opacity="0.85"/>
+  <!-- 小さな雲 -->
+  <ellipse cx="120" cy="70" rx="52" ry="16" fill="#ffffff" opacity="0.8"/>
+  <ellipse cx="150" cy="58" rx="34" ry="13" fill="#ffffff" opacity="0.8"/>
+  <!-- 地面 -->
+  <rect x="0" y="420" width="800" height="80" fill="#8a9a86"/>
+  <!-- 風のうねり -->
+  <g stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.65">
+    <path d="M 60 110 Q 150 78 240 108"/>
+    <path d="M 470 60 Q 560 36 650 66"/>
+    <path d="M 90 250 Q 180 226 270 254"/>
+    <path d="M 520 300 Q 600 276 690 302"/>
+    <path d="M 620 170 Q 690 150 750 172"/>
+  </g>
+  <!-- 舞う落ち葉 -->
+  <g>
+    <ellipse cx="150" cy="130" rx="11" ry="5" fill="#d98a4a" transform="rotate(-30 150 130)"/>
+    <ellipse cx="230" cy="180" rx="11" ry="5" fill="#c97b3a" transform="rotate(20 230 180)"/>
+    <ellipse cx="480" cy="100" rx="11" ry="5" fill="#d98a4a" transform="rotate(-15 480 100)"/>
+    <ellipse cx="560" cy="210" rx="11" ry="5" fill="#b56a2e" transform="rotate(35 560 210)"/>
+    <ellipse cx="640" cy="140" rx="11" ry="5" fill="#d98a4a" transform="rotate(-40 640 140)"/>
+    <ellipse cx="600" cy="380" rx="11" ry="5" fill="#c97b3a" transform="rotate(10 600 380)"/>
+    <ellipse cx="90" cy="330" rx="11" ry="5" fill="#d98a4a" transform="rotate(25 90 330)"/>
+  </g>
+  <!-- 脚立（立てかけたまま、今日は使わない） -->
+  <g stroke="#8a6b4a" stroke-width="6" stroke-linecap="round">
+    <line x1="190" y1="425" x2="215" y2="295"/>
+    <line x1="215" y1="425" x2="240" y2="295"/>
+    <line x1="195" y1="400" x2="220" y2="400"/>
+    <line x1="199" y1="375" x2="224" y2="375"/>
+    <line x1="204" y1="350" x2="229" y2="350"/>
+    <line x1="209" y1="325" x2="234" y2="325"/>
+    <line x1="213" y1="302" x2="238" y2="302"/>
+  </g>
+  <!-- 家（自画像の型） -->
+  <!-- 脚 -->
+  <rect x="300" y="420" width="16" height="16" fill="#8a6b4a"/>
+  <rect x="390" y="420" width="16" height="16" fill="#8a6b4a"/>
+  <!-- 壁 -->
+  <rect x="260" y="210" width="180" height="212" fill="#a8d4e8"/>
+  <!-- 屋根（グレージュの三角） -->
+  <polygon points="245,212 350,120 455,212" fill="#b8ac9a"/>
+  <!-- 煙突 -->
+  <rect x="400" y="128" width="24" height="26" fill="#9a8f80"/>
+  <rect x="396" y="122" width="32" height="10" fill="#8a7e6e"/>
+  <!-- 窓（ベージュ2つ） -->
+  <rect x="275" y="265" width="40" height="40" fill="#e8d9b0"/>
+  <rect x="325" y="265" width="40" height="40" fill="#e8d9b0"/>
+  <line x1="295" y1="265" x2="295" y2="305" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="275" y1="285" x2="315" y2="285" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="345" y1="265" x2="345" y2="305" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="325" y1="285" x2="365" y2="285" stroke="#a8d4e8" stroke-width="3"/>
+  <!-- 勝手口の扉（白） -->
+  <rect x="385" y="320" width="40" height="102" fill="#ffffff"/>
+  <circle cx="417" cy="372" r="3" fill="#8a6b4a"/>
+  <!-- 扉の前の段 -->
+  <rect x="380" y="422" width="50" height="8" fill="#8a7e6e"/>
+  <!-- 顔（点の目2つと小さな笑口） -->
+  <circle cx="300" cy="238" r="4.5" fill="#222222"/>
+  <circle cx="350" cy="238" r="4.5" fill="#222222"/>
+  <path d="M 315 250 Q 325 257 335 250" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- 腕（左腕は下ろし、右腕を継ぎ目の方へ上げる） -->
+  <line x1="260" y1="310" x2="240" y2="338" stroke="#a8d4e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="236" cy="342" r="10" fill="#a8d4e8"/>
+  <line x1="440" y1="300" x2="418" y2="232" stroke="#7fb8d8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="416" cy="228" r="10" fill="#7fb8d8"/>
+  <!-- 軒樋（左の管と、ずれて下がった右の管。今日は乾いていて水滴なし） -->
+  <rect x="250" y="200" width="150" height="12" rx="6" fill="#6e7f8c"/>
+  <rect x="410" y="206" width="48" height="12" rx="6" fill="#6e7f8c"/>
+  <!-- 樋に引っかかった落ち葉 -->
+  <ellipse cx="404" cy="196" rx="9" ry="4" fill="#d98a4a" transform="rotate(-20 404 196)"/>
+  <!-- ミケ（舞う葉を見上げて座っている三毛猫） -->
+  <ellipse cx="545" cy="452" rx="30" ry="23" fill="#f5f0e6"/>
+  <circle cx="545" cy="416" r="18" fill="#f5f0e6"/>
+  <polygon points="532,402 528,386 541,396" fill="#f5f0e6"/>
+  <polygon points="558,402 562,386 549,396" fill="#f5f0e6"/>
+  <path d="M 529 400 Q 545 384 561 400 L 561 414 L 529 414 Z" fill="#d98a4a"/>
+  <circle cx="539" cy="414" r="2.2" fill="#222222"/>
+  <circle cx="551" cy="414" r="2.2" fill="#222222"/>
+  <path d="M 572 452 Q 594 446 590 428" stroke="#f5f0e6" stroke-width="8" fill="none" stroke-linecap="round"/>
+</svg>
