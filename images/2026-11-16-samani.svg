@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- cold November sky -->
+  <rect x="0" y="0" width="800" height="300" fill="#dde7ec"/>
+  <!-- distant Hidaka range -->
+  <polygon points="0,330 0,210 110,168 220,214 340,176 470,222 600,190 700,224 800,200 800,330" fill="#a7bac6"/>
+  <polygon points="0,330 0,252 150,222 300,256 460,228 620,260 800,236 800,330" fill="#8ba2b0"/>
+  <!-- Mt. Apoi: broad dark peridotite mountain, forest below, bare rock above -->
+  <polygon points="60,330 180,180 300,120 430,150 560,120 700,230 760,330" fill="#5c6b45"/>
+  <polygon points="300,120 430,150 560,120 700,230 760,330 640,330 520,240 400,260 260,330" fill="#6d7a52"/>
+  <!-- bare rocky upper slopes -->
+  <polygon points="330,132 420,158 520,128 600,180 660,250 560,250 480,190 380,210" fill="#7d8578"/>
+  <polygon points="380,160 470,180 540,150 600,200 540,220 450,200" fill="#8d9188"/>
+  <!-- olive speckles on the rock -->
+  <g fill="#a8a86a">
+    <circle cx="400" cy="180" r="3"/><circle cx="450" cy="170" r="2.5"/><circle cx="500" cy="190" r="3"/>
+    <circle cx="560" cy="200" r="2.5"/><circle cx="430" cy="205" r="2"/><circle cx="520" cy="160" r="2.5"/>
+    <circle cx="360" cy="200" r="2"/><circle cx="580" cy="230" r="3"/>
+  </g>
+  <!-- snow patch on the peak -->
+  <polygon points="540,122 560,120 580,138 560,142 545,134" fill="#f2f4f2"/>
+  <!-- sea on the right -->
+  <polygon points="640,330 800,330 800,500 700,500" fill="#7fa8bd"/>
+  <polygon points="660,330 800,330 800,500 720,500" fill="#6f9ab2"/>
+  <!-- waves -->
+  <g stroke="#e8f0f2" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M690 380 q20 -8 40 0"/>
+    <path d="M720 420 q20 -8 40 0"/>
+    <path d="M680 450 q20 -8 40 0"/>
+  </g>
+  <!-- Oyako-iwa: three small rocks in the sea -->
+  <g fill="#4a4a44">
+    <polygon points="742,392 756,352 772,392"/>
+    <polygon points="770,396 782,360 796,396"/>
+    <polygon points="728,396 736,372 746,396"/>
+  </g>
+  <!-- late-autumn ground -->
+  <polygon points="0,330 640,330 700,500 0,500" fill="#97855e"/>
+  <polygon points="0,330 640,330 700,500 0,500" fill="#8a7a54" opacity="0.3"/>
+  <!-- peridotite boulder in front of the town hall -->
+  <g>
+    <ellipse cx="330" cy="442" rx="115" ry="68" fill="#39442f"/>
+    <ellipse cx="330" cy="434" rx="98" ry="54" fill="#46523a"/>
+    <ellipse cx="300" cy="414" rx="50" ry="26" fill="#55663f"/>
+    <g fill="#9aa86a">
+      <circle cx="280" cy="420" r="4"/><circle cx="320" cy="405" r="3"/><circle cx="360" cy="425" r="4"/>
+      <circle cx="300" cy="440" r="3"/><circle cx="350" cy="445" r="3"/><circle cx="260" cy="440" r="2.5"/>
+    </g>
+    <g fill="#c9c98a">
+      <circle cx="310" cy="418" r="2"/><circle cx="345" cy="410" r="2"/><circle cx="290" cy="432" r="2"/>
+    </g>
+  </g>
+  <!-- wooden sign: Kanran-gan Hiroba -->
+  <g>
+    <rect x="466" y="368" width="8" height="96" fill="#6b543a"/>
+    <rect x="400" y="330" width="140" height="42" rx="4" fill="#f5efdc" stroke="#6b543a" stroke-width="2"/>
+    <text x="470" y="358" font-family="Noto Sans CJK JP" font-size="19" fill="#4a3a28" text-anchor="middle">かんらん岩広場</text>
+  </g>
+  <!-- house character, right hand resting on the boulder -->
+  <g transform="translate(40,219) scale(0.55)">
+    <!-- legs -->
+    <line x1="140" y1="425" x2="140" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <line x1="200" y1="425" x2="200" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <!-- left arm down -->
+    <line x1="100" y1="355" x2="78" y2="386" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="75" cy="389" r="9" fill="#5a4632"/>
+    <!-- body -->
+    <rect x="98" y="288" width="150" height="140" fill="#a8d4ea" stroke="#7fb3d0" stroke-width="3"/>
+    <!-- roof -->
+    <polygon points="80,292 173,210 266,292" fill="#c9b8a3" stroke="#a89880" stroke-width="3"/>
+    <!-- chimney -->
+    <rect x="212" y="222" width="24" height="40" fill="#b0a090" stroke="#8f7f6d" stroke-width="2"/>
+    <!-- windows -->
+    <rect x="116" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <rect x="192" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <!-- door -->
+    <rect x="154" y="362" width="36" height="63" fill="#ffffff" stroke="#7fb3d0" stroke-width="2"/>
+    <circle cx="184" cy="394" r="3" fill="#7fb3d0"/>
+    <!-- face: dot eyes and smile above windows -->
+    <circle cx="134" cy="306" r="5" fill="#222222"/>
+    <circle cx="212" cy="306" r="5" fill="#222222"/>
+    <path d="M160 312 Q173 320 186 312" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- right arm reaching to the boulder -->
+    <line x1="248" y1="355" x2="300" y2="392" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="304" cy="396" r="10" fill="#5a4632"/>
+  </g>
+</svg>
