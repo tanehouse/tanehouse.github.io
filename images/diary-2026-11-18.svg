@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 冬の夜の空 -->
+  <rect x="0" y="0" width="800" height="420" fill="#2e3d55"/>
+  <!-- 星 -->
+  <g fill="#f5f0e6">
+    <circle cx="90" cy="60" r="3"/>
+    <circle cx="180" cy="110" r="2.5"/>
+    <circle cx="250" cy="48" r="3"/>
+    <circle cx="480" cy="70" r="2.5"/>
+    <circle cx="560" cy="40" r="3"/>
+    <circle cx="640" cy="110" r="2.5"/>
+    <circle cx="720" cy="60" r="3"/>
+    <circle cx="700" cy="170" r="2"/>
+    <circle cx="120" cy="180" r="2"/>
+    <circle cx="600" cy="180" r="2"/>
+  </g>
+  <!-- 月 -->
+  <circle cx="660" cy="90" r="26" fill="#f2e8c8"/>
+  <circle cx="652" cy="84" r="22" fill="#2e3d55" opacity="0.35"/>
+  <!-- 地面（雪の残る庭） -->
+  <rect x="0" y="420" width="800" height="80" fill="#dfe8ea"/>
+  <!-- 小さなモミの木（灯り付き） -->
+  <g>
+    <polygon points="120,420 150,330 180,420" fill="#3f6b4a"/>
+    <polygon points="128,370 150,300 172,370" fill="#4a7a56"/>
+    <polygon points="136,330 150,280 164,330" fill="#557f60"/>
+    <rect x="144" y="420" width="12" height="12" fill="#8a6b4a"/>
+    <g fill="#ffd76a">
+      <circle cx="150" cy="300" r="4"/>
+      <circle cx="140" cy="340" r="4"/>
+      <circle cx="162" cy="350" r="4"/>
+      <circle cx="146" cy="385" r="4"/>
+      <circle cx="164" cy="395" r="4"/>
+      <circle cx="132" cy="405" r="4"/>
+    </g>
+  </g>
+  <!-- 家（自画像の型） -->
+  <!-- 脚 -->
+  <rect x="300" y="420" width="16" height="16" fill="#8a6b4a"/>
+  <rect x="390" y="420" width="16" height="16" fill="#8a6b4a"/>
+  <!-- 壁 -->
+  <rect x="260" y="210" width="180" height="212" fill="#a8d4e8"/>
+  <!-- 屋根（グレージュの三角） -->
+  <polygon points="245,212 350,120 455,212" fill="#b8ac9a"/>
+  <!-- 煙突 -->
+  <rect x="400" y="128" width="24" height="26" fill="#9a8f80"/>
+  <rect x="396" y="122" width="32" height="10" fill="#8a7e6e"/>
+  <!-- 窓（夜は灯りがついている） -->
+  <rect x="275" y="265" width="40" height="40" fill="#f2d98a"/>
+  <rect x="325" y="265" width="40" height="40" fill="#f2d98a"/>
+  <line x1="295" y1="265" x2="295" y2="305" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="275" y1="285" x2="315" y2="285" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="345" y1="265" x2="345" y2="305" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="325" y1="285" x2="365" y2="285" stroke="#a8d4e8" stroke-width="3"/>
+  <!-- 勝手口の扉（白） -->
+  <rect x="385" y="320" width="40" height="102" fill="#ffffff"/>
+  <circle cx="417" cy="372" r="3" fill="#8a6b4a"/>
+  <!-- 扉の前の段 -->
+  <rect x="380" y="422" width="50" height="8" fill="#8a7e6e"/>
+  <!-- 顔（点の目2つと小さな笑口） -->
+  <circle cx="300" cy="238" r="4.5" fill="#222222"/>
+  <circle cx="350" cy="238" r="4.5" fill="#222222"/>
+  <path d="M 315 250 Q 325 257 335 250" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- 左腕は下ろす -->
+  <line x1="260" y1="310" x2="240" y2="338" stroke="#a8d4e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="236" cy="342" r="10" fill="#a8d4e8"/>
+  <!-- 右腕を上げて迎える -->
+  <line x1="440" y1="300" x2="480" y2="248" stroke="#7fb8d8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="484" cy="244" r="10" fill="#7fb8d8"/>
+  <!-- 屋根の縁に灯りの列 -->
+  <g>
+    <path d="M 252 214 Q 350 250 448 214" stroke="#5a6b7d" stroke-width="2" fill="none"/>
+    <g fill="#ffd76a">
+      <circle cx="272" cy="222" r="5"/>
+      <circle cx="302" cy="230" r="5"/>
+      <circle cx="332" cy="234" r="5"/>
+      <circle cx="362" cy="234" r="5"/>
+      <circle cx="392" cy="230" r="5"/>
+      <circle cx="422" cy="222" r="5"/>
+    </g>
+  </g>
+  <!-- ミケ（灯りを見上げて座っている三毛猫） -->
+  <ellipse cx="620" cy="452" rx="30" ry="23" fill="#f5f0e6"/>
+  <circle cx="620" cy="416" r="18" fill="#f5f0e6"/>
+  <polygon points="607,402 603,386 616,396" fill="#f5f0e6"/>
+  <polygon points="633,402 637,386 624,396" fill="#f5f0e6"/>
+  <path d="M 604 400 Q 620 384 636 400 L 636 414 L 604 414 Z" fill="#d98a4a"/>
+  <circle cx="614" cy="414" r="2.2" fill="#222222"/>
+  <circle cx="626" cy="414" r="2.2" fill="#222222"/>
+  <path d="M 647 452 Q 669 446 665 428" stroke="#f5f0e6" stroke-width="8" fill="none" stroke-linecap="round"/>
+</svg>
