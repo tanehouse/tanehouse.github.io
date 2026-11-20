@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- pale autumn sky -->
+  <rect x="0" y="0" width="800" height="340" fill="#cfe3ee"/>
+  <!-- low sun -->
+  <circle cx="690" cy="80" r="30" fill="#f5e6a0"/>
+  <circle cx="690" cy="80" r="42" fill="#f5e6a0" opacity="0.35"/>
+  <!-- clouds -->
+  <g fill="#ffffff" opacity="0.9">
+    <ellipse cx="140" cy="70" rx="50" ry="15"/>
+    <ellipse cx="180" cy="60" rx="38" ry="13"/>
+    <ellipse cx="480" cy="52" rx="44" ry="12"/>
+  </g>
+  <!-- birds -->
+  <g stroke="#5a6b7d" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M300 120 q10 -10 20 0 q10 -10 20 0"/>
+    <path d="M560 100 q8 -8 16 0 q8 -8 16 0"/>
+  </g>
+  <!-- grass -->
+  <rect x="0" y="340" width="800" height="160" fill="#7ba05b"/>
+  <polygon points="0,340 800,340 800,372 0,372" fill="#6b8f4e"/>
+  <!-- paved approach to the station -->
+  <polygon points="300,500 340,380 460,380 500,500" fill="#d8cbb0"/>
+  <!-- bell arch (幸福の鐘) on the left -->
+  <g>
+    <line x1="96" y1="270" x2="96" y2="380" stroke="#6b4a2f" stroke-width="8" stroke-linecap="round"/>
+    <line x1="150" y1="270" x2="150" y2="380" stroke="#6b4a2f" stroke-width="8" stroke-linecap="round"/>
+    <line x1="88" y1="272" x2="158" y2="272" stroke="#6b4a2f" stroke-width="8" stroke-linecap="round"/>
+    <path d="M123 282 q-14 0 -14 16 l4 14 l20 0 l4 -14 q0 -16 -14 -16" fill="#d8a93c" stroke="#a8842a" stroke-width="2"/>
+    <circle cx="123" cy="316" r="4" fill="#a8842a"/>
+  </g>
+  <!-- Kofuku station building (wooden, rebuilt 2013) -->
+  <g>
+    <!-- walls -->
+    <rect x="190" y="196" width="330" height="184" fill="#6b4a2f" stroke="#4a3220" stroke-width="3"/>
+    <!-- plank lines -->
+    <g stroke="#5a3d26" stroke-width="2">
+      <line x1="190" y1="222" x2="520" y2="222"/>
+      <line x1="190" y1="248" x2="520" y2="248"/>
+      <line x1="190" y1="274" x2="520" y2="274"/>
+      <line x1="190" y1="300" x2="520" y2="300"/>
+      <line x1="190" y1="326" x2="520" y2="326"/>
+      <line x1="190" y1="352" x2="520" y2="352"/>
+    </g>
+    <!-- gable roof with red edge -->
+    <polygon points="172,200 355,128 538,200" fill="#7a2f28" stroke="#5c231f" stroke-width="3"/>
+    <polygon points="172,200 355,128 538,200" fill="none" stroke="#c05a4a" stroke-width="2" opacity="0.6"/>
+    <!-- sign board -->
+    <rect x="305" y="212" width="100" height="46" fill="#ffffff" stroke="#4a3220" stroke-width="2"/>
+    <text x="355" y="245" font-family="Noto Sans CJK JP, sans-serif" font-size="26" fill="#222222" text-anchor="middle" font-weight="bold">幸福駅</text>
+    <!-- window -->
+    <rect x="222" y="252" width="52" height="52" fill="#f5e6c4" stroke="#4a3220" stroke-width="2"/>
+    <line x1="248" y1="252" x2="248" y2="304" stroke="#4a3220" stroke-width="2"/>
+    <line x1="222" y1="278" x2="274" y2="278" stroke="#4a3220" stroke-width="2"/>
+    <!-- open doorway, pink tickets inside -->
+    <rect x="428" y="286" width="62" height="94" fill="#3a2a1a" stroke="#4a3220" stroke-width="2"/>
+    <g fill="#f2b8c6">
+      <rect x="434" y="292" width="14" height="9" transform="rotate(-6 441 296)"/>
+      <rect x="452" y="296" width="14" height="9" transform="rotate(8 459 300)"/>
+      <rect x="468" y="292" width="14" height="9" transform="rotate(-10 475 296)"/>
+      <rect x="440" y="312" width="14" height="9" transform="rotate(5 447 316)"/>
+      <rect x="460" y="316" width="14" height="9" transform="rotate(-7 467 320)"/>
+      <rect x="448" y="332" width="14" height="9" transform="rotate(9 455 336)"/>
+    </g>
+    <!-- pink tickets pasted on the wall by the door -->
+    <g fill="#f2b8c6">
+      <rect x="404" y="300" width="14" height="9" transform="rotate(-8 411 304)"/>
+      <rect x="404" y="318" width="14" height="9" transform="rotate(6 411 322)"/>
+      <rect x="404" y="336" width="14" height="9" transform="rotate(-5 411 340)"/>
+    </g>
+    <!-- small red canopy over the door -->
+    <polygon points="416,282 502,282 494,268 424,268" fill="#a03a2e" stroke="#7a2a20" stroke-width="2"/>
+  </g>
+  <!-- preserved KiHa 22 railcar on the right -->
+  <g>
+    <rect x="560" y="292" width="200" height="72" rx="8" fill="#e8821e" stroke="#b45f10" stroke-width="3"/>
+    <rect x="560" y="318" width="200" height="14" fill="#f5e6c4"/>
+    <g fill="#3a3a3a">
+      <rect x="576" y="304" width="34" height="22"/>
+      <rect x="622" y="304" width="34" height="22"/>
+      <rect x="668" y="304" width="34" height="22"/>
+      <rect x="714" y="304" width="30" height="22"/>
+    </g>
+    <circle cx="600" cy="368" r="12" fill="#3a3a3a"/>
+    <circle cx="700" cy="368" r="12" fill="#3a3a3a"/>
+    <line x1="556" y1="380" x2="764" y2="380" stroke="#6b6b6b" stroke-width="4"/>
+  </g>
+  <!-- grass tufts -->
+  <g stroke="#5d7f43" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M60 440 l-4 -14 M60 440 l0 -16 M60 440 l4 -14"/>
+    <path d="M740 470 l-4 -14 M740 470 l0 -16 M740 470 l4 -14"/>
+    <path d="M180 470 l-4 -14 M180 470 l0 -16 M180 470 l4 -14"/>
+  </g>
+  <!-- house character, standing on the path, looking up at the station sign -->
+  <g transform="translate(300,285) scale(0.45)">
+    <!-- legs -->
+    <line x1="140" y1="425" x2="140" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <line x1="200" y1="425" x2="200" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <!-- left arm down -->
+    <line x1="100" y1="355" x2="78" y2="386" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="75" cy="389" r="9" fill="#5a4632"/>
+    <!-- body -->
+    <rect x="98" y="288" width="150" height="140" fill="#a8d4ea" stroke="#7fb3d0" stroke-width="3"/>
+    <!-- roof -->
+    <polygon points="80,292 173,210 266,292" fill="#c9b8a3" stroke="#a89880" stroke-width="3"/>
+    <!-- chimney -->
+    <rect x="212" y="222" width="24" height="40" fill="#b0a090" stroke="#8f7f6d" stroke-width="2"/>
+    <!-- windows -->
+    <rect x="116" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <rect x="192" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <!-- door -->
+    <rect x="154" y="362" width="36" height="63" fill="#ffffff" stroke="#7fb3d0" stroke-width="2"/>
+    <circle cx="184" cy="394" r="3" fill="#7fb3d0"/>
+    <!-- face: dot eyes and smile above windows -->
+    <circle cx="134" cy="306" r="5" fill="#222222"/>
+    <circle cx="212" cy="306" r="5" fill="#222222"/>
+    <path d="M160 312 Q173 320 186 312" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- right arm raised toward the station sign -->
+    <line x1="248" y1="355" x2="296" y2="330" stroke="#7fb8d8" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="300" cy="328" r="10" fill="#7fb8d8"/>
+  </g>
+</svg>
