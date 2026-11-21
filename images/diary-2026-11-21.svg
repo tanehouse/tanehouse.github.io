@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 雨まじりの雪の昼の空 -->
+  <rect x="0" y="0" width="800" height="420" fill="#8b98a5"/>
+  <!-- 雲 -->
+  <g fill="#aeb9c2">
+    <ellipse cx="180" cy="80" rx="90" ry="26"/>
+    <ellipse cx="560" cy="60" rx="110" ry="28"/>
+    <ellipse cx="700" cy="140" rx="70" ry="20"/>
+  </g>
+  <!-- 雨と雪（白い点、大小さまざま） -->
+  <g fill="#ffffff">
+    <circle cx="70" cy="240" r="3"/>
+    <circle cx="140" cy="300" r="2.5"/>
+    <circle cx="210" cy="150" r="3.5"/>
+    <circle cx="520" cy="140" r="3"/>
+    <circle cx="580" cy="260" r="2.5"/>
+    <circle cx="740" cy="240" r="3"/>
+    <circle cx="760" cy="340" r="2.5"/>
+    <circle cx="480" cy="330" r="2.5"/>
+    <circle cx="60" cy="380" r="2.5"/>
+    <circle cx="330" cy="90" r="3"/>
+    <circle cx="450" cy="70" r="2.5"/>
+    <circle cx="120" cy="330" r="3"/>
+    <circle cx="680" cy="300" r="3"/>
+    <circle cx="250" cy="380" r="2.5"/>
+    <circle cx="540" cy="380" r="2"/>
+    <circle cx="380" cy="180" r="2.5"/>
+  </g>
+  <!-- 雨の筋 -->
+  <g stroke="#dfe8ea" stroke-width="2" opacity="0.7" stroke-linecap="round">
+    <line x1="100" y1="120" x2="92" y2="150"/>
+    <line x1="300" y1="60" x2="292" y2="90"/>
+    <line x1="500" y1="100" x2="492" y2="130"/>
+    <line x1="640" y1="200" x2="632" y2="230"/>
+    <line x1="740" y1="90" x2="732" y2="120"/>
+    <line x1="420" y1="200" x2="412" y2="230"/>
+  </g>
+  <!-- 地面（雨に濡れた庭） -->
+  <rect x="0" y="420" width="800" height="80" fill="#a9b8a4"/>
+  <!-- 水たまり -->
+  <ellipse cx="150" cy="460" rx="70" ry="10" fill="#8fa8b8" opacity="0.7"/>
+  <ellipse cx="660" cy="472" rx="80" ry="10" fill="#8fa8b8" opacity="0.7"/>
+  <!-- 家（自画像の型） -->
+  <!-- 脚 -->
+  <rect x="300" y="420" width="16" height="16" fill="#8a6b4a"/>
+  <rect x="390" y="420" width="16" height="16" fill="#8a6b4a"/>
+  <!-- 壁 -->
+  <rect x="260" y="210" width="180" height="212" fill="#a8d4e8"/>
+  <!-- 屋根（グレージュの三角、雪がのる） -->
+  <polygon points="245,212 350,120 455,212" fill="#b8ac9a"/>
+  <polygon points="245,212 350,120 455,212" fill="#ffffff" opacity="0.3"/>
+  <!-- 煙突 -->
+  <rect x="400" y="128" width="24" height="26" fill="#9a8f80"/>
+  <rect x="396" y="122" width="32" height="10" fill="#8a7e6e"/>
+  <!-- 窓（昼は灯りなし、青空の映り） -->
+  <rect x="275" y="265" width="40" height="40" fill="#cfe8f2"/>
+  <rect x="325" y="265" width="40" height="40" fill="#cfe8f2"/>
+  <line x1="295" y1="265" x2="295" y2="305" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="275" y1="285" x2="315" y2="285" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="345" y1="265" x2="345" y2="305" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="325" y1="285" x2="365" y2="285" stroke="#a8d4e8" stroke-width="3"/>
+  <!-- 勝手口の扉（白、少し開いている） -->
+  <rect x="385" y="320" width="40" height="102" fill="#ffffff"/>
+  <rect x="392" y="320" width="26" height="102" fill="#e8eef0"/>
+  <circle cx="417" cy="372" r="3" fill="#8a6b4a"/>
+  <!-- 扉の前の段 -->
+  <rect x="380" y="422" width="50" height="8" fill="#8a7e6e"/>
+  <!-- 顔（ミケの方を見てほっとした表情） -->
+  <circle cx="300" cy="232" r="4.5" fill="#222222"/>
+  <circle cx="350" cy="232" r="4.5" fill="#222222"/>
+  <path d="M 314 252 Q 325 262 336 252" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- 左腕は下ろす -->
+  <line x1="260" y1="310" x2="240" y2="338" stroke="#a8d4e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="236" cy="342" r="10" fill="#a8d4e8"/>
+  <!-- 右腕はミケの方へ上げて迎える -->
+  <line x1="440" y1="310" x2="478" y2="282" stroke="#a8d4e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="484" cy="278" r="10" fill="#a8d4e8"/>
+  <!-- チュールの皿（扉の前） -->
+  <ellipse cx="470" cy="440" rx="18" ry="6" fill="#e87a9a"/>
+  <ellipse cx="470" cy="437" rx="12" ry="4" fill="#f2a0b5"/>
+  <!-- ミケ（扉の前でチュールに近づく三毛猫） -->
+  <ellipse cx="590" cy="452" rx="30" ry="23" fill="#f5f0e6"/>
+  <circle cx="590" cy="416" r="18" fill="#f5f0e6"/>
+  <polygon points="577,402 573,386 586,396" fill="#f5f0e6"/>
+  <polygon points="603,402 607,386 594,396" fill="#f5f0e6"/>
+  <path d="M 574 400 Q 590 384 606 400 L 606 414 L 574 414 Z" fill="#d98a4a"/>
+  <circle cx="584" cy="410" r="2.2" fill="#222222"/>
+  <circle cx="596" cy="410" r="2.2" fill="#222222"/>
+  <path d="M 617 452 Q 639 446 635 428" stroke="#f5f0e6" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- ミケの足もとの水たまりの映り -->
+  <ellipse cx="590" cy="470" rx="34" ry="6" fill="#8fa8b8" opacity="0.5"/>
+  <!-- 木材の土台（朝ミケが隠れていた場所、画面の左端） -->
+  <rect x="30" y="436" width="90" height="22" fill="#8a6b4a"/>
+  <rect x="30" y="436" width="90" height="6" fill="#a0805e"/>
+</svg>
