@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- late autumn sky -->
+  <rect x="0" y="0" width="800" height="300" fill="#cfe3ee"/>
+  <!-- low pale sun -->
+  <circle cx="660" cy="70" r="26" fill="#f5e6a0"/>
+  <circle cx="660" cy="70" r="38" fill="#f5e6a0" opacity="0.35"/>
+  <!-- clouds -->
+  <g fill="#ffffff" opacity="0.9">
+    <ellipse cx="150" cy="60" rx="52" ry="14"/>
+    <ellipse cx="190" cy="50" rx="36" ry="12"/>
+    <ellipse cx="420" cy="90" rx="44" ry="12"/>
+  </g>
+  <!-- birds -->
+  <g stroke="#5a6b7d" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M300 120 q10 -10 20 0 q10 -10 20 0"/>
+    <path d="M520 100 q8 -8 16 0 q8 -8 16 0"/>
+  </g>
+  <!-- distant Akan mountains -->
+  <polygon points="0,300 120,238 240,282 360,240 470,286 580,252 700,284 800,262 800,300" fill="#8fa8b8"/>
+  <!-- wetland: reed sea -->
+  <rect x="0" y="300" width="800" height="120" fill="#a8a04e"/>
+  <polygon points="0,300 800,300 800,318 0,318" fill="#8f8a40"/>
+  <!-- meandering Kushiro river -->
+  <path d="M0 380 Q 120 360 220 382 T 430 376 T 800 384 L800 400 Q 600 392 430 396 T 220 398 Q 110 400 0 396 Z" fill="#7fb3d0"/>
+  <!-- reed tufts -->
+  <g stroke="#7d7a33" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M60 350 l-4 -16 M60 350 l0 -18 M60 350 l4 -16"/>
+    <path d="M260 344 l-4 -16 M260 344 l0 -18 M260 344 l4 -16"/>
+    <path d="M470 352 l-4 -16 M470 352 l0 -18 M470 352 l4 -16"/>
+    <path d="M700 348 l-4 -16 M700 348 l0 -18 M700 348 l4 -16"/>
+    <path d="M360 340 l-4 -14 M360 340 l0 -16 M360 340 l4 -14"/>
+  </g>
+  <!-- yachi-bozu humps -->
+  <g fill="#6b8f4e">
+    <ellipse cx="120" cy="412" rx="26" ry="10"/>
+    <ellipse cx="330" cy="414" rx="30" ry="11"/>
+    <ellipse cx="540" cy="410" rx="24" ry="9"/>
+  </g>
+  <!-- foreground ground -->
+  <rect x="0" y="420" width="800" height="80" fill="#6b8f4e"/>
+  <!-- red-crowned crane (tancho) standing on a hummock, left -->
+  <g>
+    <ellipse cx="180" cy="420" rx="42" ry="10" fill="#6b8f4e"/>
+    <line x1="172" y1="402" x2="170" y2="420" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
+    <line x1="188" y1="402" x2="190" y2="420" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
+    <path d="M156 384 l-14 -6 M158 390 l-14 -2" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="180" cy="388" rx="28" ry="15" fill="#ffffff" stroke="#d8d8d8" stroke-width="2"/>
+    <ellipse cx="176" cy="386" rx="18" ry="9" fill="#e8e8e8"/>
+    <path d="M204 380 Q 214 356 206 342" stroke="#ffffff" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <circle cx="206" cy="338" r="8" fill="#ffffff"/>
+    <circle cx="206" cy="331" r="3.5" fill="#d83a2e"/>
+    <polygon points="213,336 226,340 213,343" fill="#333333"/>
+    <circle cx="208" cy="336" r="1.5" fill="#222222"/>
+  </g>
+  <!-- Kushiro City Wetland Observatory tower, right -->
+  <g>
+    <polygon points="590,420 780,420 760,380 610,380" fill="#7d8a6a"/>
+    <rect x="610" y="250" width="130" height="170" fill="#e8e0d0" stroke="#b0a890" stroke-width="3"/>
+    <g stroke="#b0a890" stroke-width="2">
+      <line x1="610" y1="300" x2="740" y2="300"/>
+      <line x1="610" y1="350" x2="740" y2="350"/>
+    </g>
+    <g fill="#7fb3d0" stroke="#b0a890" stroke-width="2">
+      <rect x="622" y="264" width="24" height="22"/>
+      <rect x="658" y="264" width="24" height="22"/>
+      <rect x="694" y="264" width="24" height="22"/>
+      <rect x="622" y="314" width="24" height="22"/>
+      <rect x="658" y="314" width="24" height="22"/>
+      <rect x="694" y="314" width="24" height="22"/>
+      <rect x="622" y="364" width="24" height="22"/>
+      <rect x="658" y="364" width="24" height="22"/>
+      <rect x="694" y="364" width="24" height="22"/>
+    </g>
+    <!-- rooftop deck -->
+    <rect x="600" y="232" width="150" height="18" fill="#8a7a5e" stroke="#6b5d45" stroke-width="2"/>
+    <g stroke="#6b5d45" stroke-width="3" stroke-linecap="round">
+      <line x1="604" y1="232" x2="604" y2="212"/>
+      <line x1="630" y1="232" x2="630" y2="212"/>
+      <line x1="656" y1="232" x2="656" y2="212"/>
+      <line x1="682" y1="232" x2="682" y2="212"/>
+      <line x1="708" y1="232" x2="708" y2="212"/>
+      <line x1="734" y1="232" x2="734" y2="212"/>
+      <line x1="600" y1="212" x2="750" y2="212"/>
+    </g>
+    <!-- sign -->
+    <rect x="626" y="392" width="98" height="24" fill="#ffffff" stroke="#6b5d45" stroke-width="2"/>
+    <text x="675" y="409" font-family="Noto Sans CJK JP, sans-serif" font-size="14" fill="#222222" text-anchor="middle" font-weight="bold">湿原展望台</text>
+  </g>
+  <!-- boardwalk foreground -->
+  <polygon points="300,500 350,420 450,420 500,500" fill="#c9b18a"/>
+  <g stroke="#a98f66" stroke-width="2">
+    <line x1="318" y1="470" x2="482" y2="470"/>
+    <line x1="334" y1="445" x2="466" y2="445"/>
+    <line x1="400" y1="420" x2="400" y2="500"/>
+  </g>
+  <!-- house character, standing on the boardwalk, facing left toward the crane -->
+  <g transform="translate(470,285) scale(-0.45,0.45)">
+    <!-- legs -->
+    <line x1="140" y1="425" x2="140" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <line x1="200" y1="425" x2="200" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <!-- left arm down -->
+    <line x1="100" y1="355" x2="78" y2="386" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="75" cy="389" r="9" fill="#5a4632"/>
+    <!-- body -->
+    <rect x="98" y="288" width="150" height="140" fill="#a8d4ea" stroke="#7fb3d0" stroke-width="3"/>
+    <!-- roof -->
+    <polygon points="80,292 173,210 266,292" fill="#c9b8a3" stroke="#a89880" stroke-width="3"/>
+    <!-- chimney -->
+    <rect x="212" y="222" width="24" height="40" fill="#b0a090" stroke="#8f7f6d" stroke-width="2"/>
+    <!-- windows -->
+    <rect x="116" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <rect x="192" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <!-- door -->
+    <rect x="154" y="362" width="36" height="63" fill="#ffffff" stroke="#7fb3d0" stroke-width="2"/>
+    <circle cx="184" cy="394" r="3" fill="#7fb3d0"/>
+    <!-- face: dot eyes and smile above windows -->
+    <circle cx="134" cy="306" r="5" fill="#222222"/>
+    <circle cx="212" cy="306" r="5" fill="#222222"/>
+    <path d="M160 312 Q173 320 186 312" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- right arm raised toward the crane -->
+    <line x1="248" y1="355" x2="296" y2="330" stroke="#7fb8d8" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="300" cy="328" r="10" fill="#7fb8d8"/>
+  </g>
+</svg>
