@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 晴れて風の強い昼の空 -->
+  <rect x="0" y="0" width="800" height="420" fill="#bcdcf0"/>
+  <!-- 太陽 -->
+  <circle cx="680" cy="70" r="28" fill="#f2e8c8"/>
+  <circle cx="680" cy="70" r="36" fill="#f2e8c8" opacity="0.35"/>
+  <!-- 雲 -->
+  <g fill="#ffffff" opacity="0.9">
+    <ellipse cx="150" cy="80" rx="46" ry="16"/>
+    <ellipse cx="185" cy="70" rx="34" ry="14"/>
+    <ellipse cx="520" cy="120" rx="40" ry="13"/>
+    <ellipse cx="550" cy="110" rx="28" ry="11"/>
+  </g>
+  <!-- 風の線 -->
+  <g stroke="#7fb8d8" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M 60 150 Q 160 130 260 150"/>
+    <path d="M 480 90 Q 580 70 680 92"/>
+    <path d="M 560 200 Q 660 180 750 200"/>
+    <path d="M 80 300 Q 170 282 250 300"/>
+  </g>
+  <!-- 舞う落ち葉 -->
+  <g>
+    <ellipse cx="300" cy="140" rx="9" ry="5" fill="#d98a4a" transform="rotate(30 300 140)"/>
+    <ellipse cx="620" cy="160" rx="9" ry="5" fill="#c98a3a" transform="rotate(-25 620 160)"/>
+    <ellipse cx="520" cy="300" rx="9" ry="5" fill="#d98a4a" transform="rotate(45 520 300)"/>
+    <ellipse cx="180" cy="330" rx="9" ry="5" fill="#b8763a" transform="rotate(-40 180 330)"/>
+    <ellipse cx="700" cy="330" rx="9" ry="5" fill="#d98a4a" transform="rotate(15 700 330)"/>
+  </g>
+  <!-- 地面（乾いた秋の庭） -->
+  <rect x="0" y="420" width="800" height="80" fill="#e3d9b0"/>
+  <!-- 地面に落ちた葉 -->
+  <g>
+    <ellipse cx="120" cy="460" rx="10" ry="5" fill="#d98a4a" transform="rotate(20 120 460)"/>
+    <ellipse cx="560" cy="470" rx="10" ry="5" fill="#c98a3a" transform="rotate(-15 560 470)"/>
+    <ellipse cx="700" cy="455" rx="10" ry="5" fill="#b8763a" transform="rotate(35 700 455)"/>
+  </g>
+  <!-- 家（自画像の型） -->
+  <!-- 脚 -->
+  <rect x="300" y="420" width="16" height="16" fill="#8a6b4a"/>
+  <rect x="390" y="420" width="16" height="16" fill="#8a6b4a"/>
+  <!-- 壁 -->
+  <rect x="260" y="210" width="180" height="212" fill="#a8d4e8"/>
+  <!-- 屋根（グレージュの三角） -->
+  <polygon points="245,212 350,120 455,212" fill="#b8ac9a"/>
+  <!-- 煙突 -->
+  <rect x="400" y="128" width="24" height="26" fill="#9a8f80"/>
+  <rect x="396" y="122" width="32" height="10" fill="#8a7e6e"/>
+  <!-- 軒樋（屋根の縁に沿う管） -->
+  <rect x="248" y="204" width="152" height="8" fill="#7d8a99"/>
+  <rect x="412" y="204" width="46" height="8" fill="#7d8a99"/>
+  <!-- 継ぎ目のズレ（管のあいだの隙間） -->
+  <rect x="400" y="204" width="12" height="8" fill="#5a6a7a"/>
+  <!-- 窓（昼は灯りなし） -->
+  <rect x="275" y="265" width="40" height="40" fill="#dfeef5"/>
+  <rect x="325" y="265" width="40" height="40" fill="#dfeef5"/>
+  <line x1="295" y1="265" x2="295" y2="305" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="275" y1="285" x2="315" y2="285" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="345" y1="265" x2="345" y2="305" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="325" y1="285" x2="365" y2="285" stroke="#a8d4e8" stroke-width="3"/>
+  <!-- 勝手口の扉（白） -->
+  <rect x="385" y="320" width="40" height="102" fill="#ffffff"/>
+  <circle cx="417" cy="372" r="3" fill="#8a6b4a"/>
+  <!-- 扉の前の段 -->
+  <rect x="380" y="422" width="50" height="8" fill="#8a7e6e"/>
+  <!-- 顔（目を上に向けて継ぎ目を見上げる） -->
+  <circle cx="300" cy="232" r="4.5" fill="#222222"/>
+  <circle cx="350" cy="232" r="4.5" fill="#222222"/>
+  <path d="M 315 252 L 335 252" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- 左腕は下ろす -->
+  <line x1="260" y1="310" x2="240" y2="338" stroke="#a8d4e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="236" cy="342" r="10" fill="#a8d4e8"/>
+  <!-- 右腕を上げて継ぎ目を指す -->
+  <line x1="440" y1="300" x2="428" y2="232" stroke="#7fb8d8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="427" cy="228" r="10" fill="#7fb8d8"/>
+</svg>
