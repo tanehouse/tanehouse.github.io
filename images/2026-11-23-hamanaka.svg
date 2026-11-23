@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- late November sky, pale and clear -->
+  <rect x="0" y="0" width="800" height="250" fill="#cfe3ee"/>
+  <!-- low pale sun -->
+  <circle cx="112" cy="62" r="22" fill="#f5e6a0"/>
+  <circle cx="112" cy="62" r="34" fill="#f5e6a0" opacity="0.35"/>
+  <!-- wind streaks -->
+  <g stroke="#ffffff" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.85">
+    <path d="M330 56 q30 -6 60 0"/>
+    <path d="M360 90 q26 -5 52 0"/>
+    <path d="M300 128 q24 -5 48 0"/>
+  </g>
+  <!-- birds -->
+  <g stroke="#5a6b7d" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M480 76 q10 -10 20 0 q10 -10 20 0"/>
+    <path d="M545 108 q8 -8 16 0 q8 -8 16 0"/>
+  </g>
+  <!-- far shore: dark tree line -->
+  <rect x="0" y="240" width="800" height="14" fill="#6e6248"/>
+  <!-- sea on the right horizon -->
+  <rect x="560" y="232" width="240" height="22" fill="#7fb3d0"/>
+  <path d="M560 238 Q 680 234 800 238 L800 254 L560 254 Z" fill="#6ba3c4"/>
+  <!-- the marsh: golden-brown sedge plain -->
+  <rect x="0" y="254" width="800" height="146" fill="#b59a5e"/>
+  <!-- sedge patches -->
+  <g fill="#a8894f" opacity="0.8">
+    <ellipse cx="120" cy="290" rx="90" ry="12"/>
+    <ellipse cx="420" cy="272" rx="110" ry="10"/>
+    <ellipse cx="660" cy="300" rx="100" ry="12"/>
+    <ellipse cx="240" cy="368" rx="120" ry="12"/>
+    <ellipse cx="560" cy="372" rx="130" ry="12"/>
+  </g>
+  <g fill="#c2a468" opacity="0.8">
+    <ellipse cx="300" cy="286" rx="80" ry="9"/>
+    <ellipse cx="520" cy="352" rx="90" ry="10"/>
+    <ellipse cx="80" cy="356" rx="70" ry="9"/>
+  </g>
+  <!-- winding river (Biwase river) toward the sea -->
+  <path d="M0 336 Q 140 312 280 326 Q 420 340 540 318 Q 660 300 800 308 L800 332 Q 660 326 540 342 Q 420 360 280 348 Q 140 338 0 356 Z" fill="#7fa8c0"/>
+  <path d="M0 344 Q 200 330 400 342 Q 600 330 800 320" stroke="#a8c8dc" stroke-width="3" fill="none" opacity="0.8"/>
+  <!-- two swans on the river -->
+  <g>
+    <ellipse cx="330" cy="336" rx="13" ry="6" fill="#ffffff"/>
+    <path d="M340 334 Q 346 324 342 318" stroke="#ffffff" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <circle cx="342" cy="317" r="3" fill="#ffffff"/>
+    <circle cx="344" cy="317" r="1.4" fill="#e8722a"/>
+  </g>
+  <g>
+    <ellipse cx="372" cy="342" rx="11" ry="5" fill="#ffffff"/>
+    <path d="M380 340 Q 385 332 382 327" stroke="#ffffff" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <circle cx="382" cy="326" r="3" fill="#ffffff"/>
+    <circle cx="384" cy="326" r="1.4" fill="#e8722a"/>
+  </g>
+  <!-- MG road: thin grey strip crossing the marsh -->
+  <path d="M150 400 L 210 254 L 226 254 L 176 400 Z" fill="#9a9a92" opacity="0.85"/>
+  <!-- foreground grass -->
+  <rect x="0" y="400" width="800" height="100" fill="#7d8a4a"/>
+  <polygon points="0,400 800,400 800,414 0,414" fill="#6e7d40"/>
+  <!-- wooden boardwalk from the bottom edge into the marsh -->
+  <polygon points="250,500 320,500 300,400 280,400" fill="#a98a64"/>
+  <g stroke="#8a6f4e" stroke-width="2">
+    <line x1="262" y1="470" x2="308" y2="470"/>
+    <line x1="270" y1="440" x2="312" y2="440"/>
+    <line x1="278" y1="414" x2="306" y2="414"/>
+  </g>
+  <!-- wooden sign: Kiritappu Wetland -->
+  <g>
+    <rect x="86" y="408" width="10" height="62" fill="#8a7a5e"/>
+    <rect x="34" y="378" width="116" height="34" fill="#e8e0d0" stroke="#8a7a5e" stroke-width="2"/>
+    <text x="92" y="401" font-family="Noto Sans CJK JP, sans-serif" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">霧多布湿原</text>
+  </g>
+  <!-- house character, mirrored so the raised arm points left toward the marsh -->
+  <g transform="translate(600,290) scale(-0.45,0.45)">
+    <!-- legs -->
+    <line x1="140" y1="425" x2="140" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <line x1="200" y1="425" x2="200" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <!-- left arm down -->
+    <line x1="100" y1="355" x2="78" y2="386" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="75" cy="389" r="9" fill="#5a4632"/>
+    <!-- body -->
+    <rect x="98" y="288" width="150" height="140" fill="#a8d4ea" stroke="#7fb3d0" stroke-width="3"/>
+    <!-- roof -->
+    <polygon points="80,292 173,210 266,292" fill="#c9b8a3" stroke="#a89880" stroke-width="3"/>
+    <!-- chimney -->
+    <rect x="212" y="222" width="24" height="40" fill="#b0a090" stroke="#8f7f6d" stroke-width="2"/>
+    <!-- windows -->
+    <rect x="116" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <rect x="192" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <!-- door -->
+    <rect x="154" y="362" width="36" height="63" fill="#ffffff" stroke="#7fb3d0" stroke-width="2"/>
+    <circle cx="184" cy="394" r="3" fill="#7fb3d0"/>
+    <!-- face: dot eyes and smile above windows -->
+    <circle cx="134" cy="306" r="5" fill="#222222"/>
+    <circle cx="212" cy="306" r="5" fill="#222222"/>
+    <path d="M160 312 Q173 320 186 312" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- right arm raised toward the marsh -->
+    <line x1="248" y1="355" x2="296" y2="330" stroke="#7fb8d8" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="300" cy="328" r="10" fill="#7fb8d8"/>
+  </g>
+</svg>
