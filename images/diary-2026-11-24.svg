@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 雨の日の空 -->
+  <rect x="0" y="0" width="800" height="420" fill="#a9c2d2"/>
+  <!-- 雨雲 -->
+  <g fill="#8fa8ba" opacity="0.9">
+    <ellipse cx="160" cy="60" rx="70" ry="20"/>
+    <ellipse cx="220" cy="48" rx="52" ry="17"/>
+    <ellipse cx="480" cy="50" rx="76" ry="19"/>
+    <ellipse cx="660" cy="66" rx="60" ry="17"/>
+  </g>
+  <!-- 雨の筋 -->
+  <g stroke="#dfeef5" stroke-width="3" stroke-linecap="round" opacity="0.75">
+    <line x1="60" y1="110" x2="48" y2="150"/>
+    <line x1="140" y1="140" x2="128" y2="180"/>
+    <line x1="230" y1="100" x2="218" y2="140"/>
+    <line x1="330" y1="150" x2="318" y2="190"/>
+    <line x1="420" y1="110" x2="408" y2="150"/>
+    <line x1="500" y1="160" x2="488" y2="200"/>
+    <line x1="590" y1="120" x2="578" y2="160"/>
+    <line x1="680" y1="150" x2="668" y2="190"/>
+    <line x1="750" y1="110" x2="738" y2="150"/>
+    <line x1="90" y1="250" x2="78" y2="290"/>
+    <line x1="380" y1="260" x2="368" y2="300"/>
+    <line x1="560" y1="280" x2="548" y2="320"/>
+    <line x1="720" y1="260" x2="708" y2="300"/>
+  </g>
+  <!-- 地面（雨に濡れた庭） -->
+  <rect x="0" y="420" width="800" height="80" fill="#9aa578"/>
+  <!-- 水たまり -->
+  <ellipse cx="620" cy="462" rx="110" ry="16" fill="#b9cdd9"/>
+  <ellipse cx="620" cy="462" rx="70" ry="10" fill="#c9dbe6"/>
+  <ellipse cx="620" cy="462" rx="34" ry="5" fill="#dbe9f0"/>
+  <!-- 地面に落ちた葉 -->
+  <g>
+    <ellipse cx="120" cy="460" rx="10" ry="5" fill="#d98a4a" transform="rotate(20 120 460)"/>
+    <ellipse cx="400" cy="470" rx="10" ry="5" fill="#c98a3a" transform="rotate(-15 400 470)"/>
+    <ellipse cx="700" cy="480" rx="10" ry="5" fill="#b8763a" transform="rotate(35 700 480)"/>
+    <ellipse cx="480" cy="452" rx="9" ry="5" fill="#d98a4a" transform="rotate(-30 480 452)"/>
+  </g>
+  <!-- 家（自画像の型・左） -->
+  <!-- 脚 -->
+  <rect x="150" y="420" width="16" height="16" fill="#8a6b4a"/>
+  <rect x="240" y="420" width="16" height="16" fill="#8a6b4a"/>
+  <!-- 壁 -->
+  <rect x="110" y="210" width="180" height="212" fill="#a8d4e8"/>
+  <!-- 屋根（グレージュの三角） -->
+  <polygon points="95,212 200,120 305,212" fill="#b8ac9a"/>
+  <!-- 煙突 -->
+  <rect x="250" y="128" width="24" height="26" fill="#9a8f80"/>
+  <rect x="246" y="122" width="32" height="10" fill="#8a7e6e"/>
+  <!-- 窓 -->
+  <rect x="125" y="265" width="40" height="40" fill="#dfeef5"/>
+  <rect x="175" y="265" width="40" height="40" fill="#dfeef5"/>
+  <line x1="145" y1="265" x2="145" y2="305" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="125" y1="285" x2="165" y2="285" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="195" y1="265" x2="195" y2="305" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="175" y1="285" x2="215" y2="285" stroke="#a8d4e8" stroke-width="3"/>
+  <!-- 扉（白） -->
+  <rect x="235" y="320" width="40" height="102" fill="#ffffff"/>
+  <circle cx="267" cy="372" r="3" fill="#8a6b4a"/>
+  <!-- 顔（右上＝樋の方を見る） -->
+  <circle cx="158" cy="230" r="4.5" fill="#222222"/>
+  <circle cx="205" cy="228" r="4.5" fill="#222222"/>
+  <path d="M 168 250 Q 180 254 192 248" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- 左腕は下ろす -->
+  <line x1="110" y1="310" x2="90" y2="338" stroke="#a8d4e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="86" cy="342" r="10" fill="#a8d4e8"/>
+  <!-- 右腕は壁から離して斜め上に上げ、樋を指す -->
+  <line x1="292" y1="300" x2="338" y2="238" stroke="#7fb8d8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="342" cy="234" r="10" fill="#7fb8d8"/>
+  <!-- 軒樋（屋根の縁に沿う樋） -->
+  <rect x="96" y="208" width="212" height="12" fill="#6b7a86"/>
+  <rect x="96" y="208" width="212" height="4" fill="#7d8c99"/>
+  <!-- 樋に詰まった落ち葉 -->
+  <g>
+    <ellipse cx="130" cy="206" rx="12" ry="6" fill="#d98a4a" transform="rotate(-15 130 206)"/>
+    <ellipse cx="160" cy="204" rx="11" ry="6" fill="#c98a3a" transform="rotate(20 160 204)"/>
+    <ellipse cx="195" cy="206" rx="12" ry="6" fill="#b8763a" transform="rotate(-25 195 206)"/>
+    <ellipse cx="230" cy="204" rx="11" ry="6" fill="#d98a4a" transform="rotate(12 230 204)"/>
+    <ellipse cx="265" cy="206" rx="12" ry="6" fill="#c98a3a" transform="rotate(-18 265 206)"/>
+  </g>
+  <!-- 継ぎ目から垂れる水滴 -->
+  <path d="M 300 220 Q 304 232 300 240 Q 296 232 300 220 Z" fill="#9ec8de"/>
+  <circle cx="300" cy="258" r="4" fill="#9ec8de"/>
+  <circle cx="300" cy="282" r="3" fill="#9ec8de" opacity="0.7"/>
+  <!-- 縦樋（右端）と錆びたエルボ -->
+  <rect x="296" y="220" width="12" height="150" fill="#7d8c99"/>
+  <path d="M 296 370 L 296 392 Q 296 404 308 404 L 322 404" fill="none" stroke="#7d8c99" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="308" cy="398" r="7" fill="#a06848"/>
+  <circle cx="316" cy="404" r="5" fill="#a06848"/>
+  <!-- ミケ（右・水たまりのそばで座って雨を見ている） -->
+  <g>
+    <!-- 体 -->
+    <ellipse cx="620" cy="430" rx="34" ry="26" fill="#ffffff"/>
+    <!-- 茶色と黒の斑 -->
+    <path d="M 596 410 Q 610 404 620 412 Q 612 424 598 422 Z" fill="#d98a4a"/>
+    <path d="M 636 414 Q 650 420 646 434 Q 634 436 630 426 Z" fill="#3a3a3a"/>
+    <!-- 頭 -->
+    <circle cx="622" cy="392" r="20" fill="#ffffff"/>
+    <!-- 耳 -->
+    <polygon points="606,378 612,360 622,374" fill="#ffffff"/>
+    <polygon points="632,374 640,358 646,376" fill="#d98a4a"/>
+    <!-- 顔 -->
+    <circle cx="615" cy="390" r="2.5" fill="#222222"/>
+    <circle cx="629" cy="390" r="2.5" fill="#222222"/>
+    <path d="M 618 400 Q 622 403 626 400" stroke="#222222" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- しっぽ -->
+    <path d="M 652 436 Q 676 430 678 408" fill="none" stroke="#d98a4a" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>
