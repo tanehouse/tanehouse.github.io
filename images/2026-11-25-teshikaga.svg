@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <radialGradient id="fogGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="65%" stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- late November sky, pale and cold -->
+  <rect x="0" y="0" width="800" height="210" fill="#cfe3ee"/>
+  <!-- low pale sun, dimmed by fog -->
+  <circle cx="110" cy="56" r="18" fill="#f5e6a0" opacity="0.8"/>
+  <circle cx="110" cy="56" r="30" fill="#f5e6a0" opacity="0.25"/>
+  <!-- birds -->
+  <g stroke="#5a6b7d" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M480 64 q10 -10 20 0 q10 -10 20 0"/>
+    <path d="M560 96 q8 -8 16 0 q8 -8 16 0"/>
+  </g>
+  <!-- far caldera rim: forested slopes -->
+  <path d="M0 210 Q 130 178 260 196 Q 400 212 520 192 Q 660 172 800 198 L800 232 L0 232 Z" fill="#46603f"/>
+  <!-- Mashu-dake (Kamuinupuri): peak on the right with a bare rocky slope -->
+  <path d="M600 232 L690 108 L800 232 Z" fill="#3a5238"/>
+  <path d="M668 150 L690 108 L716 152 L700 168 L684 150 Z" fill="#b8a898"/>
+  <!-- the lake: Mashu blue -->
+  <rect x="0" y="232" width="800" height="188" fill="#2568a8"/>
+  <g stroke="#5f9cc8" stroke-width="3" fill="none" opacity="0.7" stroke-linecap="round">
+    <path d="M60 300 q60 -6 120 0"/>
+    <path d="M560 330 q70 -6 140 0"/>
+    <path d="M140 380 q50 -5 100 0"/>
+  </g>
+  <!-- Kamuishu Island: small forested islet in the middle of the lake -->
+  <g>
+    <ellipse cx="400" cy="330" rx="52" ry="6" fill="#1d4e7d" opacity="0.8"/>
+    <path d="M368 326 Q 384 296 400 292 Q 420 296 432 326 Q 416 332 400 332 Q 384 332 368 326 Z" fill="#2f5230"/>
+    <circle cx="392" cy="306" r="7" fill="#3d6b3a"/>
+    <circle cx="408" cy="302" r="8" fill="#355f34"/>
+    <circle cx="400" cy="312" r="6" fill="#3d6b3a"/>
+  </g>
+  <!-- fog lifting: soft white mist drifting over the far shore and the water -->
+  <g>
+    <ellipse cx="180" cy="252" rx="230" ry="26" fill="url(#fogGrad)"/>
+    <ellipse cx="120" cy="300" rx="170" ry="22" fill="url(#fogGrad)" opacity="0.85"/>
+    <ellipse cx="620" cy="256" rx="150" ry="20" fill="url(#fogGrad)" opacity="0.7"/>
+    <ellipse cx="700" cy="210" rx="130" ry="18" fill="url(#fogGrad)" opacity="0.8"/>
+  </g>
+  <!-- observatory railing -->
+  <g stroke="#6b5a44" stroke-width="5" stroke-linecap="round">
+    <line x1="0" y1="398" x2="800" y2="398"/>
+    <line x1="0" y1="414" x2="800" y2="414"/>
+  </g>
+  <g stroke="#6b5a44" stroke-width="5" stroke-linecap="round">
+    <line x1="40" y1="392" x2="40" y2="420"/>
+    <line x1="200" y1="392" x2="200" y2="420"/>
+    <line x1="360" y1="392" x2="360" y2="420"/>
+    <line x1="520" y1="392" x2="520" y2="420"/>
+    <line x1="680" y1="392" x2="680" y2="420"/>
+    <line x1="780" y1="392" x2="780" y2="420"/>
+  </g>
+  <!-- near shore: grassy bank -->
+  <rect x="0" y="420" width="800" height="80" fill="#7d8a4a"/>
+  <polygon points="0,420 800,420 800,434 0,434" fill="#6e7d40"/>
+  <!-- wooden sign: Lake Mashu -->
+  <g>
+    <rect x="86" y="428" width="10" height="56" fill="#8a7a5e"/>
+    <rect x="34" y="400" width="116" height="34" fill="#e8e0d0" stroke="#8a7a5e" stroke-width="2"/>
+    <text x="92" y="423" font-family="Noto Sans CJK JP, sans-serif" font-size="15" fill="#222222" text-anchor="middle" font-weight="bold">摩周湖</text>
+  </g>
+  <!-- house character, mirrored so the raised arm points left toward the lake -->
+  <g transform="translate(700,230) scale(-0.55,0.55)">
+    <!-- legs -->
+    <line x1="140" y1="425" x2="140" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <line x1="200" y1="425" x2="200" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <!-- left arm down -->
+    <line x1="100" y1="355" x2="78" y2="386" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="75" cy="389" r="9" fill="#5a4632"/>
+    <!-- body -->
+    <rect x="98" y="288" width="150" height="140" fill="#a8d4ea" stroke="#7fb3d0" stroke-width="3"/>
+    <!-- roof -->
+    <polygon points="80,292 173,210 266,292" fill="#c9b8a3" stroke="#a89880" stroke-width="3"/>
+    <!-- chimney -->
+    <rect x="212" y="222" width="24" height="40" fill="#b0a090" stroke="#8f7f6d" stroke-width="2"/>
+    <!-- windows -->
+    <rect x="116" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <rect x="192" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <!-- door -->
+    <rect x="154" y="362" width="36" height="63" fill="#ffffff" stroke="#7fb3d0" stroke-width="2"/>
+    <circle cx="184" cy="394" r="3" fill="#7fb3d0"/>
+    <!-- face: dot eyes and smile above windows -->
+    <circle cx="134" cy="306" r="5" fill="#222222"/>
+    <circle cx="212" cy="306" r="5" fill="#222222"/>
+    <path d="M160 312 Q173 320 186 312" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- right arm raised toward the lake -->
+    <line x1="248" y1="355" x2="296" y2="330" stroke="#7fb8d8" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="300" cy="328" r="10" fill="#7fb8d8"/>
+  </g>
+</svg>
