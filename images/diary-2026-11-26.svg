@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 夕方の空 -->
+  <rect x="0" y="0" width="800" height="420" fill="#c3b8cf"/>
+  <!-- 夕日 -->
+  <circle cx="680" cy="110" r="30" fill="#f2c98a"/>
+  <circle cx="680" cy="110" r="44" fill="#f2c98a" opacity="0.35"/>
+  <!-- 地面（夕方の庭） -->
+  <rect x="0" y="420" width="800" height="80" fill="#8a9478"/>
+  <!-- 家（自画像の型・左） -->
+  <!-- 脚 -->
+  <rect x="150" y="420" width="16" height="16" fill="#8a6b4a"/>
+  <rect x="240" y="420" width="16" height="16" fill="#8a6b4a"/>
+  <!-- 壁 -->
+  <rect x="110" y="210" width="180" height="212" fill="#a8d4e8"/>
+  <!-- 屋根（グレージュの三角） -->
+  <polygon points="95,212 200,120 305,212" fill="#b8ac9a"/>
+  <!-- 煙突（屋根の勾配まで伸ばして接地） -->
+  <rect x="250" y="128" width="24" height="62" fill="#9a8f80"/>
+  <rect x="246" y="122" width="32" height="10" fill="#8a7e6e"/>
+  <!-- 窓（夕方の灯り） -->
+  <rect x="125" y="265" width="40" height="40" fill="#f2d98a"/>
+  <rect x="175" y="265" width="40" height="40" fill="#f2d98a"/>
+  <line x1="145" y1="265" x2="145" y2="305" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="125" y1="285" x2="165" y2="285" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="195" y1="265" x2="195" y2="305" stroke="#a8d4e8" stroke-width="3"/>
+  <line x1="175" y1="285" x2="215" y2="285" stroke="#a8d4e8" stroke-width="3"/>
+  <!-- 扉（白） -->
+  <rect x="235" y="320" width="40" height="102" fill="#ffffff"/>
+  <circle cx="267" cy="372" r="3" fill="#8a6b4a"/>
+  <!-- 顔（右＝カードの方を見る） -->
+  <circle cx="158" cy="230" r="4.5" fill="#222222"/>
+  <circle cx="205" cy="228" r="4.5" fill="#222222"/>
+  <path d="M 168 250 Q 180 254 192 248" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- 左腕は下ろす -->
+  <line x1="110" y1="310" x2="90" y2="338" stroke="#a8d4e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="86" cy="342" r="10" fill="#a8d4e8"/>
+  <!-- 右腕は壁から離して斜め上に上げ、カードを指す -->
+  <line x1="292" y1="300" x2="352" y2="242" stroke="#7fb8d8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="356" cy="238" r="10" fill="#7fb8d8"/>
+  <!-- ミケ（中央・ボウルのそばで座ってごはんを食べている） -->
+  <g>
+    <!-- 体 -->
+    <ellipse cx="440" cy="430" rx="34" ry="26" fill="#ffffff"/>
+    <!-- 茶色と黒の斑 -->
+    <path d="M 416 410 Q 430 404 440 412 Q 432 424 418 422 Z" fill="#d98a4a"/>
+    <path d="M 456 414 Q 470 420 466 434 Q 454 436 450 426 Z" fill="#3a3a3a"/>
+    <!-- 頭（ボウルの方を向く） -->
+    <circle cx="462" cy="396" r="20" fill="#ffffff"/>
+    <!-- 耳 -->
+    <polygon points="446,382 452,364 462,378" fill="#ffffff"/>
+    <polygon points="472,378 480,362 486,380" fill="#d98a4a"/>
+    <!-- 顔 -->
+    <circle cx="455" cy="394" r="2.5" fill="#222222"/>
+    <circle cx="469" cy="394" r="2.5" fill="#222222"/>
+    <path d="M 458 404 Q 462 407 466 404" stroke="#222222" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- しっぽ -->
+    <path d="M 412 436 Q 390 432 388 412" fill="none" stroke="#d98a4a" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <!-- ごはんのボウル -->
+  <ellipse cx="512" cy="452" rx="30" ry="10" fill="#7d8c99"/>
+  <ellipse cx="512" cy="448" rx="24" ry="7" fill="#c9a06a"/>
+  <circle cx="504" cy="446" r="3" fill="#8a6b4a"/>
+  <circle cx="518" cy="448" r="3" fill="#8a6b4a"/>
+  <!-- タロットカード（右・立てかけたワンドの4） -->
+  <!-- カードの影 -->
+  <rect x="566" y="212" width="120" height="196" rx="8" fill="#000000" opacity="0.12"/>
+  <!-- カード本体 -->
+  <rect x="560" y="204" width="120" height="196" rx="8" fill="#f7f0dd" stroke="#8a6b4a" stroke-width="4"/>
+  <!-- カードの内枠 -->
+  <rect x="570" y="214" width="100" height="176" rx="4" fill="none" stroke="#b8a888" stroke-width="2"/>
+  <!-- ワンド4本：門の柱（左右2本ずつ） -->
+  <g stroke="#8a6b4a" stroke-width="5" stroke-linecap="round">
+    <line x1="590" y1="368" x2="590" y2="252"/>
+    <line x1="604" y1="368" x2="604" y2="252"/>
+    <line x1="636" y1="368" x2="636" y2="252"/>
+    <line x1="650" y1="368" x2="650" y2="252"/>
+  </g>
+  <!-- ワンドの先端 -->
+  <g fill="#a06848">
+    <circle cx="590" cy="248" r="5"/>
+    <circle cx="604" cy="248" r="5"/>
+    <circle cx="636" cy="248" r="5"/>
+    <circle cx="650" cy="248" r="5"/>
+  </g>
+  <!-- 門の花綱（左右の柱のあいだに垂れる花輪） -->
+  <path d="M 590 252 Q 620 282 650 252" fill="none" stroke="#6a9a5a" stroke-width="5" stroke-linecap="round"/>
+  <g fill="#d98a8a">
+    <circle cx="602" cy="264" r="5"/>
+    <circle cx="620" cy="270" r="5"/>
+    <circle cx="638" cy="264" r="5"/>
+  </g>
+  <!-- カード下部の IV -->
+  <text x="620" y="386" font-family="Noto Sans CJK JP, sans-serif" font-size="16" fill="#8a6b4a" text-anchor="middle">IV</text>
+  <!-- カード立て -->
+  <polygon points="600,400 640,400 620,420" fill="#8a6b4a"/>
+  <rect x="596" y="418" width="48" height="6" fill="#8a6b4a"/>
+</svg>
