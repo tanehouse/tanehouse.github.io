@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- late November sky over Abashiri: pale, cold, light snow -->
+  <rect x="0" y="0" width="800" height="250" fill="#cfdfe9"/>
+  <!-- faint sun behind cloud -->
+  <circle cx="120" cy="60" r="20" fill="#f5e6a0" opacity="0.55"/>
+  <circle cx="120" cy="60" r="34" fill="#f5e6a0" opacity="0.18"/>
+  <!-- drifting snow -->
+  <g fill="#ffffff" opacity="0.9">
+    <circle cx="60" cy="90" r="3"/>
+    <circle cx="210" cy="50" r="2.5"/>
+    <circle cx="330" cy="110" r="3"/>
+    <circle cx="470" cy="60" r="2.5"/>
+    <circle cx="600" cy="100" r="3"/>
+    <circle cx="720" cy="46" r="2.5"/>
+    <circle cx="760" cy="140" r="3"/>
+    <circle cx="150" cy="160" r="2.5"/>
+    <circle cx="540" cy="180" r="2.5"/>
+  </g>
+  <!-- Mt. Tento forest behind the museum -->
+  <g fill="#33502f">
+    <polygon points="0,250 60,180 120,250" />
+    <polygon points="90,250 160,160 230,250" />
+    <polygon points="560,250 640,170 720,250" />
+    <polygon points="680,250 750,185 800,250" />
+  </g>
+  <rect x="0" y="238" width="800" height="22" fill="#2c4630"/>
+  <!-- ground: snow-dusted grass -->
+  <rect x="0" y="260" width="800" height="240" fill="#a8b08a"/>
+  <g fill="#ffffff" opacity="0.55">
+    <ellipse cx="120" cy="330" rx="90" ry="12"/>
+    <ellipse cx="680" cy="310" rx="110" ry="12"/>
+    <ellipse cx="420" cy="470" rx="180" ry="14"/>
+  </g>
+  <!-- brick path to the gate -->
+  <polygon points="330,500 470,500 440,380 360,380" fill="#b0705a"/>
+  <g stroke="#9a5c48" stroke-width="2" opacity="0.7">
+    <line x1="350" y1="420" x2="450" y2="420"/>
+    <line x1="342" y1="455" x2="458" y2="455"/>
+  </g>
+  <!-- museum gatehouse: red brick, arched entrance, two domed turrets -->
+  <g>
+    <!-- main wall -->
+    <rect x="210" y="180" width="380" height="200" fill="#a8503f"/>
+    <g stroke="#8a3f31" stroke-width="2" opacity="0.6">
+      <line x1="210" y1="210" x2="590" y2="210"/>
+      <line x1="210" y1="240" x2="590" y2="240"/>
+      <line x1="210" y1="270" x2="590" y2="270"/>
+      <line x1="210" y1="300" x2="590" y2="300"/>
+      <line x1="210" y1="330" x2="590" y2="330"/>
+      <line x1="210" y1="360" x2="590" y2="360"/>
+    </g>
+    <!-- gable -->
+    <polygon points="330,180 400,140 470,180" fill="#96503f"/>
+    <!-- small window in the gable -->
+    <rect x="392" y="152" width="16" height="18" fill="#2e211c"/>
+    <!-- arched entrance -->
+    <path d="M360 380 L360 300 Q360 268 400 268 Q440 268 440 300 L440 380 Z" fill="#3a2a26"/>
+    <path d="M372 380 L372 306 Q372 282 400 282 Q428 282 428 306 L428 380 Z" fill="#6b7a72"/>
+    <!-- inner gate: wooden doors slightly open -->
+    <polygon points="372,380 396,380 396,300 372,306" fill="#5a4632"/>
+    <polygon points="428,380 404,380 404,300 428,306" fill="#4a382a"/>
+    <!-- vertical sign boards flanking the arch -->
+    <rect x="338" y="300" width="12" height="52" fill="#e8e0d0" stroke="#8a7a5e" stroke-width="1.5"/>
+    <rect x="450" y="300" width="12" height="52" fill="#e8e0d0" stroke="#8a7a5e" stroke-width="1.5"/>
+    <!-- left turret -->
+    <rect x="222" y="240" width="48" height="140" fill="#96503f"/>
+    <path d="M218 244 Q246 200 274 244 Z" fill="#8a8f96"/>
+    <rect x="240" y="262" width="12" height="20" fill="#2e211c"/>
+    <!-- right turret -->
+    <rect x="530" y="240" width="48" height="140" fill="#96503f"/>
+    <path d="M526 244 Q554 200 582 244 Z" fill="#8a8f96"/>
+    <rect x="548" y="262" width="12" height="20" fill="#2e211c"/>
+    <!-- sign above the arch -->
+    <rect x="352" y="222" width="96" height="26" fill="#e8e0d0" stroke="#8a7a5e" stroke-width="2"/>
+    <text x="400" y="240" font-family="Noto Sans CJK JP, sans-serif" font-size="13" fill="#222222" text-anchor="middle" font-weight="bold">博物館網走監獄</text>
+  </g>
+  <!-- flag pole on the right -->
+  <g>
+    <line x1="640" y1="380" x2="640" y2="180" stroke="#5a5a5a" stroke-width="4"/>
+    <polygon points="640,182 688,192 640,204" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+  </g>
+  <!-- wooden sign near the path -->
+  <g>
+    <rect x="520" y="420" width="10" height="56" fill="#8a7a5e"/>
+    <rect x="478" y="398" width="96" height="30" fill="#e8e0d0" stroke="#8a7a5e" stroke-width="2"/>
+    <text x="526" y="419" font-family="Noto Sans CJK JP, sans-serif" font-size="14" fill="#222222" text-anchor="middle" font-weight="bold">網走監獄</text>
+  </g>
+  <!-- house character, standing on the path looking up at the gate -->
+  <g transform="translate(10,185) scale(0.5,0.5)">
+    <!-- legs -->
+    <line x1="140" y1="425" x2="140" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <line x1="200" y1="425" x2="200" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <!-- left arm down -->
+    <line x1="100" y1="355" x2="78" y2="386" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="75" cy="389" r="9" fill="#5a4632"/>
+    <!-- body -->
+    <rect x="98" y="288" width="150" height="140" fill="#a8d4ea" stroke="#7fb3d0" stroke-width="3"/>
+    <!-- roof -->
+    <polygon points="80,292 173,210 266,292" fill="#c9b8a3" stroke="#a89880" stroke-width="3"/>
+    <!-- chimney -->
+    <rect x="212" y="222" width="24" height="40" fill="#b0a090" stroke="#8f7f6d" stroke-width="2"/>
+    <!-- windows -->
+    <rect x="116" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <rect x="192" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <!-- door -->
+    <rect x="154" y="362" width="36" height="63" fill="#ffffff" stroke="#7fb3d0" stroke-width="2"/>
+    <circle cx="184" cy="394" r="3" fill="#7fb3d0"/>
+    <!-- face: dot eyes and smile above windows -->
+    <circle cx="134" cy="306" r="5" fill="#222222"/>
+    <circle cx="212" cy="306" r="5" fill="#222222"/>
+    <path d="M160 312 Q173 320 186 312" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- right arm raised toward the gate -->
+    <line x1="248" y1="355" x2="296" y2="330" stroke="#7fb8d8" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="300" cy="328" r="10" fill="#7fb8d8"/>
+  </g>
+</svg>
