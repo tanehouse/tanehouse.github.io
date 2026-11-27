@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- late November sky over Kitami: pale, cold, down to the horizon -->
+  <rect x="0" y="0" width="800" height="390" fill="#cfdfe9"/>
+  <!-- faint sun behind cloud -->
+  <circle cx="120" cy="60" r="20" fill="#f5e6a0" opacity="0.55"/>
+  <circle cx="120" cy="60" r="34" fill="#f5e6a0" opacity="0.18"/>
+  <!-- drifting snow -->
+  <g fill="#ffffff" opacity="0.9">
+    <circle cx="60" cy="90" r="3"/>
+    <circle cx="210" cy="50" r="2.5"/>
+    <circle cx="330" cy="110" r="3"/>
+    <circle cx="470" cy="60" r="2.5"/>
+    <circle cx="600" cy="100" r="3"/>
+    <circle cx="720" cy="46" r="2.5"/>
+    <circle cx="760" cy="140" r="3"/>
+    <circle cx="150" cy="160" r="2.5"/>
+    <circle cx="540" cy="180" r="2.5"/>
+  </g>
+  <!-- ground: winter grass -->
+  <rect x="0" y="390" width="800" height="110" fill="#b3bfa0"/>
+  <g fill="#ffffff" opacity="0.55">
+    <ellipse cx="120" cy="430" rx="90" ry="12"/>
+    <ellipse cx="680" cy="415" rx="110" ry="12"/>
+    <ellipse cx="420" cy="480" rx="180" ry="14"/>
+  </g>
+  <!-- distillation hall (left): dark wood, sloped roof -->
+  <g>
+    <polygon points="60,252 370,252 350,215 80,215" fill="#3f4a44"/>
+    <rect x="70" y="252" width="290" height="138" fill="#5a4232"/>
+    <g stroke="#4a3527" stroke-width="2" opacity="0.7">
+      <line x1="70" y1="278" x2="360" y2="278"/>
+      <line x1="70" y1="304" x2="360" y2="304"/>
+      <line x1="70" y1="330" x2="360" y2="330"/>
+      <line x1="70" y1="356" x2="360" y2="356"/>
+    </g>
+    <!-- gabled porch -->
+    <polygon points="175,282 215,252 255,282" fill="#3f4a44"/>
+    <rect x="192" y="282" width="46" height="108" fill="#4a3527"/>
+    <rect x="200" y="292" width="30" height="98" fill="#6b4f36"/>
+    <line x1="215" y1="292" x2="215" y2="390" stroke="#4a3527" stroke-width="2"/>
+    <!-- sign board -->
+    <rect x="168" y="222" width="94" height="24" fill="#e8e0d0" stroke="#8a7a5e" stroke-width="2"/>
+    <text x="215" y="239" font-family="Noto Sans CJK JP, sans-serif" font-size="13" fill="#222222" text-anchor="middle" font-weight="bold">薄荷蒸溜館</text>
+    <!-- small windows -->
+    <rect x="96" y="292" width="40" height="44" fill="#7fb8a4"/>
+    <rect x="101" y="297" width="30" height="34" fill="#dcebf2"/>
+    <line x1="116" y1="297" x2="116" y2="331" stroke="#7fb8a4" stroke-width="2"/>
+    <line x1="101" y1="314" x2="131" y2="314" stroke="#7fb8a4" stroke-width="2"/>
+    <rect x="294" y="292" width="40" height="44" fill="#7fb8a4"/>
+    <rect x="299" y="297" width="30" height="34" fill="#dcebf2"/>
+    <line x1="314" y1="297" x2="314" y2="331" stroke="#7fb8a4" stroke-width="2"/>
+    <line x1="299" y1="314" x2="329" y2="314" stroke="#7fb8a4" stroke-width="2"/>
+  </g>
+  <!-- mint memorial museum (right): pink lower, white upper, red roof -->
+  <g>
+    <!-- roof -->
+    <polygon points="425,205 735,205 700,150 460,150" fill="#c65a4a"/>
+    <polygon points="545,150 580,122 615,150" fill="#c65a4a"/>
+    <rect x="572" y="132" width="16" height="14" fill="#2e211c"/>
+    <!-- upper floor: white -->
+    <rect x="430" y="205" width="300" height="85" fill="#f7f4ef"/>
+    <!-- lower floor: pale pink -->
+    <rect x="430" y="290" width="300" height="100" fill="#f2d3d6"/>
+    <rect x="430" y="288" width="300" height="4" fill="#7fb8a4" opacity="0.6"/>
+    <!-- upper windows with mint-green trim -->
+    <g>
+      <rect x="455" y="222" width="46" height="52" fill="#7fb8a4"/>
+      <rect x="460" y="227" width="36" height="42" fill="#dcebf2"/>
+      <line x1="478" y1="227" x2="478" y2="269" stroke="#7fb8a4" stroke-width="2"/>
+      <line x1="460" y1="248" x2="496" y2="248" stroke="#7fb8a4" stroke-width="2"/>
+      <rect x="557" y="222" width="46" height="52" fill="#7fb8a4"/>
+      <rect x="562" y="227" width="36" height="42" fill="#dcebf2"/>
+      <line x1="580" y1="227" x2="580" y2="269" stroke="#7fb8a4" stroke-width="2"/>
+      <line x1="562" y1="248" x2="598" y2="248" stroke="#7fb8a4" stroke-width="2"/>
+      <rect x="659" y="222" width="46" height="52" fill="#7fb8a4"/>
+      <rect x="664" y="227" width="36" height="42" fill="#dcebf2"/>
+      <line x1="682" y1="227" x2="682" y2="269" stroke="#7fb8a4" stroke-width="2"/>
+      <line x1="664" y1="248" x2="700" y2="248" stroke="#7fb8a4" stroke-width="2"/>
+    </g>
+    <!-- lower windows -->
+    <g>
+      <rect x="455" y="310" width="46" height="52" fill="#7fb8a4"/>
+      <rect x="460" y="315" width="36" height="42" fill="#dcebf2"/>
+      <line x1="478" y1="315" x2="478" y2="357" stroke="#7fb8a4" stroke-width="2"/>
+      <line x1="460" y1="336" x2="496" y2="336" stroke="#7fb8a4" stroke-width="2"/>
+      <rect x="659" y="310" width="46" height="52" fill="#7fb8a4"/>
+      <rect x="664" y="315" width="36" height="42" fill="#dcebf2"/>
+      <line x1="682" y1="315" x2="682" y2="357" stroke="#7fb8a4" stroke-width="2"/>
+      <line x1="664" y1="336" x2="700" y2="336" stroke="#7fb8a4" stroke-width="2"/>
+    </g>
+    <!-- entrance: small red awning, double wooden doors -->
+    <polygon points="545,306 615,306 605,292 555,292" fill="#a8503f"/>
+    <rect x="556" y="306" width="48" height="84" fill="#5a4632"/>
+    <rect x="561" y="311" width="38" height="79" fill="#6b4f36"/>
+    <line x1="580" y1="311" x2="580" y2="390" stroke="#4a3527" stroke-width="2"/>
+    <rect x="561" y="311" width="38" height="20" fill="#dcebf2" opacity="0.85"/>
+    <!-- steps -->
+    <rect x="548" y="390" width="64" height="8" fill="#c9c2b4"/>
+    <!-- mint planters in front -->
+    <rect x="452" y="372" width="40" height="18" fill="#a8503f"/>
+    <g fill="#5a8a5a">
+      <ellipse cx="462" cy="366" rx="8" ry="12" transform="rotate(-20 462 366)"/>
+      <ellipse cx="472" cy="362" rx="8" ry="13"/>
+      <ellipse cx="482" cy="366" rx="8" ry="12" transform="rotate(20 482 366)"/>
+    </g>
+    <rect x="668" y="372" width="40" height="18" fill="#a8503f"/>
+    <g fill="#5a8a5a">
+      <ellipse cx="678" cy="366" rx="8" ry="12" transform="rotate(-20 678 366)"/>
+      <ellipse cx="688" cy="362" rx="8" ry="13"/>
+      <ellipse cx="698" cy="366" rx="8" ry="12" transform="rotate(20 698 366)"/>
+    </g>
+  </g>
+  <!-- paved path -->
+  <polygon points="330,500 470,500 440,395 360,395" fill="#cfc4b0"/>
+  <g stroke="#b0a48e" stroke-width="2" opacity="0.7">
+    <line x1="352" y1="430" x2="448" y2="430"/>
+    <line x1="344" y1="465" x2="456" y2="465"/>
+  </g>
+  <!-- mint sprigs, foreground corners -->
+  <g fill="#5a8a5a">
+    <ellipse cx="60" cy="470" rx="10" ry="18" transform="rotate(-25 60 470)"/>
+    <ellipse cx="82" cy="462" rx="10" ry="19"/>
+    <ellipse cx="104" cy="470" rx="10" ry="18" transform="rotate(25 104 470)"/>
+    <ellipse cx="700" cy="470" rx="10" ry="18" transform="rotate(-25 700 470)"/>
+    <ellipse cx="722" cy="462" rx="10" ry="19"/>
+    <ellipse cx="744" cy="470" rx="10" ry="18" transform="rotate(25 744 470)"/>
+  </g>
+  <!-- wooden sign -->
+  <g>
+    <rect x="640" y="420" width="10" height="56" fill="#8a7a5e"/>
+    <rect x="600" y="398" width="96" height="30" fill="#e8e0d0" stroke="#8a7a5e" stroke-width="2"/>
+    <text x="648" y="419" font-family="Noto Sans CJK JP, sans-serif" font-size="13" fill="#222222" text-anchor="middle" font-weight="bold">北見ハッカ記念館</text>
+  </g>
+  <!-- house character, standing on the path looking at the museum -->
+  <g transform="translate(320,225) scale(0.45,0.45)">
+    <!-- legs -->
+    <line x1="140" y1="425" x2="140" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <line x1="200" y1="425" x2="200" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <!-- left arm down -->
+    <line x1="100" y1="355" x2="78" y2="386" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="75" cy="389" r="9" fill="#5a4632"/>
+    <!-- body -->
+    <rect x="98" y="288" width="150" height="140" fill="#a8d4ea" stroke="#7fb3d0" stroke-width="3"/>
+    <!-- roof -->
+    <polygon points="80,292 173,210 266,292" fill="#c9b8a3" stroke="#a89880" stroke-width="3"/>
+    <!-- chimney -->
+    <rect x="212" y="222" width="24" height="40" fill="#b0a090" stroke="#8f7f6d" stroke-width="2"/>
+    <!-- windows -->
+    <rect x="116" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <rect x="192" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <!-- door -->
+    <rect x="154" y="362" width="36" height="63" fill="#ffffff" stroke="#7fb3d0" stroke-width="2"/>
+    <circle cx="184" cy="394" r="3" fill="#7fb3d0"/>
+    <!-- face: dot eyes and smile above windows -->
+    <circle cx="134" cy="306" r="5" fill="#222222"/>
+    <circle cx="212" cy="306" r="5" fill="#222222"/>
+    <path d="M160 312 Q173 320 186 312" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- right arm raised toward the museum -->
+    <line x1="248" y1="355" x2="296" y2="330" stroke="#7fb8d8" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="300" cy="328" r="10" fill="#7fb8d8"/>
+  </g>
+</svg>
