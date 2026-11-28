@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- late November sky over Asahikawa: pale, cold, full background -->
+  <rect x="0" y="0" width="800" height="500" fill="#cfdfe9"/>
+  <!-- faint sun behind cloud -->
+  <circle cx="120" cy="60" r="20" fill="#f5e6a0" opacity="0.55"/>
+  <circle cx="120" cy="60" r="34" fill="#f5e6a0" opacity="0.18"/>
+  <!-- drifting snow -->
+  <g fill="#ffffff" opacity="0.9">
+    <circle cx="60" cy="90" r="3"/>
+    <circle cx="210" cy="50" r="2.5"/>
+    <circle cx="330" cy="110" r="3"/>
+    <circle cx="470" cy="60" r="2.5"/>
+    <circle cx="600" cy="100" r="3"/>
+    <circle cx="720" cy="46" r="2.5"/>
+    <circle cx="760" cy="140" r="3"/>
+    <circle cx="150" cy="160" r="2.5"/>
+    <circle cx="540" cy="180" r="2.5"/>
+    <circle cx="680" cy="200" r="2.5"/>
+  </g>
+  <!-- snow ground -->
+  <rect x="0" y="390" width="800" height="110" fill="#eef3f6"/>
+  <g fill="#ffffff" opacity="0.8">
+    <ellipse cx="120" cy="430" rx="90" ry="12"/>
+    <ellipse cx="680" cy="415" rx="110" ry="12"/>
+    <ellipse cx="420" cy="480" rx="180" ry="14"/>
+  </g>
+  <!-- seal house (concrete building, behind the tank) -->
+  <g>
+    <rect x="360" y="170" width="300" height="220" fill="#b9bcbe"/>
+    <rect x="360" y="170" width="300" height="14" fill="#9aa0a3"/>
+    <!-- roof snow -->
+    <rect x="360" y="162" width="300" height="10" fill="#ffffff"/>
+    <!-- small square windows -->
+    <rect x="392" y="232" width="44" height="40" fill="#7fa8bd"/>
+    <rect x="397" y="237" width="34" height="30" fill="#dcebf2"/>
+    <rect x="584" y="232" width="44" height="40" fill="#7fa8bd"/>
+    <rect x="589" y="237" width="34" height="30" fill="#dcebf2"/>
+    <!-- sign board -->
+    <rect x="368" y="186" width="76" height="26" fill="#e8e0d0" stroke="#8a7a5e" stroke-width="2"/>
+    <text x="406" y="205" font-family="Noto Sans CJK JP, sans-serif" font-size="13" fill="#222222" text-anchor="middle" font-weight="bold">あざらし館</text>
+  </g>
+  <!-- marine-way tank: tall cylindrical glass column in front of the building -->
+  <g>
+    <!-- water column -->
+    <rect x="452" y="96" width="116" height="296" rx="26" fill="#8fc7e8" stroke="#5a93b5" stroke-width="3"/>
+    <!-- water surface -->
+    <ellipse cx="510" cy="104" rx="52" ry="8" fill="#cfe9f7"/>
+    <!-- bubbles -->
+    <g fill="#ffffff" opacity="0.75">
+      <circle cx="486" cy="330" r="4"/>
+      <circle cx="496" cy="300" r="3"/>
+      <circle cx="540" cy="270" r="4"/>
+      <circle cx="532" cy="180" r="3"/>
+      <circle cx="500" cy="150" r="4"/>
+    </g>
+    <!-- spotted seal spiralling up: body, head, tail flippers, spots -->
+    <g>
+      <!-- tail flippers -->
+      <polygon points="480,340 468,362 490,352" fill="#8a8d90"/>
+      <polygon points="502,344 510,366 518,350" fill="#8a8d90"/>
+      <!-- body: long ellipse tilted -->
+      <ellipse cx="498" cy="268" rx="26" ry="90" fill="#b9babb" transform="rotate(-18 498 268)"/>
+      <!-- belly lighter -->
+      <ellipse cx="508" cy="272" rx="14" ry="72" fill="#d8d9da" transform="rotate(-18 508 272)"/>
+      <!-- spots -->
+      <g fill="#5f6366" opacity="0.75">
+        <circle cx="478" cy="230" r="4"/>
+        <circle cx="492" cy="252" r="3.5"/>
+        <circle cx="482" cy="288" r="4"/>
+        <circle cx="500" cy="312" r="3.5"/>
+        <circle cx="514" cy="240" r="3.5"/>
+        <circle cx="522" cy="292" r="4"/>
+        <circle cx="490" cy="336" r="3"/>
+      </g>
+      <!-- head -->
+      <circle cx="500" cy="176" r="20" fill="#b9babb"/>
+      <circle cx="506" cy="170" r="3" fill="#222222"/>
+      <ellipse cx="486" cy="188" rx="6" ry="3" fill="#5f6366"/>
+      <!-- front flipper -->
+      <ellipse cx="524" cy="238" rx="7" ry="16" fill="#8a8d90" transform="rotate(24 524 238)"/>
+    </g>
+    <!-- tank base -->
+    <rect x="440" y="388" width="140" height="12" fill="#7d8386"/>
+  </g>
+  <!-- king penguin standing on the snow, right -->
+  <g>
+    <!-- feet -->
+    <ellipse cx="652" cy="462" rx="9" ry="4" fill="#f5a623"/>
+    <ellipse cx="674" cy="462" rx="9" ry="4" fill="#f5a623"/>
+    <!-- body -->
+    <ellipse cx="663" cy="420" rx="27" ry="42" fill="#222831"/>
+    <!-- white belly -->
+    <ellipse cx="663" cy="430" rx="17" ry="30" fill="#f7f7f7"/>
+    <!-- head -->
+    <circle cx="663" cy="368" r="19" fill="#222831"/>
+    <!-- orange-yellow neck patches -->
+    <ellipse cx="648" cy="376" rx="5" ry="9" fill="#f5a623" transform="rotate(-18 648 376)"/>
+    <ellipse cx="678" cy="376" rx="5" ry="9" fill="#f5a623" transform="rotate(18 678 376)"/>
+    <!-- eye and beak -->
+    <circle cx="657" cy="364" r="2.5" fill="#ffffff"/>
+    <polygon points="663,370 676,374 663,378" fill="#e8823a"/>
+    <!-- flipper -->
+    <ellipse cx="636" cy="424" rx="6" ry="18" fill="#222831" transform="rotate(14 636 424)"/>
+  </g>
+  <!-- paved path -->
+  <polygon points="180,500 300,500 270,395 210,395" fill="#cfc4b0"/>
+  <!-- wooden sign -->
+  <g>
+    <rect x="290" y="420" width="10" height="56" fill="#8a7a5e"/>
+    <rect x="250" y="398" width="96" height="30" fill="#e8e0d0" stroke="#8a7a5e" stroke-width="2"/>
+    <text x="298" y="419" font-family="Noto Sans CJK JP, sans-serif" font-size="13" fill="#222222" text-anchor="middle" font-weight="bold">旭山動物園</text>
+  </g>
+  <!-- house character, standing on the path looking up at the tank -->
+  <g transform="translate(90,225) scale(0.45,0.45)">
+    <!-- legs -->
+    <line x1="140" y1="425" x2="140" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <line x1="200" y1="425" x2="200" y2="456" stroke="#5a4632" stroke-width="8" stroke-linecap="round"/>
+    <!-- left arm down -->
+    <line x1="100" y1="355" x2="78" y2="386" stroke="#5a4632" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="75" cy="389" r="9" fill="#5a4632"/>
+    <!-- body -->
+    <rect x="98" y="288" width="150" height="140" fill="#a8d4ea" stroke="#7fb3d0" stroke-width="3"/>
+    <!-- roof -->
+    <polygon points="80,292 173,210 266,292" fill="#c9b8a3" stroke="#a89880" stroke-width="3"/>
+    <!-- chimney -->
+    <rect x="212" y="222" width="24" height="40" fill="#b0a090" stroke="#8f7f6d" stroke-width="2"/>
+    <!-- windows -->
+    <rect x="116" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <rect x="192" y="320" width="32" height="32" fill="#f5e6c4" stroke="#7fb3d0" stroke-width="2"/>
+    <!-- door -->
+    <rect x="154" y="362" width="36" height="63" fill="#ffffff" stroke="#7fb3d0" stroke-width="2"/>
+    <circle cx="184" cy="394" r="3" fill="#7fb3d0"/>
+    <!-- face: dot eyes and smile above windows -->
+    <circle cx="134" cy="306" r="5" fill="#222222"/>
+    <circle cx="212" cy="306" r="5" fill="#222222"/>
+    <path d="M160 312 Q173 320 186 312" stroke="#222222" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- right arm raised toward the tank -->
+    <line x1="248" y1="355" x2="296" y2="330" stroke="#7fb8d8" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="300" cy="328" r="10" fill="#7fb8d8"/>
+  </g>
+</svg>
